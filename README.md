@@ -34,8 +34,7 @@ This project aims to investigate the usage of artificial intelligence in video g
 )
 
 4. Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.
-![Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.](Effects-of-using-AI-in-games-on-gamers/data_processing/dataset_visualization
-/emotion_analysis_emotion_intensive_bar_chart.png)
+![Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.](https://github.com/halil-akalin/Effects-of-using-AI-in-games-on-gamers/blob/main/data_processing/dataset_visualization/emotion_analysis_emotion_intensive_bar_chart.png)
 
 
 ## Contributing
