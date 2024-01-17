@@ -21,13 +21,13 @@ This project aims to investigate the usage of artificial intelligence in video g
 3. **Review the Results:** Explore the results of the analyzes in pdfs in the data_processing folder.
 
 The 20 most recurring words in the examined data set were visualized with a horizontal bar chart.
-![The 20 most recurring words in the examined data set were visualized with a horizontal bar chart.](data_analysis/data_processing/dataset_visualization/bar_chart_of_most_used_words.png)
+![The 20 most recurring words in the examined data set were visualized with a horizontal bar chart.](https://drive.google.com/file/d/1g4z5WvDViFSrTRRX-a3SHHjF4q7tK_ll/view?usp=drive_link)
 The word cloud was visualized on the data set.
-![The word cloud was visualized on the data set.](data_analysis/data_processing/dataset_visualization/word_cloud_tokenized_freq.png)
+![The word cloud was visualized on the data set.](https://drive.google.com/file/d/1If4lgpfuXjJloOmeY3I-MYjId9WDwyYR/view?usp=sharing)
 Sentiment analysis was performed on the data set. According to this analysis, the players' perspective on the use of AI in video games is visualized.
-![Sentiment analysis was performed on the data set. According to this analysis, the players' perspective on the use of AI in video games is visualized.](data_analysis/data_processing/dataset_visualization/emotion_scores_pie_graph.pdf)
+![Sentiment analysis was performed on the data set. According to this analysis, the players' perspective on the use of AI in video games is visualized.](https://drive.google.com/file/d/1hSdCljlxEdQJdm1n5V6RO52tPsWl5gzd/view?usp=sharing)
 Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.
-![Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.](data_analysis/data_processing/dataset_visualization/emotion_analysis_emotion_intensive_bar_chart.png)
+![Sentiment analysis was performed on the data set. According to this analysis, how much the emotion weights are repeated is visualized.](https://drive.google.com/file/d/1s_vsHlEAQAueMPZOeQRUeouHADW9Aj--/view?usp=sharing)
 
 
 ## Contributing
