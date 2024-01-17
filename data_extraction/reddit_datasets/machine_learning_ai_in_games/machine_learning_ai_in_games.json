@@ -1,0 +1,446 @@
+[
+  {
+    "body": "There are a couple ways to look at this.\n\nOne is that AI doesn't have to dictate the behavior of individual agents in a game, but can be used to contribute to gameplay in other ways. For example a friend of mine was recently streaming a VR game where he cast spells by drawing runes with the controller. I didn't look at the game's source code, but I'd bet linear regression or some other machine learning algorithm was used to recognize what shapes he was trying to draw.\n\nThere could be interesting applications of grouping algorithms in, say, MMOs. These can be used to identify trends in player behavior (players doing X activity log in from Y location and use Z keyboard layout, for example) which can create useful analytics for developers or even drive automated in-game behaviors such as world events.\n\nThe best application of a continuously learning algorithm I can think of would actually be as a training tool in eSports. You could, in theory, use a bunch of replays to teach an algorithm to not only play the game but to imitate a certain player's style. You could then try to play against that in preparation to play against that player.\n\nThe idea of using machine learning to have individual enemies change behavior based on the individual player's actions sounds neat, but only until you really think about it. Not only is this probably not desirable (enemy AI in games isn't bad because it's the best devs can do; It's bad because that generally makes for the most enjoyable play) but it's just not how machine learning works. Unsupervised learning algorithms can require thousands of carefully curated data points to get useful changes in behavior. A player doing a level a couple times will never get meaningful change.",
+    "author": "spambot5546",
+    "created_utc": 1558537901.0,
+    "score": 27
+  },
+  {
+    "body": "[deleted]",
+    "author": null,
+    "created_utc": 1558559870.0,
+    "score": 14
+  },
+  {
+    "body": "Try /r/ludology.\n\nI think it's a dead end for most type of games: game AI should be predictable and abusable. An exception might be companion AIs, those are currently frustratingly bad.",
+    "author": "PityUpvote",
+    "created_utc": 1558530450.0,
+    "score": 37
+  },
+  {
+    "body": "I saw a ping pong robot in a YT video that would learn ping pong from scratch by watching a human opponent, but because it learned from the human it was unable to exceed that person's skill level. I think that adaptive difficulty like that would be necessary for machine learning to be used in games, so that AI can be unpredictable without becoming exceedingly difficult.",
+    "author": "jeffrunshurdles",
+    "created_utc": 1558541783.0,
+    "score": 5
+  },
+  {
+    "body": "To be fair this isn't a very good questionnaire. If you plan on referring to this in your dissertation you should make a better questionnaire.\n\nAnswers are to broad.\n\nYou can answer multiple times.\n\nYou can pick multiple options when you shouldn't be able to.\n\nSome questions should have wider variety of answers.",
+    "author": "Demistr",
+    "created_utc": 1558574398.0,
+    "score": 4
+  },
+  {
+    "body": "There are a few reasons this is undesirable.  Folks have already pointed out that game AI is designed to provide a rich and fun experience, and sometimes that means bots that are bad on purpose, or behave non-optimally in some ways.  \n\n&#x200B;\n\nAnother reason is the sheer expense in RL training, and their limitations.  DeepMind and OpenAI have been working on building RL agents for StarCraftII and DOTA (respectively) for years, have stables of AI researchers, and millions of dollars for cloud budget to run their training.  Though they are getting better and better results over time, the bots can't even play the game without restrictions yet.  Their motivations are a bit different though, as they're trying to push the boundaries in RL research and produce agents that can better generalize, one benchmark being whether it can beat pro players, regardless of whether those players have an enjoyable experience or not.",
+    "author": "zerodaveexploit",
+    "created_utc": 1558537946.0,
+    "score": 13
+  },
+  {
+    "body": "If I were you, I'd focus on OpenAI's DOTA project and DeepMind's Starcraft 2 project. These are the only successful attempts in my opinion and the games I've played relying on machine learning to train the AI (at least in part) failed completely and to my surprise, the team didn't even understood just how bad their result was. \n\nThe main reason this happened is that the AIs that play DOTA and StarCraft 2 have large networks at their disposal, large dedicated teams to properly train it and their final client gets to run on a very powerful machine against the player(s). Most games don't have the same resources to do the training properly (both in terms of hardware and engineering work, not to mention the most important aspect, enough time). And at the end of the day, their work has to run as part of the same application with the game on the same PC that the player uses (which might have to support pretty low specs), so the AI has to also work with very limited hardware resources in the end. Further restricting the choice of alogrithms that can be used. \n\nPlot twist: you'd have to focus a lot on the impact of performance and hardware resources and somehow link them to subjective impressions of what that AI does or does not do well. Doable, but definitely tricky. Has the advantage of letting you focus on the maths and making verifiable claims. You'd also have to somehow figure out how algorithms choice influences matters. Some algorithms might produce end results that are more believable, but they might have the side-effect of not being scalable and not being able to deal with situation when the dataset becomes more difficult to process because of how the game evolved up to that point (shere increase of size or complexity derived from an edge case scenario). \n\nIn my experience, but I can't back this up properly with examples as most studios don't talk a lot abot what the specifics, the best gaming AI uses a combination of scripted behaviour and cached responses to certain parameteres. This second part is where machine learning could be used effectively. My only example would be a negative one, Creative Assembly has attempted to use this method to train the AI of the Total War series since Rome II. It failed in the sense that when the AI was very effective at determining if it had superiority and brutally leveraging it when it did, but it was extremely passive when the player prepared well and the advantage was on their side. And it's capacity of anticipation is greatly reduced with the evolution of the game (in late game, you mostly have opponents that are basic idiots). That's generally poor game design. That's another aspect you'd have to focus on, btw. The main problem with ML is that it is designed to find the correct solution to a problem, while the AI for any game has to be beatable. So, the AI trained with these methods would have to be proficient but ultimately beatable and this inevitably causes big problems. For this, you should also cover game design decisions and how it influences the end result.",
+    "author": "g014n",
+    "created_utc": 1558543381.0,
+    "score": 3
+  },
+  {
+    "body": "I think the Forza drivatars are similar to this. They learn from players play style and create an ai based from that. Every car you race against is based off another player it's pretty cool. But racing games are very different to other games in how AI is used. You compete with the AI but not directly by interacting with them . You do your thing and they do theirs separately for the most part",
+    "author": "BastillianFig",
+    "created_utc": 1558566857.0,
+    "score": 2
+  },
+  {
+    "body": "Without the right caps, AI learning could end up being like an omniscient force that automatically beats people specifically because it learns their reactions far more accurately than we currently understand as possible.\n\nGenerally though, I think it could be really amazing if there *are* designed areas of ignorance, lack of information, and general capacity for misinterpretation of a player's choices.",
+    "author": "AKnightAlone",
+    "created_utc": 1558570851.0,
+    "score": 2
+  },
+  {
+    "body": "Samurai shodown is a fighting game that uses tensorflow.\n\nhttps://i.redd.it/zk10siw70sp21.jpg  \nhttps://youtu.be/ctgnK1j_YsI?t=142  \nhttp://neogeonow.com/samurai-shodown/revolutionary-neural-network-ai",
+    "author": "MrValdez",
+    "created_utc": 1558579243.0,
+    "score": 2
+  },
+  {
+    "body": "Merley mimicking the player is pointless.\n\nIt can serve as player replacement until a real player comes in. That's fine.\n\nWhat I would like to see is AI that Simulate Characters.\n\nPlayers aren't that good at play a archetypal role of a character.\n\nYou cannot add character traits and behaviour that are detrimental to their winning.\n\nAI controlled Characters on the other hand can be both much Superior to the player and be **Tragic** defined by the **faults of the character**.\n\n##There is a great opportunity to be had in mixing **Drama** with **AI**.",
+    "author": "adrixshadow",
+    "created_utc": 1558588609.0,
+    "score": 2
+  },
+  {
+    "body": "Many of the anti AI comments I've read hear are incredibly short sighted. \n\nYes, there have been AI systems designed to beat the best players, and, no, that would not be fun to play against. \n\nBut would that be the type of AI that game designers would implement? Absolutely not. It wouldn't be enjoyable for anyone. \n\nI bet it would be an AI that is trained by player interaction, not with the end goal of decimating the player, but to have unique and interesting interactions with the player, even other NPCs.\n\nDon't think of Starcraft or Counter-Strike, think of a survival game where the wildlife is driven by learning AI. Imagine an animal learning it can get food from the player, learning it is beneficial not to kill the player, but to protect them. Congratulations, you just domesticated dogs.\n\nImagine an open world RPG where instead of a predetermined list of quests are coded in, some or all the quests are created by AI. \n\nThere are so many possibilities outside of bots with perfect aim or inhuman apm.",
+    "author": "Serious-Mode",
+    "created_utc": 1558576916.0,
+    "score": 2
+  },
+  {
+    "body": "I think that machine learning AI can be good for some games and not for others.\n\nIt would be good in racing games because it could result in the AI taking more than one line around the course, or making mistakes, and having them actually be racing the other AI.\n\nA place where they might not work as well could be games like The Division, where enemies are expected to behave in a certain way for the level design and player strategies to work.",
+    "author": "SonicCharmeleon",
+    "created_utc": 1558555451.0,
+    "score": 1
+  },
+  {
+    "body": "There's this list with unexpected/funny decisions AI's sometimes make.  [https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)\n\n>Since the AIs were more likely to get ”killed” if they lost a game, being able to crash the game was an advantage for the genetic selection process. Therefore, several AIs developed ways to crash the game.",
+    "author": null,
+    "created_utc": 1558559018.0,
+    "score": 1
+  },
+  {
+    "body": "I am currently a researcher focused on mapping deep learning video analytics to real-time mobile hardware. The big challenge I see for you is scalability, particularly if you want to use Deep Reinforcement Learning. Substantial real-time applications of DRL already require more computing power for even a single actor than what is available in the average gaming PC or console. Remember that people are also using that GPU for its original purpose, graphics rendering. Unless you are playing a game that doesn't require real-time processing, AI based on DRL is simply impractical.\n\nAssuming that the lack of processing power is somehow removed from the equation, you then run into the problem of generating adequate training data for the algorithm. What is the AI's interaction with the player? If the game is a racing game where the AI acts independently of player actions, then it might provide an interesting competitor. If the AI is required to interact and respond to the player however, it is likely going to break down similar to procedural AI when people find exploits in the game code. Training for emergent player behaviors would request extensive play-testing beyond what any gaming studio does today.",
+    "author": "Unshkblefaith",
+    "created_utc": 1558571843.0,
+    "score": 1
+  },
+  {
+    "body": "Plot twist, the whole thing was written by an AI and we all actually just took a Turing test inside of a Turing test.",
+    "author": "MathematicPizza",
+    "created_utc": 1558561129.0,
+    "score": 15
+  },
+  {
+    "body": "I think they should actually be learning and not be too predictable. It has to be a slow curve or a delayed reaction where the AI adapts to your playstyle. You want to be continously challenged but not continously punished as a player. Also, when the AI finds out how to use bugs...",
+    "author": null,
+    "created_utc": 1558532344.0,
+    "score": 20
+  },
+  {
+    "body": "Some of games use cheating (more resources) instead of true difficulty increase. \n\nTotal War series for example. Big problem there as people hate that you get unfair but stupid AI.",
+    "author": "RaisedByError",
+    "created_utc": 1558534501.0,
+    "score": 9
+  },
+  {
+    "body": ">game AI should be predictable and abusable\n\nI hate that believe with a passion. Games with an absolutely amazing mechanics and level design like AC and Tomb Raider become boring schlock because the AI is so easy to deal with. At the same time, wooden and clumsy games like Dark Souls are amazing experiences because so much can go wrong if you are not constantly concentrated.",
+    "author": "dantemp",
+    "created_utc": 1558533030.0,
+    "score": 20
+  },
+  {
+    "body": "What about for fighting games? What makes them fun is the need to \"read\" your opponent. On the surface this probably sounds like requiring predictable AI but what makes reads interesting is that they aren't guaranteed as the opposing player could be feinting to bait out an opportunity.",
+    "author": "NoteBlock08",
+    "created_utc": 1558534813.0,
+    "score": 3
+  },
+  {
+    "body": "DeepMind SC2 AI is already a thing and it destroyed the pro-players.\n\n [https://www.youtube.com/watch?v=cUTMhmVh1qs](https://www.youtube.com/watch?v=cUTMhmVh1qs) \n\n&#x200B;\n\nBut the problem then become when all AI does is mass stalker and the pro player still get defeated even though they used the right counter (immortals), how is that fun?",
+    "author": "baconator81",
+    "created_utc": 1558540194.0,
+    "score": 8
+  },
+  {
+    "body": "That would depend completely upon your reward function.  If you use RL with a reward function that accounts for player engagement and skill level (admittedly hard to measure), then an AI totally smashing players is less likely.",
+    "author": "nimbledaemon",
+    "created_utc": 1558558431.0,
+    "score": 2
+  },
+  {
+    "body": "It might be rather difficult to prevent deep RL AI from abusing bugs (or, rather, game engine quirks).",
+    "author": "beznogim",
+    "created_utc": 1558532817.0,
+    "score": 12
+  },
+  {
+    "body": "It's an interesting design, but I think players will not enjoy it so much.\n\nI recently was at a talk about a chess engine that adapted to the player, because of what is known as the \"zone of proximal development\", if you're learning how to perform a task, you learn faster if the difficulty level is always slightly ahead of your current level.\n\nIn video games, most players don't want to keep learning how to get better, they want to learn how to get good enough, I think.\nIf difficulty keeps increasing, it will feel like a task, and not like a game.",
+    "author": "PityUpvote",
+    "created_utc": 1558534363.0,
+    "score": 8
+  },
+  {
+    "body": "For those kind of games, I agree that AI is currently done in the wrong way.\n\nThe search space for a game like TW or Civ is just too large for a simple model, so the developers try have it do what they think are good strategies. These are often not good enough when translated into a rigid rule set, and cheats are necessary.\n\nIf something like DeepMind's AlphaGo could be trained to perform at specific levels of difficulty at these games, we could have much better experiences. Go was often thought to be impossible to have an AI play because of the large search space too.\n\nOn the other hand, an AI that isn't pre-learned, but learns based on what the *player* is doing, is going to be very frustrating.",
+    "author": "PityUpvote",
+    "created_utc": 1558534761.0,
+    "score": 8
+  },
+  {
+    "body": "I'd love it if the guys who are doing the Dota AI took a swing at total war. I wonder what crazy cheese they would come up with",
+    "author": "gumpythegreat",
+    "created_utc": 1558540906.0,
+    "score": 3
+  },
+  {
+    "body": "Or racing games with rubber banding.",
+    "author": "FaxCelestis",
+    "created_utc": 1558538158.0,
+    "score": 2
+  },
+  {
+    "body": "Dark Souls is the epitome of predictable and abusable AI. Predictable doesn't mean easy or simple, it can be extremely convoluted, as long as it's consistent.\n\nPatterns have to exist for a player to learn, and the player must be able to rely on what they learnt about enemy behavior.",
+    "author": "PityUpvote",
+    "created_utc": 1558534101.0,
+    "score": 49
+  },
+  {
+    "body": "Predictable doesn't mean easy but normally you are 1 Vs many opponents. It would suck if you couldn't predict how they respond. If they were brain-dead it's not  not fun but if you can't exploit them it feels unfair. \n\nIf you throw a rock and 9/10 times they hear the rock and investigate but 1/10 times they see the rock and turn around straight away and kill you that feels cheap and unfair",
+    "author": "BastillianFig",
+    "created_utc": 1558533780.0,
+    "score": 10
+  },
+  {
+    "body": "But feinting and baiting are then just as much valid moves as attacks are, which AI's should be able to do. I'm not very familiar with fighting games (other than Smash Bros Melee) but it seems to me that as long as any attack is blockable/counterable, such an AI could very quickly become unbeatable, and a delay on it's inputs would have to be imposed.",
+    "author": "PityUpvote",
+    "created_utc": 1558535044.0,
+    "score": 7
+  },
+  {
+    "body": "Killer Instinct actually implemented AI that learns from you. They talk about it in this GDC presentation, very intriguing: https://youtu.be/9yydYjQ1GLg",
+    "author": "DontPoke",
+    "created_utc": 1558536260.0,
+    "score": 8
+  },
+  {
+    "body": "Worth noting I saw it beaten when a player repeatedly faked a drop/attack on two separate fronts, and the AI blobbed its army to defend the attack each time, while he just macro'd the map.\n\nThe AI had learned the best way to defend was with its full force, but it had not come to understand the concept of a distraction. As a result, it was locked into a loop of distraction until defeat was inevitable.\n\nEven learning AI can be exploited.",
+    "author": "SkoobyDoo",
+    "created_utc": 1558543737.0,
+    "score": 11
+  },
+  {
+    "body": "Even though that Demonstration was impressive, one shouldn't ignore that deepmind was essentially cheating by human standards. e.g. by controlling units simultaneously in a way that requires enormous camera movements for humans. When deeprived of those advantages it fell to pretty standard abuse of AI behavior again.\nImo it demonstrates another problem general utilization of machine learning ai as well: Thema different agents of deepmind showed vastly different behavior, and the developers cant explain why a certain agent exactly learned their behavior, thus making adjustements to it very difficult in my understanding.",
+    "author": "Cottonfists",
+    "created_utc": 1558544511.0,
+    "score": 12
+  },
+  {
+    "body": "Yup, I'm aware.  There's contention about whether its praise is deserved, however, due to the mechanical perfection displayed versus what we'd consider \"intelligence\".  Regardless, my point above still holds:  it was expensive to develop, it plays with restrictions (TLO had to play as Protoss, couldn't play as Zerg), and the intention is to research ways to generalize by playing hard and complex games, not to create fun or rich player experiences.",
+    "author": "zerodaveexploit",
+    "created_utc": 1558554718.0,
+    "score": 3
+  },
+  {
+    "body": "The (not really) simple solution is to have a target of 50% win probability instead of 100% win probability to make it fun for the player, so if the AI is doing too well, it'll still give ground to the player, and equally try harder when the player seems to be dominating.",
+    "author": "TheRealDJ",
+    "created_utc": 1558572677.0,
+    "score": 1
+  },
+  {
+    "body": "Depending on the game you don't need an AI that can learn in real-time; the game can come with several pre-trained AIs of different difficulties. The developers just need to make sure that those are bug-free.",
+    "author": "EdvinM",
+    "created_utc": 1558533263.0,
+    "score": 13
+  },
+  {
+    "body": "Or honestly to end up just outright cheating. People often talk about AI beating humans in CS:GO or DotA soon, but in the end aren't those AI basically using scripts and aimbots?\n\nIf the AI are using means that are traditionally considered cheating then does it make any of their win meaningful.",
+    "author": "ReganDryke",
+    "created_utc": 1558541060.0,
+    "score": 2
+  },
+  {
+    "body": "Maybe if the option is there, or it is an own gamemode... there are possibilities, me and a lot of my friends would enjoy it very much",
+    "author": null,
+    "created_utc": 1558534420.0,
+    "score": 2
+  },
+  {
+    "body": "The inconsistency of Dark Souls gameplay comes from the wonky physics and clumsy movement, not from some genius AI. My point is that the game feels great because of the things that might go wrong because something didn't happen the way you expected it.",
+    "author": "dantemp",
+    "created_utc": 1558536262.0,
+    "score": 0
+  },
+  {
+    "body": "That's just not true. People love multiplayer and real life opponents are usually not predictable, yet that doesn't feel cheap and unfair. There are so many games that have a lot of RNG in their gameplay and people still love them. The whole roguelike genre is based on the desire of people to be surprised. The desire to have predictability is there for some people, but to claim it's an indisputable rule of good game design is just stupid and I hate how so much of Western game development has become this strive to find formulas and rules by which games should be designed.",
+    "author": "dantemp",
+    "created_utc": 1558536081.0,
+    "score": 7
+  },
+  {
+    "body": "> a delay on it's inputs would have to be imposed.\n\nI think that should be a top priority if designing an AI that uses machine learning to optimize its strategy. Anyone can write an algorithm that uses the best strategy. It’s much more difficult to build an AI that uses the best strategy a human could feasibly do. That requires implementing human restrictions, specifically reaction time. \n\nAll fighting games are designed entirely around human reaction time, so it really miffs me when the AI in them has a response time that’s 1/10 of a normal person’s.",
+    "author": "Sound_of_Science",
+    "created_utc": 1558536775.0,
+    "score": 5
+  },
+  {
+    "body": "What I mean is that a predictable and static AI is terrible in fighting games because so much of fighting games are actually played in the players' heads and not on the screen.\n\nYou'll often hear in fighting game (including Smash) tournaments that a player has \"gotten the download\" on their opponent. This means that they have figured out their opponent's habits and now have a corresponding mental flow chart of what to be ready for in a given situations. But downloading your opponent takes time as you'll obviously need to play each other for a bit before you can know how they play. This is why matches are done best 2 out of 3, or 3 out of 5 when it gets down to finals. It's not to account for flukes and luck, but to give time for players to 1) figure out their opponent, 2) condition their opponent into *thinking* they like to behave one way but then suddenly switching it up, and 3) refigure out the opponents new strategies.\n\nAgainst a predictable AI the player only has to do step 1, which only takes a minute or two. It cuts out almost all of the mind games and only focuses on the technical aspect, which is just half the battle.",
+    "author": "NoteBlock08",
+    "created_utc": 1558539283.0,
+    "score": 1
+  },
+  {
+    "body": "Ooh that sounds really cool, thanks for the link.",
+    "author": "NoteBlock08",
+    "created_utc": 1558537285.0,
+    "score": 2
+  },
+  {
+    "body": "You don't make adjustments to the AI itself, just how it learns. Also, that happened in one game. All you'd need for all the agents to learn how to deal, or better facilitate harassment or distractions is for one of the agents to learn how to do that and the rest will have to learn how to deal with it. Once they can move to the agents learning fully from their own abilities instead of starting learning through replays, or able to play on battlenet instead of their insulate community, they'll end up having even more diverse playstyles.",
+    "author": "TheRealDJ",
+    "created_utc": 1558572985.0,
+    "score": 2
+  },
+  {
+    "body": "I mean, it is not human so as long as it has a virtual keyboard, a virtual mouse, and only one camera; it's fair.  The big reason it was winning was it was microing the hell out of the human while keeping an awareness of the battlefield.\n\nIt's humans that are lagging behind when they are not able to move that mouse accurately and fast enough,",
+    "author": "pulloutafreshy",
+    "created_utc": 1558624551.0,
+    "score": 1
+  },
+  {
+    "body": "That kind of gimmicky tuning gets called out really quickly and can become painfully obvious to the users.\n\nAnd at the end of the day, it still doesn't solve the mass stalker beating immortal problem. When a player does everything right to win, he should win, instead of getting destroyed by an inhuman micro skill.",
+    "author": "baconator81",
+    "created_utc": 1558580577.0,
+    "score": 3
+  },
+  {
+    "body": "From the player's point of view though, this would be no different from a pre coded/predicatable AI, since the AI would still have to be disallowed from \"learning\" to not pick up the use of bugs.",
+    "author": "theJirb",
+    "created_utc": 1558533678.0,
+    "score": 14
+  },
+  {
+    "body": "That's what I was mostly thinking that could be done, since it can easily be swapped to different training records if the player chooses to change difficulty. And if you observe it during the training or monitor the behavior after the training it should be fairly easy to see if any bugs occur with certain scenarios.",
+    "author": "galearyan12",
+    "created_utc": 1558533650.0,
+    "score": 4
+  },
+  {
+    "body": "I think the point of the reinforcement learning in games is to replace all the AI decision trees, scripts and automata that drive NPCs and enemies with automated training. However, these agents often \"discover\" many unorthodox ways to navigate the game world. Wall jumping in Super Mario Bros, for example. Other than that, the learned behavior might be erratic and way too unpredictable to be any fun for the player.",
+    "author": "beznogim",
+    "created_utc": 1558550707.0,
+    "score": 2
+  },
+  {
+    "body": "The AI has no scripts or aimbots.  It sees the same stuff as you.\n\nIt just can move it way faster, is all.",
+    "author": "pulloutafreshy",
+    "created_utc": 1558624596.0,
+    "score": 1
+  },
+  {
+    "body": "My point is that Dark Souls bosses have a very rigid, rule-based AI, which serves the game perfectly. If you were to apply machine learning to get a smarter AI, it would feel extremely unfair, as there would be far too few openings for players to take advantage of.\n\nWhat's \"better\" in terms of machine learning task optimization (in this case killing the player) does not make *the game* better. In fact, it often makes the game less fun.",
+    "author": "PityUpvote",
+    "created_utc": 1558536499.0,
+    "score": 20
+  },
+  {
+    "body": "People love multiplayer because they're humans aren't capable of dinamically coming up with an infinite number of strategies. The excitement comes from all the adjusting to strategies and behaviour that you have to come up with to face an opponent, knowing that eventually one will outperform the other.",
+    "author": "germiboy",
+    "created_utc": 1558553372.0,
+    "score": 3
+  },
+  {
+    "body": "> yet that doesn't feel cheap and unfair\n\nActually, one of the biggest false reports in multiplayer gaming is for cheating / hacking when it's not actually happening.\n\nAnd if I could talk to those people in person I would tell them to grow up and of course they're not cheating.\n\n\nBut if they're just numbers of customers to me, then I would just modify my game so the complaints go down and the sales go up.",
+    "author": "bvanplays",
+    "created_utc": 1558561024.0,
+    "score": 4
+  },
+  {
+    "body": "No one is claiming it's indisputable it's just play testing consistently finds that to be the case",
+    "author": "BastillianFig",
+    "created_utc": 1558537417.0,
+    "score": 3
+  },
+  {
+    "body": "> People love multiplayer and real life opponents are usually not predictable, yet that doesn't feel cheap and unfair.\n\nReal life opponents are very much predictable. People falls into learned pattern all the time. You also expect multiplayer opponent to adhere somewhat to the current meta for whatever game you're playing. People know camping spots, people learn dodge pattern of their lane opponent or jungle routes. Being able to predict your opponent is a core component of many multiplayer games.",
+    "author": "ReganDryke",
+    "created_utc": 1558602675.0,
+    "score": 2
+  },
+  {
+    "body": "But for professional players, it's much more useful to have an AI that fast, as it forces them to be faster as well.\n\nThe problem is not only in physical restrictions I think, but in rational decision making. In a strategy game, human players might feel attached to or invested in a unit they have been commanding for a longer period of time, and this leads them to possibly play more carefully than is good for their strategy.",
+    "author": "PityUpvote",
+    "created_utc": 1558537127.0,
+    "score": 2
+  },
+  {
+    "body": "And that's why they solved it in between the matches for a more realistic scenario. They want a fair playing field where the AI is superior on a strategic or tactical level instead of brute force ability. And before someone's mention APM, TLOs apm spiked higher and more frequently near those heights than what alpha star was doing.",
+    "author": "TheRealDJ",
+    "created_utc": 1558581360.0,
+    "score": 1
+  },
+  {
+    "body": "They would still be using this tech to develop the AI, which is in line with what the survey is asking.",
+    "author": "MathematicPizza",
+    "created_utc": 1558561035.0,
+    "score": 3
+  },
+  {
+    "body": "Aimbots and script see the same thing as you. They just react much faster.",
+    "author": "ReganDryke",
+    "created_utc": 1558633317.0,
+    "score": 1
+  },
+  {
+    "body": "> If you were to apply machine learning to get a smarter AI, it would feel extremely unfair, as there would be far too few openings for players to take advantage of.\n\nWell, duh, of course if a more powerful opponent that is also smart would be unfair. But imagine if your opponent was actually weaker, but is smarter than you, how fun would that be? A really smart AI can make a game really cool if it's applied in a clever way. Also once you have the smart AI, then you can place restrictions on it. For instance make an AI that is really good at a fighting game like Street Fighter, but whenever a player chooses a lower difficulty give him long reaction time, make him have a percent chance to get a move wrong etc. There are so many things that can be done with really smart AI, just throwing it out of the window because some player like to abuse systems is asinine.",
+    "author": "dantemp",
+    "created_utc": 1558537651.0,
+    "score": 1
+  },
+  {
+    "body": "And you think that I'm thinking of an AI that is perfect and will always win? That's not what I mean at all.",
+    "author": "dantemp",
+    "created_utc": 1558601624.0,
+    "score": 1
+  },
+  {
+    "body": "Going back to the Souls franchise, there are tons of people that hate how unforgiving the game is as well. The devs however stuck with their vision of the game and they are reaping the benefits right now. Listening to the players that are bitching the most isn't the best way to develop your game.",
+    "author": "dantemp",
+    "created_utc": 1558601757.0,
+    "score": 0
+  },
+  {
+    "body": "Yeah, that's exactly the formulas and rules I'm talking about. Get 20 people that are supposed to represent your target audience and listen to them either just theorycraft how they'd feel about a game or get their impression from 2 hours of gameplay. Real smart. If everyone developed liked that, we'd have around 20% of the genres we do right now.",
+    "author": "dantemp",
+    "created_utc": 1558538033.0,
+    "score": 0
+  },
+  {
+    "body": "But not to the level of a standard AI with poor variety of hardcoded behavior. That's my point. A Machine Learning created AI will still follow specific patterns because it will reach the conclusion that they give it the best chance to win. It won't be completely random and untouchable.",
+    "author": "dantemp",
+    "created_utc": 1558609339.0,
+    "score": 2
+  },
+  {
+    "body": "> But for professional players, it's much more useful to have an AI that fast, as it forces them to be faster as well.\n\nLife isn’t an anime. You can’t force yourself to be faster than is physically possible. Plus, I don’t think you quite understand how fast we’re talking about. An AI that reacts in one frame (16.7 ms) is so much faster than the average human reaction time (~200 ms) that it breaks the game. The same strategies can’t be employed, so it’s pointless to practice against such an AI. \n\nIt’s pretty widely accepted in every esports community that practicing against the built-in AI makes people *worse* at the game. It’s more helpful to practice against bad humans than “good” AI.",
+    "author": "Sound_of_Science",
+    "created_utc": 1558543387.0,
+    "score": 5
+  },
+  {
+    "body": "The problem is that saying such broad things like \"smarter\" or dumber can't apply for every AI in every genre of every game.\n\nAFAIK Machine learning AI strongest skill is pattern recognition. Most games that rely on mechanical skill are beaten by us humans recognizing patterns of attack and movement, so we can take advantage of them and beat the challenge presented by us. Take Super Smash Bros. for Wii U for ex. (I don't know if this is present in Ultimate) but the shadow fighters you would sometimes fight against started out dumb and learned from your attack patterns, which they dinamically learned to counter, so you had to switch it out.\nEventually, who would run out of options first, the human or the AI? Obviously the human, unless you started attacking and moving completely at random, eventually AI would be able to identify every possible pattern you could come up with and it would be no fun, since everything you'd do could be countered and you wouldn't be able to recognize the enemies defense pattern. \n\nHandicaps are an interesting compromise, but it would rely entirely on punishing the enemy only and I can see how that could get frustrating quick if the number of possible patterns to abuse is high.",
+    "author": "germiboy",
+    "created_utc": 1558553198.0,
+    "score": 11
+  },
+  {
+    "body": "The AI in modern games are basically pretty stupid. That does need to be changed and I believe that the majority of players do agree on this point. There needs to be more than just creating bullet sponges or large mobs.\n\nThere are a few good games which actually have nice AI - Alien Isolation, Last of Us, and FEAR come to mind. These AI actually behave differently based on the situation, which makes the encounters a lot more challenging. These games all had excellent reception with regards to the smart AI.\n\nHowever, it becomes a problem when you bring machine learning into the picture. There's a huge difference between the reinforcement learning that the OP is asking about compared to the standard smart AI that we have seen and are probably talking about.\n\nWith the smart AI like in the previously mentioned games, the devs had to carefully tweak the AI behavior so that they employ some tactics but aren't overwhelmingly smart. It's a very fine balance between a game being challenging and being frustrating. Especially when player skill varies wildly.\n\nWith machine learning, there is hardly any code to tweak. You start with a set of input parameters and the process repeats itself over tens of thousands of iterations, slowly improving itself. There are two key points that I want to bring up. First there's the problem of limiting the AI. The trained AI will be very strong and there are no tools where you can tweak it. And you can't semi-train an AI because the result might have weird behaviors. Then there's the problem of the AI improving over the course of the game. You need small increments for a noticeable result but this requires uncountable iterations. By the end of a normal lengthed campaign, the AI would have hardly changed at all. If you use larger increments, the AI difficulty will jump from a good challenge to just being plain dumb because it will try out different strategies. This makes the difficulty inconsistent as you progress. \n\nI guess what I'm trying to say is that we are looking for carefully fine tuned smart AI which provides a challenge. Reinforcement learning is probably not the way to approach it because it is a slow process and is very hard to balance.",
+    "author": "AzureBat",
+    "created_utc": 1558576990.0,
+    "score": 2
+  },
+  {
+    "body": "> Listening to the players that are bitching the most isn't the best way to develop your game.\n\nNo, but it makes the most money. Just look at the sales of Souls games compared to things like Ubisoft games. Look at League vs Dota. Look at WoW vs EQ. And so on and so forth. There is a lot to gain by appealing to the casual crowd.\n\nThe main issue is figuring out if this is actually the will of the masses or just a vocal minority blowing something out of proportion.",
+    "author": "bvanplays",
+    "created_utc": 1558631373.0,
+    "score": 1
+  },
+  {
+    "body": "There is no need 2 b sarcastic and rude .",
+    "author": "BastillianFig",
+    "created_utc": 1558538769.0,
+    "score": 6
+  },
+  {
+    "body": ">Eventually, who would run out of options first, the human or the AI?\n\nIf you have a rock-paper-scissor system, as it's usually the case, if you often pick rock and the AI picks up on that and starts playing paper often, you can switch to scissor. Once the AI picks up on that you can switch to paper. And when the AI picks up on that you haven't run out of options, you can get back to rock and the AI will lose again. If the game is smartly designed, you will always have a way to beat the opponent. \n\nAlso, machine learning is a bit slow, it needs like 10 times as much practice as regular humans to learn something. If we get good AI, it won't be one that immediately learns all your weaknesses and exploits them, it will be one that has a general good skill at the game that can give a hard time to any experienced player with no learning. Not to mention that a learning is much more resource intensive than the one that has already learned and is just applied its knowledge. There is zero reason to use machine learning like that. And what you give as an example in SSB is not machine learning, it's normal scripting that's hard coded. We've had this one for a long time already, it's not Machine Learning at all.",
+    "author": "dantemp",
+    "created_utc": 1558601567.0,
+    "score": 2
+  },
+  {
+    "body": "I already addressed that here:\n\n> but whenever a player chooses a lower difficulty give him long reaction time, make him have a percent chance to get a move wrong etc.\n\nOpenAI already had limited APM and reaction time to better match its human opponents, so it's obviously doable. Also why do you even need to have the AI learn as it goes along? I want to teach it enough to get to a certain level and then only have it apply its skill, no need to change it. If I wanted vastly different playing styles from the different AI controlled players, I'd just program a bunch of different AI with different goals. I've not worked with Machine Learning, but from what I know about it the main thing its programmer does is to set goals. Well, if you have game like StarCraft I can make several different AIs that all want to win but also have different goals. One will have the goal to rush early, one will have the goal to get to a maxed army, one will have the goal to use a lot of ability units, another will have the goal to use normal units, one will play bio terran, the other mech terran. \n\nI can't believe how ready all of you are to throw away an amazing tech that's right on our frontdoor just because you see one scenario that it might not work very well.",
+    "author": "dantemp",
+    "created_utc": 1558602251.0,
+    "score": 1
+  },
+  {
+    "body": "Not claiming it is machine learning but it is an example of AI recognizing player behaviour.\n\nI don't think the rock paper scissors example is really fair for AI. Most people may recognize a pattern of the other guy chosing rock, for example, but then how many people do you know are counting how many times have you picked scissors after picking rock, or how many times did you switch it up from rock to paper in between rock attempts, etc.. we just don't have the brains or the willpower to do all that in a rock, papers, scissors game. I don't see how you can balance a rock papers scissors AI that doesn't stay too dumb for the human or eventually gets too smart for him (without the human randomly switching it up for the sake of throwing off the AI, at which point you aren't playing anymore).\n\nThe way I see it, competitive multiplayer games are all about counteracting the enemy player's actions towards you, or exploiting their pattern of behaviour towards your advantage. Exactly how would we do this fairly with AI? At which point does AI stop learning everything you could possibly do? If the outcome of a certain play or engagement relies on a randomized handicap for AI, is it really fair or indicative of skill (and should it be rewarded)? These are the questions that make me think if we can broadly say dinamic AI or machine-learning is good for every game\n\nI am not knowledgeable in Machine Learning, so I will stand corrected on whatever I claimed regarding it that was wrong.",
+    "author": "germiboy",
+    "created_utc": 1558630021.0,
+    "score": 1
+  },
+  {
+    "body": "I'm all for getting better AI in games, don't get me wrong. I would love to be able to play against smarter AI rather than getting swarmed by mobs or just high stat enemies. However, as someone who has actually studied and used machine learning, I know full well the inner workings of the implementation of it all. I'm only trying to offer some insight about the reasons behind why it hasn't been widely used in games yet. I'm not shutting down any discussion, but it is a little annoying when you assume that we're just 'throwing tech out the window'. It's not as simple as that. I'm willing to go into more detail, I only ask that you consider the points and hopefully see the challenge in this. It's **not impossible** but currently it just **takes too much effort**.\n\nProgramming is extremely flexible yet it's really easy to mess up when it comes to things like this. I'll try to elaborate on the keypoints a bit more.\n\nLet's start with reaction time because you brought it up and is also a nice factor to explore. I've been following the OpenAI performances quite often whenever they showed up in dota2, so I'm also quite familiar with it. This quote below is taken straight from the OpenAI blog:\n\n>We’ve increased the reaction time of OpenAI Five from 80ms to 200ms. This reaction time is much closer to human level, though we haven’t seen evidence of changes in gameplay as OpenAI Five’s strength comes more from teamwork and coordination than reflexes.\n\nThis statement aligns with my own personal observations and tests. In a tactical game like a moba, the AI will come up with a strategy where the reaction time doesn't affect their plan too much (eg By ambushing. Which is something that they have demonstrated in their games). It's pretty cool to see how well the AI adapts to their restrictions. Last time, I gave the AI a ridiculous reaction time of a few seconds, just to see what happens. Turns out that the AI will actually camp out of sight and start pre-firing whenever someone gets close. They compensated for their handicap by using prediction. \n\nComing back to keypoint 1: It's hard to limit the AI. They are designed to be the best of the best. We can set restrictions, but they will find ways to work around them. You will eventually find a set of restrictions which really gives you what you want, but the process to get there takes a lot of trial and error. \n\nWith machine learning, the learning process defies common sense. It learns in a different way that we think it should. To give a bit of perspective, we can look at [SethBling's](https://en.wikipedia.org/wiki/SethBling#Neural_networks) runs. It took the AI a full 24 hours to complete the first level of Super Mario World. When he let it try Super Mario Bros, after 17 days, the AI was still stuck on the second level. Unfortunately, I couldn't seem to find any videos showing the full training period. I did find [this video](https://www.youtube.com/watch?v=fvAGCe2UmSM) to show you how dumb AI actually are during the learning process. Stopping the learning process halfway 'at a certain level' isn't what you imagine. Take a look in the video at how the AI first learns to jump over a turtle. Later on, it runs straight into the second turtle. Despite getting past the first turtle by jumping, it doesn't 'know' that you're supposed to jump over all turtles and so it will consistently bulldoze its entire way through.\n\nBig disclaimer: I understand that they are using genetic algorithms rather than reinforcement learning (Genetic algorithms take an absurd amount of time to learn. However, they are good in the sense that you can treat it as a black box application. Also take note that [OpenAI released a paper](https://openai.com/blog/evolution-strategies/) which gives a good comparison between the two and that genetic algorithms perform very well in more complex situations with easier implementation).\n\nI got a little sidetracked there. The point again is that there is no midway point when you are training an AI using machine learning. For example, let's say that we have trained an AI which has climbed its way up to an ELO of 1200 in chess. This puts it at the level of an average player. However, a closer look at the games would show you that it doesn't play like an average player. It would know an extremely strong opener which would give it the majority of its wins. However, there would be certain moves that it would not know how to play around. It would sometimes completely ignore a threat and let a valuable piece get captured for no reason. This is because the AI has not yet fully identified threats and tactics, only a portion of them. Stopping the training at this point would give us an AI which only knows how to do one thing really good and suck at every thing, in the end giving it an 'average' rating.\n\nMachine learning AI is different from traditional AI (Expert systems). In chess, traditional AI would be programmed by controlling the AI to look ahead a certain number of moves and to search a certain breadth / depth of the game tree. An average chess player may only know how to look ahead 1-2 moves and occasionally 3-4 moves ahead if it is a well learned tactic. With this in mind, you can easily set restrictions on traditional AI to only look ahead that many steps. However with machine learning, there is no such order that you can implement because you don't control that aspect of the AI (It's a basic difference in traditional AI and machine learning AI). Essentially, we tell the AI the location of all the chess pieces on the board and tell the AI that the goal is to win, measured by how dominating the win is. This is the reason why I'm saying that it is hard to limit the AI when we use machine learning.\n\nAll in all, I love machine learning because it's such an interesting technique and it is definitely the future. Hopefully this helps in giving a better understanding because I don't really know how much you already understood about it. I'd love to discuss more if you wish.",
+    "author": "AzureBat",
+    "created_utc": 1558671892.0,
+    "score": 1
+  },
+  {
+    "body": "I understand that you are much better learnt in ML than me, but that doesn't mean you understand what I'm saying and much of my points aren't rebuked by what you wrote because of that. I love discussions as well and I would love to be proven wrong, but usually all I meet is a brick wall that seems like it's refusing to understand my point on purpose, so sorry if I come off as arrogant or something.\n\nOk, let me try this:\n\n>In a tactical game like a moba, the AI will come up with a strategy where the reaction time doesn't affect their plan too much\n\nYeah, but I gave an example of a fighting game. I don't actually have a good experience with a traditional fighting game, but I spent a good 6 months playing For Honor which is supposed to take most fighting games mechanics and uses them in 3D. In that game, having poor reaction time makes a difference of a night and day. I actually stopped playing it because the combination of my geographical location, my framerate drops, the fact that I'm playing the PC version on a TV with wireless controllers and me getting close to 30 at the time, meant that my reaction time was half as fast as the average good player. It wasn't that I didn't know the game well, it was just that there were core moves that are easy to use and easy to counter but I couldn't because of my poor reaction time. I am certain that you can figure out a way to restrict the AI once it's ready, to bring it back to a manageable level in any genre. The easiest way would it be to have it misfire at random intervals:\n\nex: let me take the example of chess you mentioned. Let's say we train one AI to be godlike, nobody can ever beat it. And have that AI have a 5% chance that each move it makes won't be the one it wants to make, but rather a one that is just random. A really good player will make use of that opening. A bit weaker player will need a bit more openings so make that chance 10%. You don't change the AI, you don't train it \"up to a certain level\", you just screw with its connection to the game. Similar thing can be done in a MOBA. The AI is perfect, it organizes amazingly coordinated ambushes. But it has 10% chance to want to fire an ability at a precise moment and instead do nothing or fire another ability or point to a wrong target. \n\nAnd these are just two methods, I also gave an example of game specific methods to push the AI in a certain track that can be hard countered by a smart player if he realizes what the AI is doing. There are ways and your reply addresses only one of my examples by misrepresenting it. \n\n>You will eventually find a set of restrictions which really gives you what you want, but the process to get there takes a lot of trial and error.\n\nWell god forbid we put some work into that. Let's instead have whole genres that can't produce a single good bot. \n\n>Stopping the learning process halfway 'at a certain level' isn't what you imagine.\n\nNo, what I said isn't what YOU imagined. I didn't mean \"let's get it to stop learning before it is too good\". I meant \"We shouldn't care how stupid it looks while it's learning because once we get it to the level we want it to be (as in, really good) we won't have it learning at all.\" That sentence was made to address the point you and several others always make when I say having Machine Learning trained AI would be great. That the way it learns makes it do stupid things that will be jarring to the players. Also addresses the point that it's really resource intensive. But I'm saying that once the AI is good with the game, we don't need to have it learn anymore. The restrictions won't come from the point at which we have it stop learning, they will come from outside interference and additional goals we set to it. \n\n>we tell the AI the location of all the chess pieces on the board and tell the AI that the goal is to win\n\nBut we can tell it \"win using a rook for the check\", suddenly the AI is having a much harder time.",
+    "author": "dantemp",
+    "created_utc": 1558685209.0,
+    "score": 1
+  }
+]

@@ -1,0 +1,293 @@
+F.E.A.R. introduced the GOAP (Goal Oriented Action Planning)  A.I. for smarter enemies and to this day still has some of the best A.I. and has even been used in the most recent Tomb Raider games, nearly 15 years later.
+
+&#x200B;
+
+Steam accually used a clever system in Half-Life 2 that made enemies more likly to attack you from the nearest ledge in order order for you to feel more like an action movie badass knocking people to their demise, good example of smarter not being better.
+>I know about one example: Oblivion. What I heard is that each of the thousand NPC had their own needs and wants and that was what determining their routine for the day.
+
+They ended up dumbing it down because they kept running in to problems.  One story often told is that one NPC's AI determined that it was time to rake the leaves, only the nearest rake was in the possession of another NPC.  So the AI determined the easiest way to get it was to *murder the NPC and take it from his corpse*.  Five minutes later the player wanders in and there's a dude raking leaves and a corpse in the corner, the player wondering what the hell just happened.
+
+So they cut it down, as they couldn't get the priorities working correctly such that they wouldn't murder other friendly NPCs for items they needed.
+
+That's the story, at least.  Not sure how true it is,
+[removed]
+if you want to talk about Oblivion: AI has day schedule that makes it look more alive and preferences in combat that makes it try to act more efficiently. by default, the latter isn't tuned very well, but there are several AI mods that does nothing but adjust already existing parameters to make combat AI much more dangerous.
+
+i don't remember everything, but here's a list of things an AI can do in unmodded Oblivion and could do with some fixing: pick upserior weapon, switch between melee and ranged when appropriate, sidestep attacks, use consumable items whenever it thinks it is appropriate, retreat to survive or retreat to heal, look around for a player that managed to conseal themselves after combat, take better equipment from corpses, stay at a distance if it can't handle player in melee or not engage at all if it knows it can't win. the things it can't perform are any kind of team tactics and surprise attacks.
+
+day schedule, on the other hand, already looks alright for the most part(some addons introduce schedule bugs for certain NPCs IIRC) - most sleep at night, work at day and relax at evening. some are also set to travel to their "friends" on certain days of the week or month. some activities are also set to change NPC's clothing, so, say, a knight won't be sleeping with their armor on or a guard won't have their torch out during the day hours.
+
+the best part about all this is that AI doesn't have to be pointed to specific things it needs to interact with or use, althought it can be done when desired - NPCs can find free seats in a select tavern on their own, they can roam around forest freely looking for deers to hunt, they can find and steal food if they must eat and are ok with breaking the law.
+To bring up something that isn't FEAR, Halo has some neat nuance to enemies throughout the series, like how if you get an elite down to low health, they may aggro and pull out their sword. Or, I think in Halo 2, if you kill all brutes in an area except for one (or was it just if you did enough damage to them?), the last one will go super crazy, throw their weapon away and run straight for you in a fit of blind rage. Or how Hunters will moan and attack far more aggressively when their partner is killed.
+
+&#x200B;
+
+And of course, there's the classic grunts running away in fear after their squad leader elite is killed. It's all of the stuff like that, that give them a lot of character. Heck, elites and brutes can even hijack your own vehicles just like you can to them. It gives off a feeling like they have the same capability as you.
+
+&#x200B;
+
+There's lots of other little stuff I'm sure I'm missing too, like suppressive fire, or the flood reanimating dead bodies in Halo 3. A lot of this stuff was probably inspired by Half-Life 1's AI too, which is like the granddaddy of this sort of thing.
+No one is gonna mention ALife in the STALKER series? They actually had to tone it down for the release. 
+
+But basically the AI would play their own choose-their-own-adventure game (with branching choices) and these were done on a small scale, on an event basis, not one long storyline. So NPCs would interact with the world and other NPCs and make choices in these events.
+
+Not sure if that makes sense, but what this simple system resulted in, is a world were NPCs played the game along with you, so it all felt natural and it would organically create small subplots.
+
+You could see a group of scavengers meet some military in a base, get in a fight, the winners would then scavenge the bodies for loot, then continue to their scavenging location, only to be met by some hungry mutant dogs there that were looking for food. They had to tone it down, because some NPCs might finish the storyline before the player did.
+
+Edit: Dwarf Fortress is also a good one
+That's really hard to say. Good AIs in games are not "good" AIs, but an AI made to look good.
+
+Usually when players say an AI is good and then you hear the devs talk about it, it's just some clever scripts & stuff like that.
+
+You could potentially make a super advanced AI that kinda thinks like an human etc. but in the end it's way "easier" to make something specific, usually for better results too. And of course you can't just train an AI to be good, because it'll be TOO good. In the end is more a question of balancing than making a "good" AI, so definitely not something limited by the technology.
+
+Stealth game are often criticized for their "dumb" AIs for example, but it's not because good AI would be hard to make but because the game simple wouldn't be fun without rules and limitations to the AIs' capacities. And yeah, I'm sure players don't even notice the most advanced AIs.
+
+&#x200B;
+
+Check out this talk, I think it gives a good overview of the idea of AIs in games [https://www.youtube.com/watch?v=1xWg54mdQos](https://www.youtube.com/watch?v=1xWg54mdQos) 
+
+&#x200B;
+
+As for me, I really like systemic games, so any AI made to work that way is cool to me (like enemies picking up what's around them to fight with, stuff like that)
+Sims is the obvious example here. They have complex behaviour patterns, but then again, the whole game's premise is based around it.
+
+Black&White comes to mind. You can teach your creature and your subjects, and they all also spontaneously learn stuff.
+
+The Fable series (yes, another Lionhead game) tried to implement an advanced AI to all the random NPCs, their preferences, etc., but it was a bit too simplistic. In the end, the end result wasn't in my opinion as nice as something you'd see in Gothic (where NPCs have set daily routines which is normal nowadays).
+
+F.E.A.R.'s and Half-Life combat AI is excellent.
+
+Can't think of anything else noteworthy. This vexes me.
+Oblivion's NPCs didn't have AI, they had unique scripts. The actual AI was dumb as shit.
+
+FEAR is a game which accidentally had good AI thanks to a small programming bug which made enemies very likely to flank you and otherwise engage with you. I'm not sure it counts if it's an accident, but in FEAR a lot of the enemy behavior is completely unscripted.
+
+Metal Gear Solid as a series generally has some pretty good AI on the higher difficulty settings. MGS2/3 are especially notable for how good they are given the constraints of putting the AI into a PS2 game.
+
+The problem with AI is not that we CAN'T make good AI, it's that making a good AI generally makes for a very un-fun game. Enemies are obstacles for the player to overcome, and an enemy which is smarter and more aware than the young/drunk/high/tired player at the end of their day is not a fun obstacle, it's an annoying one.
+The thing about an AI that's smarter than a player, is it's pretty much indistinguishable from cheating.
+
+What players really seem to want is predictable AI, so they can feel smart for being better than it. They want to know what the AI is "thinking", this is what FEAR did so well. Good communication with the player, and a play area designed to exploit it. Pretty much all stealth games have a way to tell the player they've been spotted, or are about to be spotted, as another example.
+The most recent example that I think wow'd me are the imps from Doom 2016.  Specifically the ones that are tasked to run away and hide from the player and use ranged attacks.  I know it's just a trick, but it's a really good trick.
+
+Also after listening to the ai design in the noclip documentary, I thought the token system was a clever idea.  Basically all the enemies share regenerating "attack tokens" which must be spent to attack the player.  In this way the rate of attack can be controlled and so the player isn't just overwhelmed.  And the enemies have their own little token marketplace in which they can trade tokens with one another to create more sensible and dramatic attack scenarios for the player.
+The thing about "good" AI is that it is totally reliant on player perception. So AI doesn't have to actually be smart or dynamic, it just has to appear that way. It also needs to be fun.
+
+I'm not aware of any game that doesn't have the classic "Oh I just saw a guy get shot in the face right beside me with an arrow. Oh, ten seconds have passed, I am now no longer worried about this dead man. Let me stand right next to where he died"
+
+But think about how annoying it would be if AI were actually vigilant like a soldier in real life, or were actually perceptive like a human being. You'd be hard-pressed to do anything stealthily.
+
+FEAR AI is always brought up because they made the enemies appear to be extremely smart, but in reality it's a bunch of "If this, then that" logic that is accompanied by the soldiers shouting and good level design based around their AI.
+
+Like you mentioned, NPC's having daily routines rarely, if ever, is noticed by the player or affects them in a meaningful way. The type of AI you need is completely related to the type of game you're making.
+
+An AI that had actual military tactical techniques and good aim would more than likely be overwhelming and un-fun for the player.
+
+TBH I can't even think of the last time I was actually impressed with the AI in a game.
+You should check out: 
+
+\- Elizabeth from Bioshock Infinite for a compelling companion NPC,  the AI is an integral part of why she's a beloved game character;
+
+\- the AI of Alien Isolation for an example of opponent AI. This game cheats, but does it in a way that keeps you entertained;
+
+\- many people don't realize just how good this is, but FIFA's AI does a great job at moving the players that are not in direct control of a human; over the years, this stopped being a significant problem and plays look/feel more natural because of the improvements in how the AI understands plays in order to position players that are not on the ball - it's the kind of improvement that goes unnoticed because it's so subtle, but good enough not to break imersion anymore;
+
+I think this discussion should cover strategy games more than RPGs, shooters, action games. The biggest improvements would have to be related to StarCraft 2 and it shows true evolution unlike most other games. First, there's the game's AI that allows the player to go against basic version of strategies they might encounter online. The ability to practice against this with the AI is basically unprecedented in other games. The AI is not that good overall, it's better than in any strategy game, but it has it's obvious limitations - hey, it still has to run on the same machine that has to run the game smoothly for the player too. Not an easy task and the game is complex enough to cover properly, it's very impressive what they've achieved. 
+
+And then there's AlphaStar. Look, if you're really interested about the topic, you have to read or watch videos about what the DeepMind team did. We basically have an AI that can beat professional players in Starcraft 2. This is relevant as it explains to you why it was so difficult to advance as fast as it was expected 20 years ago, but it also shows that we now have the technology to create AIs that can execute top level tasks, at the same level as a human can. And while the training of that AI might require a large number of machines, the binary that you need for your playthroughs are not too demanding for a single machine to handle. I'm definitely seeing some interesting development because of what the AlphaStar team achieved.
+I thought the AI in Doom (2016) was good...I saw some video on ít and it seemed really clever.... But I've never really payed attention to game design while playing
+They movement in RAGE is great, not sure if that counts.
+
+Tropico's citizens are pretty complex with likes/dislikes, specific jobs, specific homes, relationships, and allegiances.
+This is hearsay from when I worked at Ubisoft. The bad guys in I think it was Rainbow Six Vegas has very complex human-like behavior AIs. However, once it was published, the players just saw "oh, a guy is over there shoot him" and they decided it wasn't worth investing in.
+Persona 3. That game didn't let you manually control your party members, but the AI was pretty good and never fucked up to the point where I died. If I died it was because of my own mistake or that my levels/equipment/persona was too bad.
+A lot of the problems with modern games are that they are server-based, which means even if they're not fully-fledged MMOs they're still bound by the technical limitations of the servers.
+
+And we already know that advanced AI calculations are expensive, if we also now have a server-based game like, The Division, Destiny, Anthem or any of its ilk then you end up with similar AI limitations as MMOs.
+
+So essentially because more and more devs decide to go Server-based we end up moving a little bit backwards in terms of AI-advancement and technology.
+
+That said, it'll be interesting to see what Cloud-Gaming/Streaming will bring to the mix, if we can add everybodys computational power together somehow, it might be interesting to see what the future brings. :)
+[removed]
+I remember at the time it came out Far Cry (the first one) was known for it's clever AI. I found a nice video about it: [https://www.youtube.com/watch?v=93bPTrlknIY](https://www.youtube.com/watch?v=93bPTrlknIY)
+
+At the time all of these things features were really impressive.
+I think the best Ai would be Ai from CS 1.6 
+
+
+
+But again it greatly depends on the map... for example if the map is dust 2 and the creators of the map are really skilled... the bots are really good
+> Steam accually used a clever system in Half-Life 2 that made enemies more likly to attack you from the nearest ledge in order order for you to feel more like an action movie badass knocking people to their demise.
+
+And thus, Dark Messiah of Might & Magic.
+There's a paper written in 2006 about F.E.A.R IA: http://alumni.media.mit.edu/%7Ejorkin/gdc2006_orkin_jeff_fear.pdf
+It’s not the first time I hear about F.E.A.R. as an example. It’s true that their AI seemed very good…
+
+…except for the fact that they keep SCREAMING their position and what they’re going to do to the player.
+
+(It’s a joke. I know it was done to make the game more fun. But still, it has always bugged me.)
+Valve
+One of my favourite things in Oblivion is that the guards had 95 aggression (on a scale of 1-100) but 100 responsibility. They were basically all extremely disciplined psycho murderers, and the way they behaved in game reflected it perfectly.
+I love that story. I hope it's true
+There's also another story of the devs finding the corpse of a prisoner that was not supposed to be dead in an open cell. They were trying to fix it when they noticed the prisoner was always murdered by the guards. It turns out, once the guards run out of food, they kill this poor fucker for his'.
+Constantly impressed at how well that Alien worked in that game.
+They also gave the alien some light learning capabilities. Or at least the illusion of such. Overusing the flamethrower could cause it to start to charge through the flames, it might pay less attention to noisemakers, etc
+TIL
+I loved the variability in Halo's enemies/AI, that's probably why I was able to play the campaigns so much before I had XBL. I know nothing about how advanced the AI actually was, but the devs did a great job at creating dynamic and reactive encounters.
+Enemies in Stalker would even sneak behind you while you are busy fighting their friends.
+
+They also looted bodies, helped their allies after combat, would hide in non-solid obstacles (like bushes).
+
+@Edit
+
+Zombies in CoP wouldn't attack you if you were just walking near them, but jogging (default movement) would alert them.
+The crazy flanking/CQC manoeuvres those npcs would pull off is just astounding.
+There was a discussion on this sub a while ago about guards and how they react in stealth game. I think it would be indeed a mistake to make them too smart but on the other hand I think it would be more interesting to randomize their reaction (for instance showing fear when the player has already dispatched all the other guards or pretending to not see you because he’s not paid enough for this shit) and react to different stimuli (for instance if you cleared a level almost completely, the last guard would notice it).
+
+It would encourage the player to use alternate solution instead of always using the same old method: isolating and dispatching.
+God I wish someone would try a game in the vein of Black and White again. Raising your creature was such a unique and fun experience. I had a lion that was just a sweetheart in the town, but outside of the walls he would fuck anybody up.
+My friends discovered that if you punished your creature constantly/arbitrarily, it would eventually become neurotic and too scared to do anything. In hindsight, it's a little depressing how realistic that is...
+[deleted]
+>The thing about an AI that's smarter than a player, is it's pretty much indistinguishable from cheating.
+
+Only if cleverness actually determines who wins. Most video games are very asymmetric so that doesn't have to be the case. E.g. no matter how genius a small squad of Grunts in Halo get, Master Chief has such an overwhelming advantage in stats that a good human player will be able to defeat them.
+
+And besides, why are you even talking about beating the player? As a designer, you decide what your AI's goals are. If you think outside the box a bit, you can easily give AI a different optimization target than winning really hard. E.g. the AI in Left 4 Dead.
+
+Then finally, even if the computer *is* playing the same game as the human and they *are* trying to win, even then it can be a great experience. I have the most fun in competitive games when I'm playing against an opponent who does some things better than me and some things worse than me, and I can learn from them or try to leverage where I'm better to defeat them. You could make an AI target this experience.
+
+A stupid AI that makes horrible decisions but just gets a lot of bonuses and therefore is moderately competitive vs me will never teach me anything and also quickly stops being fun to play against.
+Not really. Cheating is seeing player moves through fog of war or getting bonuses etc. AI that can win without having an edge over the player is good AI.
+>The thing about an AI that's smarter than a player, is it's pretty much indistinguishable from cheating.
+
+This gets trotted out every time this discussion comes up, but I never see any evidence for the claim. What games had AI that was so smart that everyone thinks it's cheating?
+That was from Horizon Zero Dawn, right? Probably one of the best-feeling combat systems out there IMO. I'm excited to see what the Death Stranding team is doing with that engine.
+Dwarf Fortress has astonishingly complex AI under the hood. As it's half game, half simulation the whole game is in itself one big giant AI composed of countless tiny threads of individual AIs.
+
+Even just playing the game you don't really get a sense of it. But even a single dwarf has an incredibly convoluted linearity of personal inclinations defined by their past trauma and experiences.
+I'm curious, but do you have any background in dev or game dev in particular?
+but they have aimbots and wall hacks.
+You bastard, now I have to play it again.
+Also known as "Sir Kicksalot Deathboot and the Conveniently Placed Spiked Wall".
+You know everyone talks about the ledge kicking in that game, but my favorite thing is easily smashing chairs over people's heads...and rocks...and barrels. And throwing the occasional cup just for laughs.
+A big part of the reason guards/enemies are so vocal is so players know what's going on. 
+
+If they're 'smart' and flank you while being silent, players just feel like it was an unfair ambush, or maybe it was just random bad luck. If an enemy yells "I'm gonna flank" and they get to see them moving around or they can choose to counter the flanker. They appreciate what's going on and what the AI 'thought process' is.
+
+Then there's the question of if the player actually knows the difference between that all being scripted per-encounter, or if the AI recognizes locations and routes in a level and thinks about using a side route while player attention is elsewhere, when not to just attack. A lot of games are smoke and mirrors, and it might be a better use of time to disguise the scripted approach.
+> 
+> …except for the fact that they keep SCREAMING their position and what they’re going to do to the player.
+
+It's so the player realizing what they're doing and doesn't think the AI is just a cheating bastard, which is what playtesters were saying before they added in the barks.
+Interesting to see that almost all the people answering to your thread talk. About combat.
+
+What about npcs? There are no smart or interesting npcs in video games.
+
+I believe the industry does not know how to do smart AI (non combat).
+maybe you should play csgo
+imagine if it happened in real life.
+>l think it would be indeed a mistake to make them too smart but on the other hand I think it would be more interesting to randomize their reaction (for instance showing fear when the player has already dispatched all the other guards or pretending to not see you because he’s not paid enough for this shit) and react to different stimuli (for instance if you cleared a level almost completely, the last guard would notice it).
+
+If I recall correctly, the Arkham games do this already. The last guard, or few guards, get really nervous and start frantically looking for you. Especially if instead of taking down the henchman, you hang them upside-down, that increases their unease.
+Too much randomization is actually not that great of an idea for AI in stealth games.
+
+As with any game, there need to be patterns that the player can learn to recognize and exploit in order to become better. Obviously a small degree of randomness is important to have, and there is nothing wrong with guards that have complex behavior, but that behavior needs to be consistent and predictable. This allows the player to devise strategies and techniques.
+
+When a player fails at an encounter or a task in a game, they need to be able deduce why exactly they failed so they can attempt to correct that error on subsequent attempts. To many random guard behaviors, such as a guard randomly deciding that he isn’t compensated enough to pursue you, will leave the player confused as to wether their success was a fluke when that guard decides to chase them on subsequent attempts.
+Black and White 2 was my jam.
+There is a nuance.  
+
+
+Script generally means it will do a predetermine sequence of actions  
+Where as many means by AI, something that will "determine" the sequence of actions to take
+That's not how an AI works.
+
+AI makes a spontaneous decision based on the events around them, which is the exact opposite of performing predetermined tasks on a schedule unless interrupted.
+
+To use the infamous cheating NPC example...
+
+In Oblivion, the NPC will cheat on his wife like clockwork unless the player interferes. There is no AI decision being made, he's just following a predetermined set of tasks. If it were an AI making this decision, the NPC would be cheating whenever his wife NPC was away, at varied times based on the wife NPC actions and the availability of the mistress NPC. It would be spontaneous, not predetermined.
+
+Think of it like the difference between an enemy's actions in Metal Gear Solid before and after interacting with the guards. Before you interact with them, they will follow a set patrol route. No AI there. However if Snake taps on a wall or gets caught, their actions are now dependent on what is happening and what they can do in response. That part is AI.
+Well, I wouldn't say it's cheating, but I don't agree with you either.
+
+Good AI in my opinion can be broken down into two categories.
+
+1.  Technically good AI.  This is the AI that can win without getting an edge.  This is actually incredibly easy to create and implement, but will be viewed by most people as terrible AI.  Why?  Because your average person is stupid.  Like, really, really, stupid.  The AI will flank, work as a team, etc., and dominate the player.  Just play any first person shooter to verify this.  You'll see people making tons of dumb mistakes that should always be avoided, and then they'll be complaining about the other team cheating, when the fault really resides on their end.
+
+2. AI that's just slightly worse than the player.  Now this is incredibly difficult to program.  This is what most people want.  They want to be able to win, with feeling like they just squeaked out a victory.  First though, this type of AI can be exploited.  I.e. Need for Speed was notorious for having rubber banding AI.  On multiple occasions people noticed that they'd lose if they drove practically flawlessly, but would win if they acted like idiots the first portion of the race and then drove flawlessly.  How can an AI adjust to this?  Second, how do you just how good a player is, just to be slightly worse?
+Offhand, I know FFT Calculators are so amazingly smart that for Crystal Calc SCCs, the general advice is to put the game on autobattle.
+[deleted]
+Exactly why I love the Rock It Launcher and Junk Jet in Fallout
+https://tvtropes.org/pmwiki/pmwiki.php/Main/TheComputerIsACheatingBastard
+
+Don't thank me guys
+They do, but it's a pointless waste of resources.
+
+99.9% of players won't appreciate the difference between a smart, non-combat AI and a dumb one. Hell, even smart combat AIs routinely get dumbed down because it turns out that fighting enemies smarter than you when they also outnumber you is a bad time.
+Yes and they will also adapt to the tactics you use. Keep swinging from gargoyles? They'll destroy them or booby trap them. You keep using vents to get them? They'll blow them up with a grenade. They will lay down mines and turrets and stuff to hinder your mobility. It's awesome.
+True, I wasn't thinking about this example specifically but that's a good point.
+>will leave the player confused as to wether their success was a fluke when that guard decides to chase them on subsequent attempts.
+
+But there’s also the problem of a player that becomes to good at the game, they end up having no challenge because patterns become predictable.
+Exactly what I was about to point out.
+AI isn't making up any new actions. "AI" in every game is working from a predetermined sequence of actions. At a very basic level, it's a series of if/then statements, aka a script.
+The difference is the schedule.
+
+The actions are still predetermined.  The enemies didn't come up with their action on the spot, they react to one of several predetermined stimuli with one of several different predetermined actions.
+
+AI in games is a lot less spontaneous than you're making it out to be.
+> unless the player interferes. 
+
+At which point the behavior changes.
+
+NPC behavior in every single game will remain unchanged absent player intervention.
+I ask because I was wondering where you got the idea about "studios have to make a choice between keeping up with current graphics trends, and having very good AI".
+
+I don't think it's down to limited processing power. I'd probably put it more down to the amount of time devs have to actually develop satisfying AI. Modern gaming consoles / PCs have such an overabundance of memory and processing power that it doesn't tend to be the limiting factor any more.
+I don't think so
+
+Populate the gta world with an AI that can have a meaningful conversation with me. That tells me about the day. That goes buy an umbrella when it rains, make friends, etc.....
+
+
+Then we ll see
+Ok thanks. It's been a few years since I played an Arkham game, I had forgotten about that
+That is why you want multiple enemy types that exhibit a variety of behaviors, rather than enemies that are merely random.
+
+New enemy types can be introduced over time, and those enemies can be arranged in new configurations in order to match the player’s learning curve.
+Yep a script can be a full ai, but generally speaking when we talk about ai, we talk about the architecture/algorithm that use those if/else. Because by your definition every software ever created is a script and an ai. Thus that definition is not that useful.
+
+I'm an ai programmer :)
+This is just completely wrong. AlphaGo for example is playing games that no one has ever seen or thought of before (because of the massive action space of Go) and even plays moves that human experts consider to be innovative. By what stretch of the imagination is this a predetermined sequence of actions?
+
+The only thing you were right about is that a scripted sequence can indeed be a form of AI.
+> The actions are still predetermined. The enemies didn't come up with their action on the spot, they react to one of several predetermined stimuli with one of several different predetermined actions.
+> 
+> AI in games is a lot less spontaneous than you're making it out to be.
+
+Which is how people react to stimuli. If you're a guard in a facility and you come across footsteps, you investigate because that's your job. If you come across an intruder, you attempt to deal with them. If they react with force, you react in kind, or maybe you'll flee if you're wounded. Depending on the area you're in, you might use a skid with boxes on it for concealment if you're attacked so it's harder for your attacker to accurately shoot at you, or retreat to a doorway through a brick wall for cover so that the bricks can soak up the gunfire.
+
+AI in games is a lot better at mimicking a human response than you're pretending, if it's done right. Several games do so.
+Being deliberately obtuse, are we?
+It also stands out to me that the people making graphics are going to be a different discipline to the AI team. Seriously, look at the credits for any modern game and it's a huge amount of people involved, it's not the 90's when you might be lucky to have a dozen people.
+
+And definitely agreed about overabundance of processing power. People have been saying the consoles or 'toaster' low spec PCs are holding things like AI back, but the some of the common examples of impressive AI are all well over a decade old and even the most modest modern hardware will play them without a problem.
+
+AI seems more like a design/implementation problem fitting it into the gameplay than it does a processing power problem.
+[deleted]
+>Populate the gta world with an AI that can have a meaningful conversation with me. That tells me about the day. That goes buy an umbrella when it rains, make friends, etc.....
+
+That's a lot of work for what is basically going to wind up as a gimmick.
+
+Maybe 0.1% (or even less) of the players who play GTAV would bother to actually engage with random NPCs enough that that level of depth of AI is necessary, and it sure as shit would cost more than 0.1% of the game's budget to do so in a meaningful way.
+
+It is technically possible. Off the top of my head I can think of at least two or three broad-level approaches to creating such a system which would allow you to pick a random NPC, get their phone number in-game, and then integrate them into the cast like an actually fleshed-out character that was meant to be there in the first place. It would be simple to implement, but very costly in terms of development time and resources.
+
+However the fact that it's possible doesn't make the development of such AI practical or feasible for a video game's purpose.
+Well I'd be interested to see what you dig up. I studied Comp Sci at uni so have a fairly good idea of how development goes - but ~~know~~ not much knowledge specifically around game dev.
+[deleted]
+Well well that's pretty interesting. Kind of a shame that the AI devs get the shaft like that but I guess also not that surprising. People are like crows. We like shiny things. 
+
+Also had no idea about a dedicated "AI Chip" even being a possibility, but it's certainly a cool one.

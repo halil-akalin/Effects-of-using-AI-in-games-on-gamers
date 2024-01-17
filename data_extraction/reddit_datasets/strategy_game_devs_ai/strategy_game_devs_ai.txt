@@ -1,0 +1,386 @@
+Generally speaking, in games that are not "solvable" (solvable as in like Tic-tac-toe, or chess) you're best bet is to build a hierarchical tree of systems (tied to states) trying to work toward achieving predefined goals, starting on the global scale and then going down the hierarchy diverting work to sub-system depending on current state of the game.  
+In other words your AI would start each round by checking:  
+Am I in danger? -> Go to a system that deals with preventing defeat.
+Am I safe? -> Go to a system that deals with furthering my chances at achieving victory.  
+Then those systems will look at the state of the game, and divert work to further sub-systems depending on what needs to be done. If AI doesn't have units to defend itself, it will let "unit-building-system" take over with directive to build more units. Then finally at the very bottom there's a "factory-managing-system" that looks at the current priorities and decides which buildings should start building units.  
+Building the AI as a hierarchy like this is very easy to reason about, and breaking the logic into tiny sub-systems (micro-services if you will) makes them very easy to move around depending on what needs to be done. As in, once one micro-system is done, another can be queued up to do their work, if higher-level systems decide it's good idea to do so.
+I've build quite a few strategy game ai's. What you want to do is this. Have layered systems with each layer providing context for the layers below it.
+
+For instance a top layer should evaluate the overall state of a faction and set a strategic stance. Some stances might be: a) Early game expansion, explore the map and prioritize long term decision making. b) Mid game expecting a big war soon. Collect resources and don't expose yourself. c) Bankrupt and attacked from all sides.  Hunker down and concentrate on short term survival.
+
+A subsystem that controls scouting could then base decisions of off the above. a) Scout far and wide, give a high priority to building/acquiring units for scouting. b) Maybe retain some modest scouting capability if there's unexplored map. If it's relevant to your game then maybe concentrate on gathering information about potential opponents. c) No scouting necessary.
+
+Similarly a system concerned with building improvements can reason. a) Calculate the return on investment over a long period. b) Calculate the ROI on a medium period. If the site is near an expected front line reduce expected benefit further to account for risk of loss in a war. c) Doesn't contribute to short term survival so don't even think about it.
+
+Given the above reasoning, subsystems can request production/unit allocation and set priorities for their requests. Production and resource allocation systems can then fill these requests according to priorities.
+
+Writing an AI is a lot of work as there are many factors to take into account for each decision. Expect your code to become large and complex. When thinking about the ai, think about how you'd make decisions and what factors you'd take into account.
+
+Don't be afraid to cheat where the player won't notice. Eg don't write ten thousand lines of code to estimate an enemy's overall strength based on unit sightings, just examine the game state. It's such an abstract piece of information the player will never notice. Similarly the player will notice if the AI doesn't scout, but that doesn't mean you can't examine the game map to find nice locations to send your scouts to.
+
+If your game has complex diplomacy, expect this to be 40-50% of your AI effort, and however much time you spend on it, expect players to still bitch about it more than anything else.
+[removed]
+How most 4x games do it:
+
+Have a bunch of AI advisors, each concerned with different aspects of the game (economy, tech, military, etc). Each one recommends a best move, and assign it a score given how important the move is.
+
+An executive AI then compares the recommendations, usually by score, and picks one.
+I have never written an AI for these kinds of games, but I have written and studied AIs. I think the simplest solution is to create a hidden point score for each board state. Also, pick a number of move look a-heads. The computer considers all moves and scores them, then considers all the moves after the first moves and scores them. It assumes the opponent (human player) will pick the best move by score for the human player. And will pick it's move so that it results in the best board state for the computer after the opponent has moved. Hopefully I explained that well. There are a lot of ways to cull obviously bad move in the decision from being considered, and ways to optimize to make it faster. If you have rng damage then assume the average or expected damage is given. The board state score is likely based on unit count and health, though you can do other score values based on board position attributes like ranged units being close to melee units results in a lower score etc.
+
+Edit: I must confess I misread the post as being turn base strategy meaning a tactics style game, not a 4x game. Other devs have correctly pointed out, unless your 4x game is incredibly simple, this approach will have too wide of a decision space, and the decisions will have consequences too far in the future, for this to be a viable approach.
+[GameAI Pro](http://www.gameaipro.com/) is a series of books that describe many different ways real games build AI. And the books are available online for free!
+
+Browse through the collection and look for titles relevant to your game or that people have suggested here.
+Typically a strategy game has too many options to develop a neutral network for it (although I'm not an expert on nn so I might be wrong).
+
+For Stellaris we went through many iterations of AI, starting with utility functions: every tick we examine the value of all our options, then do a weighted random pick of what to do this tick. The value was arbitrary, decided by the designer based on experience.
+Then we tried an end goal based approach: pick an end goal you want to happen, check what you need to have it happen, then recurse through each intermediary goal to split them, until you get directly actionable items. We also had exceptions for emergency situation.
+This improved the economy quite a bit, but not enough for the AI to be competitive with the best humans, especially without bonuses.
+I'm not sure what was attempted next as I left the project as the new wave of dedicated AI programmers were added.
+
+Or goal was also more of having the AI be entertaining and have personality than have it be able to destroy human players.
+Don't use ML.  Games are supposed to be fun, not frustrating.  ML doesn't give you the ability to tune it enough for games.  
+
+I'd use Utility or HTN.  Probably Utility.
+[deleted]
+I liked AI and Games's YouTube channel. For what you're asking, look at his Total War AI series, which has some good info about grand strategy AI.
+
+Part 1: https://youtu.be/XBzTJOYgW0M
+
+He also has other videos that deal more specifically with particular approaches to AI, such as utility AI. The subreddit /r/gameai is also a good (if somewhat quiet) resource.
+You might find Monte-Carlo tree search useful? random hill climbing?
+Most answers here don’t seem to appreciate what kind of game you’re making. With 4X you need the AI to think several turns ahead. Not just what to do next turn.
+
+For the world layer of my xcom-like, I use a kind of GOAP. The key to making it feel smart in a strategy game was tweaking GOAP to remember its longer-term goals. So even as the world state changes each turn, its longer term goals persist and most of its short-term actions lead to those longer goals. 
+
+Thing is, I doubt the player will ever notice this. I know it works well because I see its decisions under the hood, but players will probably have no idea. So my challenge now is communicating to the player that the AI is actually thinking ahead. Good luck! Let me know what you go with.
+You could explore GOAP. There might be some more modern alternatives though, I'm not too familiar with it
+There are some great books, articles and websites that will tech you all the different ways and methods of simulating a credible Ai opponent.
+
+To me, its the best part of the whole project! Very interesting stuff.
+I chose to go with an HTN network for AI for my game and built my own implementation in Unity. Chose it over GOAP as HTN can think ahead where GOAP solves backwards to reach a goal state. I am very happy with it. I still use ranked task lists for priority behaviors for roles, but having big pool of growing actions has been cool!
+Utility Theory AI. Google it. It's modular and expandable and can work great for strategy AI with some thoughtful design, and can also be layered from strategic to tactical decision making.
+
+Don't go down the rabbit hole of a million nested if then special cases. Utility AI is a better way and I'm surprised more people aren't using it.
+Dijkstra Maps/Heat Maps/As Many Maps as you can make.
+
+The more information and data you can jam in to every inch of the map, the easier you can query that for your various AI behaviours and algorithms.
+
+Forward Prediction/Brute Force like you see in Chess is also a Strategy that is not usually used by developers even if it can be tremendously useful in "some cases".
+
+The only Unknown is the Player themselves, for the other AI they are completely Deterministic in their decisions and you can exploit that to give some AI's an advantage.
+
+Simulated Scenarios between Designs and Army Compositions can give you a Threat Value as well as give you Counters for those Designs/Compositions.
+Here's how I would do it: model the AI's "view" of the world as a bunch of inputs to a neural network. Create a bunch of AI's and make them fight against each other for several years. (At this point, it helps if your game can run faster than realtime!) Use a genetic algorithm (this is how your own brain evolved!), ie. after each generation, take the 50% best players and randomly combine ("crossbreed") their parameters.
+
+Test them against real players. They will probably be too good, so at this point you want to apply some more subtle mutations for a few generations to worsen the AI and produce the various difficulty levels. (This mutation will also result in some idiosyncrasies that you can leverage to make the gameplay more interesting, eg. generate a few different AIs and randomly select them for each match.)
+
+I think some games have done it like this, but they seem to be in the minority. I think the main reason is that it's harder to get predictable results, or to fine-tune it when it doesn't do what you want. (ie. how do you "reprogram" a neural network? The best way is probably to tell it what you want (if it can be expressed as a function of your game's variables) and tell it to optimize for that.)
+
+If this sounds overcomplicated, it's actually not a lot of code, I once wrote a program that evolved worms that raced against each other, so it would evolve the fastest moving worms (based on 2d physics), the code was like 100 lines or something.
+I loop through every possible move and give it a score. The subscores that are considered grow or shrink based on board state. In other words, while almost every move considers the “will I get killed doing this” subscore, the “is this terrain good for defense”
+subscore might he ignored near end game when I need the AI to score points.
+You can find more inspirations from those japanese RTS games developed by KOEI. Those games are the best designed.
+"I don't want to give magic bonuses to the computer player, instead I rather make it as fair as possible" - good luck, you will need it.
+Whatever you do, don’t use machine learning or neural networks. It’s the first thing that comes to peoples minds and it has almost no place in game development.
+Don't use ML or NN. Deepmind have shown that you can use ML to create a strategy game AI, but you're not a giant corporation with virtually unlimited computing resources. Even if it was possible to create a competant ai with modest resources, you'd still have a lot of problems.
+
+* Change your game rules, stats etc. AI needs to be retrained which likely takes several weeks.
+* AI will evolve to be good at exploiting bugs and imbalances in the game, rather than how you want it to play. Certainly it isn't naturally going evolve towards being a fun opponent for a player.
+* You have no understanding of how the AI works, and no way of tweaking it to prevent or encourage certain behaviours.
+* There's a strong risk that it will evolve to be good at playing itself and totally fall apart against a human opponent who employs different tactics.
+Computers are traditionally very bad at this.  It is about understanding a complex environment which our brains have evolved to learn and make an internally understandable complex of rules / laws about.  If you look at the history of Civ-like games, the AI has actually got worse over time as the developers decreasingly give a shit, because AI quality is a niche interest and cannot be evaluated quickly.  The ones with 'good' AI are the ones with game rules made to suit AIs, and in which the devs have selectively allowed AI cheating that won't spoil the player experience.
+
+Now that we have made neural networks work, good and probably superhuman AIs for these games have become a real possibility.  I don't think it's actually happening yet though.
+I haven't made a strategy game before, but I'd like to follow the AI Wars / Civilization model where you are actively informed of the AI's choices so that you can adapt intelligently.
+
+So while the AI always acts "perfectly", you get insight on to how to counter them
+I've played around with Unity's ML agents (which uses pytorch) and you could probably come up with something decent with a lot less work than coding by hand. I think it would be great for marketing and deep learning would tend to have the qualities which make it fun for players. It's also definitely the future of game AI dev.
+
+It's a whole different skillset to design and build it though.
+> The only advantage the computer will get should be better understanding of the game mechanics
+
+Even if you limit the knowledge of the AI to the same as the player, the AI also doesn't miss a thing and can instantly calculate all the weak spots in the player's defenses. On top of that, the AI is supposed to be a fun challenge, not actually as skilled as the player. Start simple and iterate on it as you progress in your development. ML doesn't allow you to optimize the AI for fun, which is the most important part.
+Partial MCTS with quick paths for estimating the outcome of actions and aggressive pruning.
+Have you developed a flow chart of roughly how you'd like it to act?
+Depends on your goals. I recommend the goal of making the player feel clever, rather than beating the player
+
+If you make the AI too good, players just get mad, quit, and call the game bad. I'd prefer they laugh at the AI while continuing to play and have fun
+
+Given that objective, I'd recommend writing simple AI, rather than using machine learning. Machine learning ai tends to either way overshoot or way undershoot the intended difficulty, because you can't exactly train for fun!
+Tommy Thompsons youtube videos are a good resource https://youtube.com/c/AIGamesSeries
+This is a good comment! That quite interesting and a good way to set up the ai from the sounds of it.
+Exactly this, you'd benefit from some non-deterministic finite automata knowledge as well, helps those systems run and transform together in some way, bavk and forth.
+[deleted]
+What is a neural network but a vast matrix of precisely tuned if/else statements?
+I like to think, "if I was this bat, what kind of behavior would I have to try stay alive and defeat the player?"
+
+Followed by a diagram
+
+Followed by hours and hours of staring at a screen trying to figure out how that becomes algorithms on a grid and how that can be put into if statements within if statements
+
+Followed by months later, me being like "oh I don't understand this code. Better optimise it"
+
+Leading me to pretty unbrilliant but somewhat legible and working code.
+
+Honestly though, the worst thing I ever did was invent A* pathfinding before discovering someone had already invented it yonks ago and I just wasted weeks coming up with something pretty much the same.
+so tree-based decision? I was afraid of that.
+Ah yes, the [Homunculus Pattern](https://en.wikipedia.org/wiki/Homunculus_argument) of AI design.
+Oh that makes a lot of sense.
+
+Because many 4x games use those exact same AI advisers to give advice to the player (filtered though some extra gameplay mechanics)
+And the advantage (made famous by civ) is that you can use the advisors to help teach the player too.
+Hmm that sounds good
+Yeah I think I understood. That was actually helpful. Thank you.   
+
+
+I will score any state (considering everything, everything, tiles that are discovered, unit count, even enemy units). Any command will have to have a predicted/calculated score and AI will generate a few number of command series, then choose the best possible outcome. Is this right?   
+Though this AI will probably be quite aggressive. 
+
+Cheers!
+Written and studied AI you say?
+
+Any suggestions for reading material? Particularly game applications? Preferably analog/board/tabletop?
+I do this for a my RTS-like board game. It’s a very nice approach also because it allows you to have different difficulties at ease. Medium difficulty chooses one of the best five moves at random. Low difficulty never picks the best move and every X rounds (depending on how bad the player performs) actually picks the literally worst move for itself.
+You didn’t know it but this was the exact solution i was looking for, for my own ai troubles. 
+
+So, thank you !
+How did you handle thrashing between options if their if their values are too close?
+This. So many of the answers above focus on making an "optimal" AI, but the goal here isn't to make a chess- or go-solver, or a labeling machine (ML), it's to make an AI opponent that's fun for a *human* player.
+
+We're designing games for humans, not for computers - can't risk losing sight of that.
+Also, I really doubt the average /r/gamedev poster has the resources to train a machine learning model to play a board game, let a lone a modern strategy video game. In fact, I'm not even sure the *player's* computer would be able to run the inference step with the trained model fast enough.
+Yeah, GOAP is what we use in the strategy game I work on.
+I guess I can try. And ask you when I fail 😂
+How not?
+
+ML has all sorts of uses in game development. 
+
+There has been a few listed in this thread already.
+It entirely depends on the game.
+> you're not a giant corporation with virtually unlimited computing resources
+  
+Going by these other answers, I think this point needs to be emphasized a tiny bit more in the original question...  
+  
+I can just imagine on Steam - "Game - 800MB. Added ML Files to get the enemy working - 400GB"
+Big difference between building an AI which plays competently (they tend to be terrible so it's not a very high bar) vs being able to beat world class players.
+
+Deepmind etc. also have the constraint that they're trying to do it without any parts which don't generalize, since after all their goals are not to make game AIs. Being able to design it for your specific game is a big difference.
+
+And you can definitely change the way it plays based on different inputs.
+Computers are traditionally very bad at this, yet a 25 year old Starcraft AI will still beat the majority of the people on this sub :p
+Yes, tic-tac-toe and chess are examples of “solvable” games, as they said.
+It's solved technically, but not solvable to win only draw. The only winning move is not to play.
+An attempt at mass waveform analysis.
+
+My runs at it don't have very many if statements at all, just accumulators.
+From a math point of view? It is discrete vs continuous. 
+
+that being said, the action space is discrete, so I guess in that sense they are the same.
+
+The real question in how to you insert knowledge into the AI. Is it expert system (hard coded if-then "AI"), Goal Oriented Action Planning or some sort of Machine Learning...
+
+...or just cheat, that is what most RTS do.
+[removed]
+What's to be afraid of?
+
+An RTS AI is usually just a priority list of buildings/units to have, attack when army size is sufficient, and defend when attacked.
+
+Your concept of the computer having "better understanding of the mechanics" isnt a thing. It's a computer. It doesnt "understand". Its not actually thinking.
+
+Games never really use machine learning. You'd need hardware you likely cant even come close to affording to train such a model. You dont just "randomly" adjust "something", whatever that means.
+Use a state machine for clean code. Still the best way to do AI in my opinion.
+Take a look at [this](http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter06_The_Behavior_Tree_Starter_Kit.pdf). Modelling behavior in a tree is not half as scary as you may think it is
+And then to enable the computer to almost stand a chance, the computer is cheating and is given unfair advantages.
+
+While Civ is an excellent game, one of the best, its AI is cheating in just those ways OP wanted to avoid.
+For more on this, check the "minimax" algorithm for looking into the future.
+and "heuristics functions" for the point system.
+
+I would like to point out that a good point system can be more impactful than looking a couple steps into the future. So you can skip the minimax algorithm if you want to.
+
+Also, some actions take multiple turns/minutes,
+So when giving these a score, make sure you take this into account, or it will always choose the action that does the most, but takes 10h to complete.
+
+Other than that, 
+If you want your code to stay relatively clean, make each action a class with a points function.
+This way you can customise for each action and even apply preferences for aggressive/passive/economist personalities.
+
+Good luck
+Generally non abstract strategy games have way too many possible states for this to be a useful approach, and you can usually move most or all of your units during a turn. Often moves will make no sense if considered in isolation, but will if considered as a group. e.g. sending a single unit to attack a strong enemy would be a terrible move, but sending ten units to attack them would be good move.
+Yes, that's it. Though giving the AI fog of war will make it tricky. But you can control how aggro the enemy AI is by how you score things.
+yo I am doing a phd in ai&planning and this approach is pretty intractable for the space of 4x games because the enumeration of future states will paralyze the AI. 
+
+go with some finite state automata heuristic stuff based on /u/4as comment.
+My masters was in computer engineering specializing in AI and robotics. The only things I can suggest are pretty dense graduate level AI math books. That being said, "Artificial Intelligence: A Modern Approach" by Russell and Norvig is a great book. I have my 2nd edition copy still, but it looks like the 4th is the current edition. It covers a lot of AI and Chapter 5 is about games and game AI. Mind you, a lot of games don't need AI as advanced as what they describe, and particularly amazing AI is often not fun in games.
+Happy to help!
+It's not exactly how it works, since these options are more of a "do this now" (for example build a farm) target than a "keep doing this" (for example keep mining ore).
+
+Or weights are also used to determine a chance percentage of doing something, then we pick randomly (Rx: build a farm 10%, build a police station 1%). Since it's a random chance, you might so end up building the police station.
+
+However the traditional way of avoiding taking is hysteresis: a replacement activity had to beat the current activity's weight+5%, and to stop doing something you it's cake had to drop below is threshold-5%.5© here is an example value and you should determine value through testing.
+Easy to add an extra bit of weight to the thing you're currently doing
+[deleted]
+That depends a lot on the type of ML and the model. Many of the big name ones have massive numbers of nodes, but that's not the only way to do it.
+
+We used a non recurrent neural net in a previous game and perf was fine, but it was supervised learning and no one spent enough time training it so it didn't work well.
+
+Base your AI on machine learning if you want to reduce the amount of coding you need do and make a game that is untunable and that players leave negative reviews about how the AI cheats or is astoundingly stupid. If you think you have too much hair and want to spend late nights pulling it out while you try to fix individual bugs by additional training runs.
+
+Fortunately, in our case the neural net only drove audio commentary so it wasn't a total disaster.
+Our team released several games using evolutionary computation (a form of AI/ML) to allow the AI to literally evolve to defeat the player. I’m not sure how well that would work in this case though. Possibly use digital DNA to define/parameterize the make up of squads that get sent to attack or defend. The Most successful squad combos get to ‘reproduce’. Eg if five differently mixed squads  get sent to attack the fittest one (the one that does the most damage) is the one that the AI makes, with variations/mutations, in the future. Continually trying new combinations of the best fit (most successful) previous squad combos. Only works if lots of squads are sent so there’s signal in the noise.
+From what I've read they took quite different approaches to the Starcraft and Go AIs, one being based inter-agent competition and selections, and the other on game state evaluation and monte carlo methods. I'd be interested to know if you have any specific examples of approaches that game devs can use, that Deepmind deemed too game specific.
+> in games that are not "solvable" (like Tic-tac-toe, or chess)
+
+This is stating that these games are not solved. But bad sentence structure aside, it's a good post.
+I'm assuming they meant "...in games that are not 'solvable' (like ***these examples of solvable games*** Tic-tac-toe, or chess)". Because tic-tac-toe is definitely solved by any sense of the word; there is exactly one right move at any given moment and it is known. Chess is solvable but not solved. A game being solved means that there is an algorithm for determining the outcome of the game from any random position, assuming perfect play from both players.
+Tic tac toe isn’t like war games 😂
+Each network node's threshold resolution function could be modeled as an if/else statement.
+Looking into GOAP. I don't want the computer to cheat. It breaks all the submersion when the event sends stacks of doom one after another with zero resources.
+But that is more like agent AI, isn't it? I need it to think the overall strategy. Like, shall I send 10 units or 16 units to my enemy town? Shall I attack their gold mines, or fields, Shall I invest in infastructure or military, etc.
+I'm making a chess-like game and I did something similar to if-else statements but instead had all possible moves/decisions evaluated on different metrics (either booleans or number values) then sorted them in priority order. It works pretty well and doesn't have to involve as much complexity or specificity as if-else statements
+I often use machine learning in unity. I usually only train on a 1660ti. It's pretty great, and can achieve amazing AI, runing 50 to 1000 environments at once, depending on complexity. You have to know how to train it properly tho. I also have done contracts to build NN AI training environments for some game studios. ML is definately used in games.
+>Games never really use machine learning
+
+I don't think that's what he was saying. Just that if/elses are a very rigid way of doing it (that's what he was replying to) and there are more programmatic approaches. 
+
+You can build system that lets a designer build a list of weighted desires and have your code evaluate them and make decisions based on those priorities. That way you can add new desires without having to figure out where in your giant tree of if/elses it goes. 
+
+This is similar to how an NPC AI in the sims or similar work. They aren't a giant nest of if/elses, but they're also not "AI"
+ML is bunk a lot of the time but it's possible to train a model on a more powerful machine then run that model on less powerful hardware. That said, the point of game ai isn't to play the game optimally but to convince the player that they're playing against an intelligent opponent.  That often involves a little smoke and mirrors. Op should try and consider the experience he's trying to build before investing time in some complicated AI system that might just be too hard for players to beat.
+Actually, most gamer PCs do have the necessary hardware, that's the GPU. Plus, it doesnt have to be a complex model, even a simple model might be trained.   
+That said, this might be teoretically possible but I too am curious if any game actually used to train their AI.
+Meh. I've used ID3, C4.5, CART, etc. As well as evolving kNNs.
+
+Sure, not the fancy stuff someone thinks of when "machine learning" is said, but they're all riding on the same bus.
+It depends on the ML system. I wrote a simple one for a digital CCG I made, and it required little training.
+Yes, but that’s not particularly relevant to the multi agent approach itself.
+You can also create different feelings for the ai by having it change scoring mechanisms after a few turns or after different player interactions. Sometimes very aggro, sometimes more passive. Depends on the game and how you want to do it.
+Fog of war can probably be something like:
+
+A list with all seen units and their last know position.
+Maybe even how long ago they were there. 
+
+Add/update a unit if it's within visible range.
+Remove when it dies while in range, or after going X turns unseen.
+
+The "is in range" calculation should stay the same as for the player. The ai and player should be derived from the same base class after all.
+Yeah, I thought about it because the Fog of war is a thing in the game. But small steps...
+I agree, when I read turn based strategy I thought of a tactics style game. But coming back to this thread, I see it's a 4x civ style game. Hopefully he gets good advice from other people as well in the thread.
+>That being said, "Artificial Intelligence: A Modern Approach" by Russell and Norvig
+
+I knew reading the first sentence in your reply this was going to be mentioned. This was my 3rd year AI textbook in 2007.
+That's still a lot of development time poured into a pre-set strategy, per-agent. It's still a computer-centric design approach. So not very scalable, time-wise, and not working from the POV of shaping the human player's experience.
+
+If folks want to have fun building ML agents as a side project, that's fine, but it doesn't really serve the purpose of a game AI opponent, which is to make the human player learn/master the game, and potentially feel something (smart, accomplished, challenged, maybe even frustrated).
+You can train the ML to maximize fun too. Like for example you try to prioritize game state that offer non obvious flashy plays to the player. Or win but not too much.
+For example their agent needs to build buildings and manage the build order while also knowing how to build and micro units and their abilities. Some versions even had to manage the camera view like a player. Simply splitting it up into separate networks for each part would make the problem an order of magnitude easier.
+The agent was fed (roughly ) the same visual input the player receives, whereas an AI for the game can just pull the game state directly and skip the visual interpretation. 
+
+It also had to send commands like a player — by clicking etc, which was rate constrained.
+
+And most importantly, it has no way of evaluating the game state (whether it was doing well or not) except by reviewing all its previously seen game states and the win/loss outcomes. This means it required a huge amount of past experiences. A regular AI can easily calculate this for every turn instead.
+I realize that, and I'm saying that tic tac toe is a solved game. That means that there is a "correct" play you can make every single time with full confidence. Chess is not a solved game.
+You could say this about literally anything
+You may be right but accumulators are much more efficient. You can use them for error analysis at the end where branches are in fact useful.
+[Sins of a Solar empire, like many, cheats as a multiplier.](https://sinsofasolarempire.fandom.com/wiki/Difficulty) 
+
+But ya, it does make AI feel totally different from PvP. Its no longer about winning a edge thru counter play and resource loss, but instead about cheesing and getting them to walk into kill boxes.
+[removed]
+If you want to see how advanced AI strategy can get with nothing but if/else statements, every Lua script used in Civ VI is sitting there in the game folder. Definitely good enough for the biggest ¯\_(ツ)_/¯
+the below is practice for thinking this way for myself, no idea if useful to you tbh!~!
+
+> Like, shall I send 10 units or 16 units to my enemy town?
+
+divide my total money by (lowestcost thing *8), make x <tech'd to mob> x 8, every 2 minutes  
+research new tech for 'main class' every 2.3 minutes   
+scout for information every .8 mins minutes  
+~add erach of these to a stack of things to do. see what needs changing 
+
+
+
+>  Shall I attack their gold mines, or fields
+then i feel like
+'main class randint 3 (water, air, land)
+
+(attack randint 1/3 ) [water, air, land] x 100. > round to 10. drop lowest function? (drop lowest of 3 50% of time), proceed with other percents). 
+
+now youre researching seemingly not random things and strategically attacking other things with purpose.
+
+
+-----
+now have your random, rudimentary ai attack itself on virtual machines or old scripted laptops or something, find some killer combos, change your game, and try everything again
+Huh, neat. What sort of games did you use it for? Is it better suited for certain genres, like shooters vs strategy?
+I am actually using Machine Learning too. Im making a tanks game and one of the enemies is a trained ML-Brain. Its working pretty good I would say.
+Machine Learning can be done, even by solo-devs, you just need to know and try for a very efficient and fast solution. 
+I too am still learning and trying it to understand better.
+Are you using the package that comes with unity (https://unity.com/products/machine-learning-agents) or something else?
+Great! Did you use any library or package for that?
+[Goal-Oriented Action Planning](https://medium.com/@vedantchaudhari/goal-oriented-action-planning-34035ed40d0b), or GOAP.
+Origin post specifically asked about machine learning. Other people have discussed it could work, but it still wouldnt be my first choice for a strategy game.
+Training the weights is computationally expensive, but running them isn't.
+Yeah good point
+Fair enough, although as I recall limiting the view to what a player would see and proper rate limiting were not in the initial version. 
+
+So anyway if you're developing a 2 player RTS you can manage with slightly fewer resources than Deepmind. OTOH if you're developing a 4X AI you'll also have to deal with multiple opponents, diplomacy and random maps (not sure if they ever upgraded the starcraft AI to handle those) which will easily offset any savings you make by having direct access to game state.
+    if 0 then
+        0
+    else
+        1
+    end if
+A follow up to this, creating a little randomness isn't bad either. You can increase the bounds of the randomness too.
+
+So you could sort the decision tree in a way where the cases checked first are the most impactful (removing ranged/elite units. Capturing territory. Etc).
+
+Then roll die before you traverse the tree and bypass different gates based on the die roll and difficulty level. (is easy could bypass the elite unit gate half the time on easy, 25% of the time on medium, and 0% on hard). 
+
+When choosing unit numbers, have the "optimal" number of units be calculated in some way and then generate a range with bounds based on difficulty.
+
+Can even use dynamic programming to generate the if/else in a semi-random order for tiers of moves to create some more texture.
+So that's why CIV AI is always disappointing in a way
+Wait, can you access the source code of CIV? Or just the older games?
+I've done AI for a racing game, a simulation (sims like), 2D fighter like mortal kombat, boardgame AI, and a FPS for bots of different difficulty. It is definitely more suited for advanced AI. If you just have a gomba like from super Mario it is wayyy over kill since programing a FSM or simple AI is faster. The more complex the AI the better ML is as a solution. I have also used ML to play a game instead of having 1000 testers. The ML was able to identify bugs in the games I would have needed many play testers to do.
+Currently using it for Mundus Evello, teaching our AI to fly through space and build its own empire. pretty fun but lots of tweaks. It does ignore some mechanics, but we have lore in place for that.
+Goodluck! It is a great tool. The hardest part is thinking how a computer needs to learn and the  setting up an environment that teaches it what you want and not something else haha.  I stared with a project that used ML for a lot... I posted on twitter and my project was purchased by another company. I've since done 17+ contracts a few were just related to dots tho :) ML was a very untapped market.
+Yes the ml agents unity package hosted on GitHub :) it links there from that page.
+Unity's GitHub hosts everything here :)  https://github.com/Unity-Technologies/ml-agents
+You’re severely underestimating the cost of the ‘general’ part of AGI, but we’re getting off topic.
+Well, Civ is also a pretty complex game with a MASSIVE decision tree. They need to balance that with the fact that players expect to have minimal loading time between turns.
+If you have it on your computer, it’s just in your game’s folder, then assets, and then basically every sub folder. Be warned, though. They’re all dozens of kilobytes large
+Do you have any tutorials? If not, you should.
+That's interesting. How does your AI figure out something is a bug? I get that it can detect errors, but often bugs are things that are technically not "wrong", but just unintended. For example, if you get killed by a giant and get launched into the air, it can still technically follow the game's rules of physics, though it's not supposed to happen.
+The future is now old man!
+I've made a small turn based game where the AI each turn: 1) makes a list of all possible actions for all its units, 2) assigns each order a score based on various weights and modifiers, 3) executes the order with the highest score and 4) repeats steps 1-3 until no more actions can be taken.
+
+Could I use this toolkit to find better numbers to put in as weights/modifiers?
+
+I know very little about machine learning but I imagine it should be possible to change either one or several numbers, let the AI play a number of games against itself and see how the changes affect the ratio of wins to losses?
+I do not :) Maybe I should think about making some tho... I thought about streaming ML on Twitch (but wasn't sure ppl would watch haha). I also do contracts for ML AI development and training curriculums :)
+:) like the other user said, it learns to play the game. It may have 50 or more instances of the game running at the same time it will not flag a bug but I can look through data visualizations and identify if the ml accessed parts of the map that were not intended, had too much of a stat... Never made it past a certain stage etc.
+I assume he doesn’t mean it literally identifies things as bugs - more like it reveals bugs - instead of hiring play testers to rigorously try out all sort of things, you just have the AI play a bajillion games and you may find that there’s a hole in the map or that physics is weird if the wheel gets stuck on the side of a barrier or whatever.
+Absolutely, you just need to tell it the possible actions, it may surprise you and figure out a better way to play the game than you intended. I have done some work in ML for board game AI and often the ML can become almost unbeatable if you train it too long and too well haha. It is very effective for that type of AI. Using reinforcement and imitation learning to get the AI moving, and thda to Gail learning will pit the AI against each other wherein the AI will not want to loose to another AI.
+If it’s a game in which more than one player unit moves (civ5, Wesnoth, Xcom — not chess) this approach doesn’t naturally identify good combinations of moves. 
+
+Have you looked at evaluating and ranking board states (ie the chess approach)?
+PLEASE DO
+
+Twitch I would watch (please enable vod replays though)
+
+YouTube would be even better by please do
+A YouTube channel is probably better so people can do it on demand. Let me know if you decide to set something up!
++1 would watch! Please let me know if you do this.
+please do, I would watch everything you put out, a good channel on AI is exactly what I have been looking for
+Ok, thanks! This is useful input. With "tell it the possible actions" do you mean the weights it is to modify? Orders are simple and carried out by the units without involvement of the AI.
+
+E.g. a possible order might be "attack unit x in tile y" and it's score will be the base weight for the order type (in this case the type is "attack unit") modified by things like expected outcome (ratio of dealt/received damage) and distance.
+
+There's no coordination between units or optimization going on. The AI is just a greedy algorithm that scores all orders, picks the one with the highest score and repeats.
+
+I understand I might not get great results with this approach but I'm still curious how much better it could be with just better weights and modifiers.
+I see it straightforward when we got board game without randomness, but what if board game is pretty random? Is it OK that every agent in every epoch get different random seed (im afraid that could be too difficult for them) or should they use the same conditions for some time (I'm afraid that could skew ai into one of solutions)?
+I know. I haven't looked at ranking board states but I have looked at using optimization. Decided that the current solution was good enough though as it's only ment to be a small demo. If I ever expand on it I might look into the chess approach.
+You don't need the smaller units be a part of the ML, you can just have the ML decide the best orders to give out based on the result the units in battes and the battles etc.. The ML will learn which it the most effective orders in almost any situation and assign them to your other units that have standard scripts  :)
+Yeah ML is great for being AI in  boardgames with elements of randomness where decisions still need to be made... because it learns  to do what will more give it the best possible outcomes when decisions need to be made.. if the game is like snakes and ladders tho where it is completely based on luck and no decisions at all then the AI might as well just be programmed.
+Thanks, when thinking about this again I think I just wanted to take a shortcut. If I get to actually trying this I might as well do it properly.
+
+But I guess the problem would then be how to adjust difficulty? Like you said ML might make the difficulty too hard and not fun for the average player?

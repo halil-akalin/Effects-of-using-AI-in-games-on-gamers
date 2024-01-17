@@ -1,0 +1,68 @@
+[
+  {
+    "body": "Nothing that I know of implements a real and robust model of Machine Learning to benefit the game. I'd imagine game companies would rather implement simple systems which approximate the feeling of player control rather than use a real ML system. It would probably be a massive money and time-sink that would never pan out to making a huge difference in the game.\n\nIf anything though I can imagine a far future where games in the sim genre (city builders, etc) try to implement simple algorithms to bring more depth. But probably nothing too advanced. It just doesn't make sense for the product in terms of dev goals IMO. ",
+    "author": null,
+    "created_utc": 1520740130.0,
+    "score": 9
+  },
+  {
+    "body": "Way back in 2001 Lionhead Studios made the game [Black and White]( https://en.wikipedia.org/wiki/Black_%26_White_(video_game) ), where the player is a god who controls villagers and a giant creature.  The creature learns through a form of reinforcement learning controlled by the player; the creature AI apparently used a combination of expert system, decision trees, and simple perceptron neural nets.\n\nFun fact: long ago, before founding Deepmind, Demis Hassabis worked at Lionhead Studios.",
+    "author": "jcannell",
+    "created_utc": 1520806743.0,
+    "score": 8
+  },
+  {
+    "body": "I think rather than using ML for game AI directly, in the short term there's a lot of use for embedding and inference methods to provide richer flags for a hand-designed AI, on-the-fly rebalancing, and other such things.\n\nImagine having something in a strategy game that just tries to predict the probability that a player's next attack/expansion/etc will be at some particular point. A developer could take that information and build a classic decision tree or FSM style game AI but now with a high level cue in place of low level details.\n\nI can also imagine engagement detectors, models which weight content dynamically by player preferences, etc as fairly straightforward supervised learning problems.",
+    "author": "NichG",
+    "created_utc": 1520748343.0,
+    "score": 5
+  },
+  {
+    "body": "In the crudest of senses, there are certainly plenty of game AIs that change how they act based on the player's previous actions. As far as having something like a neural network actively training during gameplay, that's probably not feasible right now. Not because it'd be too resource-intensive, but because current ML algorithms are, for the most part, extraordinarily sample-intensive -- i.e. you need to provide a lot of data for them to get anywhere. That, combined with unpredictability/instability (it could start behaving erratically instead of adapting nicely) means the technology is just not ready for that kind of usage.",
+    "author": "nonotan",
+    "created_utc": 1520804945.0,
+    "score": 3
+  },
+  {
+    "body": "There were some examples in the past, but using machine learning for game AI indeed appears to not be very popular (I may be wrong here). Otherwise, maybe the most recent techniques just have not arrived in commercial game development yet. \n\n**Black & White** (where Demis Hassabis was lead AI programmer in the beginning) made use of quite some Machine Learning for the creature AI. I am not aware of an in-depth description of its AI; but my source (Yannakakis / Togelius: Artificial Intelligence and Games) says that the creature AI made use of reinforcement learning, there is a decision making model (belief-desire-intention), and for the implementation of the latter it uses decision trees and simple perceptrons. \n\n\nThe quite complex artificial life game series **Creatures** used neural networks together with a motivation / desires model. I see some sources stating that Creatures 1 had seen the first application of neural networks in commercial games. \nhttps://en.wikipedia.org/wiki/Creatures_(video_game_series)\n\nI'm aware of 3 publications about the artificial life and AI of Creatures 1 (which was largely shaped by one person, Stephen Grand):\n\nGrand, S., & Cliff, D. (1998). Creatures: Entertainment software agents with artificial life. Autonomous Agents and Multi-Agent Systems, 1(1), 39-57.\nhttps://link.springer.com/content/pdf/10.1023/A:1010042522104.pdf\n\nGrand, S., Cliff, D., & Malhotra, A. (1997, February). Creatures: Artificial life autonomous software agents for home entertainment. In Proceedings of the first international conference on Autonomous agents (pp. 22-29). ACM.\n\nGrand, Steve. Creation: Life and how to make it. Harvard University Press, 2003.\n\nThe series is available on GOG if you want to give it a try. Watching the decision making in the neuroscience toolkit, or observing internal chemistry are interesting and unique game elements up to today. ",
+    "author": null,
+    "created_utc": 1520859250.0,
+    "score": 3
+  },
+  {
+    "body": "The closest I have seen is OpenAI using a reinforcement learning based model to beat dota2 pros in a very restricted 1v1 mid match up. However, It was more similar to alpha go than what you are asking for.\n\nWhat you mention is something I am very interested in, but doesn't look like any targeted research is being done there.",
+    "author": "Screye",
+    "created_utc": 1520797823.0,
+    "score": 2
+  },
+  {
+    "body": "Yeah in terms of effort and economic it doesn't seem like it's currently worth the investment.",
+    "author": "Magikarp-Army",
+    "created_utc": 1520741646.0,
+    "score": 1
+  },
+  {
+    "body": "at least not until you can get decent multiplayer practice AI, which then could also be placed in single player games. Imagine a shooter with a large amount of environmental barriers where a reinforcement learning method could help the AI improve every time they’re beaten. Ideally the human would not be able to win without serious skills or handicap. Eventually, “The only winning move is not to play”",
+    "author": "TubasAreFun",
+    "created_utc": 1520740897.0,
+    "score": 1
+  },
+  {
+    "body": "**Creatures (video game series)**\n\nCreatures is an artificial life (alife) computer program series, created in the mid-1990s by English computer scientist Steve Grand whilst working for the Cambridge video games developer Millennium Interactive. Gameplay focuses on raising alien creatures known as Norns, teaching them to survive, helping them explore their world, defending them against other species, and breeding them. Words can be taught to creatures by a learning computer (for verbs) or by repeating the name of the object while the creature is looking at it. After a creature understands language, the player can instruct their creature by typing in instructions, which the creature may choose to obey.\n\n***\n\n^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&message=Excludeme&subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/MachineLearning/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^| [^Donate](https://www.reddit.com/r/WikiTextBot/wiki/donate)   ^]\n^Downvote ^to ^remove ^| ^v0.28",
+    "author": "WikiTextBot",
+    "created_utc": 1520859255.0,
+    "score": 1
+  },
+  {
+    "body": "While in theory this all sounds well and good, we're talking about game companies going out of their way to hire people who have the background to do this. That's a very high expense right now given the demand for people who have this kind of specialization, and one they don't need to take.\n\nJust look at OpenAI. If you think of it in terms of 'will game companies hire a team to experimentally build AI systems?', the reason this stuff isn't prevalent becomes obvious. This stuff needs to get *significantly* easier and cheaper to implement before it's even a glimmer in devs' eyes. Beyond that, true AI systems will barely show improvement over hard-coded AI for most games anyway.",
+    "author": null,
+    "created_utc": 1520741740.0,
+    "score": 5
+  },
+  {
+    "body": "I think better would be an AI that helped players get better, analyzing their play patterns and telling them what they could improve on.",
+    "author": null,
+    "created_utc": 1520798366.0,
+    "score": 2
+  }
+]

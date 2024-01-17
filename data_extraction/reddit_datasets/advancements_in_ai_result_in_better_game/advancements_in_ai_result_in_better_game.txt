@@ -1,0 +1,60 @@
+The hardest part about everything currently labeled AI is that its not AI, its SI. It's simulated intelligence, call and responses that seem like intelligence (both video games and chat programs). Even considering an RPG that incorporates chat "AI" into dialogue would be too viable to be trusted. The tech isn't there.
+Here's a secret... Many times developers have to make AI worse so that they don't beat the player's ass. Capcom could make a Street fighter that's impossible to beat. Any first person shooter could have AI land perfect shots on you and move in a completely erratic fashion.
+People think they want smarter, more realistic ai in games, but they don't. It's hard to design enjoyable and predictable experiences with an ai that's too smart, and behavioral AI is way harder to design than chatgpt-like ai that's just a language model. Many game developers have talked about that, and that's why the last time we've seen a smart AI was in F.E.A.R that came out almost 20 years ago
+
+If you just want more realistic npc dialog in games, gpt integration in games is already a thing.
+NPC dialogue seems like the natural fit for it, and games that are already heavily reliant on procedural generation.
+
+I don't know as our current AI tech is good enough for it, but realizing what a game like Daggerfall was trying to do seems like something that could make really good use of AI.
+
+When it comes to actual enemy AI, I hear a lot of stories about developers trying to have smarter AI and testers simply not liking it and thinking it's cheap. It's hard to make an AI that is both smart *and* fun to fight against.
+Where AI will be most useful in gaming is in development, not the actual gameplay. At least that's my prediction.
+
+Edit: I take that back. Kind of. AI could be really cool in something like a stealth based PvE. Like, imagine you're Sam Fisher and you have to outsmart and outstealth an AI assassin or some shit. That would be interesting to see.
+AI can do a lot of things. 
+
+But there are also a lot of things only a human can do.
+Nope.  Video game AI is mostly parlor tricks, smoke, and mirrors.  Even games historically touted for amazing AI (like FEAR or MGS) just had standard AI and used stage design and scripted sequences to make the AI appear clever. But, it's all vision cones, hotbox triggers, and nested if/then statements. 
+
+Now, chat AIs have become a trendy topic of discussion and everyone is romanticizing and overblowing them. But that's a chat AI.  It's for absorbing words, organizing them, and spitting them back out in coherent sequences to give the illusion of intelligence. It doesn't learn so much as acquire and regurgitate.   It's bacially this generations flying car or moon colony.  Even the OpenAI Ceo knows what I'm saying. He looks at chatAI as fairly crude and simple. 
+
+In order for video game AI to get better, it has to be able to see it's environment (while understanding what it sees), have positional awareness, and anticipate deception. The StarCraft AI project already proved that to be outside the abilities of modern AI. It couldn't get out of gold rank and needed map hacks.  They copied a pro and created a dozen copies of that, then pitted them against one another for like months, then beat the pro.  That's what got written about - not the reality of it's limitations.
+In many ways.  Pathfinding, adaptive difficulty, AI generated dialog, NPC behavior.
+Honestly the peak of video game AI was like 10 years ago with npc invaders in Dark Souls 2
+No, current AI stuff is not the same as game AI. There isn't even a correlation, game AI is literally not Artificial Intelligence. It would, at best, be what you actually described here. Not improving NPC AI, but using AI to track in-game stuff and produce little voice clips or whatever. Actually developing more convincing enemy AI is a whole separate, massive thing, which I dont think some GPT-like AI could help you with.
+Probably not, but they'll be able to tell you to go eff yourself now and call you a hacker.
+Yo, NPCs w/Chat GPT!? My mind is melting.
+The current language model advancements may impact games eventually, but they are so computationally expensive that it will be a while before we see anything running on the game hardware itself.
+
+Most likely the earliest impact will be language models being run on the cloud as an input into the game.  This means that there will be significant cost to hooking this up, so it would have to be a major draw of the game to be worthwhile.
+You can’t implement such AI into games because they are unpredictable and will do random things, which for games can mean bugs, getting stuck on a level, random issues, random behavior etc. 
+
+Same as if you told all actors on set of a movie to improvise all their lines, and hope for a good movie. But at least actors are human and know how to behave. AI doesnt and would do random things that dont make sense.
+
+Games need to be tightly controlled in order to deliver the vision and quality the makers of the game intended for you to have. And putting a random AI that does random stuff is just a lousy bet.
+Probably won't happen for a while, the current ai models that can do this stuff are quite hard to run, you can only get fast results in a datacenter. And as they live on the GPU, a powerful pc that could run it wouldn't have any resources left for the rest of the game.   
+
+
+But yeah, once it becomes viable, either by dedicated hardware (like what apple is doing with their ai cores), or paired down specialized models that are easier to run, I see ai generated voices as having the most potential. (especially for things like rpgs where its been a bottleneck for how complex the dialog trees can get)
+10000x
+
+Its cool, but chatGPT is basically just condensed google currently.
+Tech may not be there now, but within 2 years out entire social existence will be transformed, fingers crossed for the better.
+And also a player's perspective of what is a fair AI usually is skewed in favor of the player. Your comment reminded me of an article, I cannot remember the game, of a FPS game being developed and they wanted to add smarter AI.
+
+So they programmed some enemies to be able to flank the player. You'd encounter a group of enemies, they'd fire on you, an enemy would yell "Go flank them!" and a small group of the enemies will attempt to walk around obstacles or other rooms and flank the player.
+
+Well what ended up happening in playtests was that they got a lot of complaints of "enemies being able to spontaneously appear behind you without any warning." Even though they made sure enemies would be yelling orders to each other to flank the players. They found out players generally would tunnel vision enemies in front of them, and having a smarter AI that could circle around the player was too unfair from a player's perspective.
+That last part is what everyone else seems to think as well
+
+But i think as AI is improved and expanded upon in the next decade we're going to start seeing it used for alot of things that as of right now, sound unthinkable, and alot of it is  probably unpredictable, but I think with time, almost anything you can think of and more is going to be possible. Maybe i should have phrased the post like; assuming there are no limitations to AI, what sort of features would you like to see in games using AI?
+OpenAI from dota could beat pros, so it’s within the realm of possibility for current day AI
+This is true, but you’re also glossing over how impressive this technology actually is right now. ChatGPT is *almost* a real life example of Searle’s “Chinese Room”. If anyone doesn’t know what that is, look it up.
+
+So, it underscores how and why a conscious artificial general intelligence cannot be created solely algorithmically, without hardware redesign, as modern neuroscience theories such as Integrated Information Theory suggest. But, it also means that *if* we somehow accidentally create a “true AI”, it may be damn hard for us to realize it. Conversely, if someone *deliberately* created one and released it on the world, it may be damn hard to recognize it for the same reason.
+
+Simulated intelligence technology will probably change our world in ways that are difficult to predict right now, and that’s without the inevitable offshoots and advancements that will occur. Saying it is “this generation’s flying car or moon colony” is a huge understatement. As a neurologist, I find this technology to be somewhat scary because it is a great example of what neuroscientists, philosophers of mind and AI researchers have been saying for *decades* now, and I personally didn’t expect it to be culturally adopted so fast.
+
+I think all of us would love a smarter Alexa. It’s what comes afterwards that is potentially problematic, and it is totally up to humans to determine the trajectory that artificial intelligence research goes in. Without being too alarmist, now is the time that we should be thinking about the ethical, cultural and legal ramifications of it - not after the fact. To think that we will do AI research responsibly is hopelessly naive in my opinion. Pretty much all of human history disproves that thought.
+AI in the RE remakes are super impressive.
+Yeah, I want to say this was something a Bungie dev said or potentially FEAR devs from monolith but those enemies actually do flank sometimes.
