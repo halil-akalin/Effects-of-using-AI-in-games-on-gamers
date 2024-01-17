@@ -1,0 +1,53 @@
+Might be rather scientific, but [these guys](https://arxiv.org/abs/1609.05521) just published a paper on a deep learning based AI for Doom
+Something like that is currently in development: http://www.helloneighborgame.com/
+
+I have no clue how they do this and I'm not affiliated in any way with the developers.
+From what I've read, AI is usually discouraged in games. The players like to kill dumb and predictable enemies. Therefore the swarm of zombie-themed games. But I'd love to see a game where AI is something to distinguish it from the crowd (aside from GO and Chess AI). 
+This might be an [interesting read](http://www.kbs.twi.tudelft.nl/docs/MSc/2001/Waveren_Jean-Paul_van/thesis.pdf) for you.
+This vid goes into the history of bots, and shows the ingenious ways the old Quake and Unreal devs programmed their AI.
+
+Basically, AI had to act as much like an actual human as possible, because most people didn't have fast internet connection.
+
+https://youtu.be/uoYjayrKRDs
+NN is a solution to a fuzzy problem where information is incomplete but training examples are more abundant.  For example, you could use NN to improve the aim of a particularly bad shooter to make a FPS more fun for a weaker player. You could use a NN to manage a sidekick that tries to fill in for your weaknesses, or one that gets weaker as you get stronger, or finds ammo for you based on your typical firing rate.   As others said, it's not great for opponents except in strategy games as they can get better than you fast, but it might be a great solution to reduce frustration if levels are crazy difficult.  For most game scenarios, AIs are typically more procedural and there's no reason to put a NN on it because a variable with a percentage is usually good enough. Creatures (old game) had some rudimentary AI learning capability. if I recall.
+ 
+If I'm understanding the second half of your post correctly, I think you should read [this](https://www.google.com/url?q=http://users.cecs.anu.edu.au/~rsl/rsl_papers/99ai.kambara.pdf&sa=U&ved=0ahUKEwiDtJ3i-sbPAhULz2MKHaHPCZUQFggQMAA&sig2=PiFkUjcYje-cxTHpyX9ptw&usg=AFQjCNGx2zaMyP_SU1__BrwHVIX6NAO6Yg) to get a better understanding of AI in general before applying it to games. Good luck!
+virtua fighter on saturn had a learning a.i.  
+
+
+the intent was that the a.i.'s improvements would be used gradually more frequently as the difficulty setting progressed from the first fight to the final boss.
+
+except it was too good at learning player habits to the point it would anticipate everything you could do  
+
+it eventually was changed so you can 'reset' the a.i.'s learned behaviours.
+http://left4dead.wikia.com/wiki/The_Director
+Once I tried to implement neural network for mobs in Minecraft, but it was damn difficult for me to understand how NN works. With the experience I get in programming and especially game programming lately I consider to implement such mechanism in my current game. It would be amazing to see what mobs would do based on history of action in open-world game. I wish someone would do this :)
+I think this is what you're looking for https://www.youtube.com/watch?v=i51x6-8GqkA
+I remember seeing this on kickstarter quite a while ago and was very sad when it didn't get funded. Looks like a fun concept although I doubt it will be a truly self learning AI. It will probably just be programmed to react in certain ways depending on what the player does and thats it it wont really learn on how the player is playing. Although thats just my own theory and I may be 100% wrong so take what im saying with a grain of salt.
+> AI is usually discouraged in games
+
+Exactly this.
+
+Most players like to be superior, only a handful like a challenge. And when they take on a challenge, they like to find ways how to game it.
+
+If this is true, that is awful. I long for the old school days of quake and unreal with actually challenging bots.
+I'm studying applied computer science, so I've already been working with neural networks for years. I'm pretty sure you'd need the computational power of Google to even try and run the AI of a game like Minecraft with neural networks.  
+There are so, so, so many inputs and unforeseeable stuff that pretty much presents a lot of edge cases that, in my opinion, it's just not worth it.  
+  
+That being said I think if the entire game is built on the very idea to have self-learning AI it might just work. That's why I'm trying to gather what has been done before.
+I only remember playing these games multiplayer, how were the bots in terms of AI?
+
+I think people are okay with difficulty and challenge, but not with AI that adapts/evolves to the players actions, humans are not equipped for that and certainly would not find enjoyment from it. The enjoyable part about challenge is overcoming, AI that is constantly adapting to the player takes away that part.
+"Humans are not equipped for that and certainly would not find enjoyment from it."
+
+Neither of those are true, but matter of opinion depending on the player. 
+
+I for one love it. I played the new Unreal recently and it was awesome that I couldn't tell who was AI and who was human for a long while.
+
+The real reason we rarely see adaptive AI anymore is because of costs. Now we can simply play online with other actual humans for a challenge, so there's no need to develop such a complex system.
+To answer your first question, the rudimentary system was that the AI basically recorded your movements, and recombined them into new patterns. You jump a lot? So does the AI. You duck around corners to lure them into the open? So does the AI. You pull off a crazy meta map trick? The AI now can do the same. 
+Hmm, yes looking back on my argument it was arrogant to assume people wouldn't enjoy it. It certainly is up to the individual player.
+
+But at the same time I think if the market for it was adequately large, it would have been done. There are plenty of single player genres that could benefit from adaptive AI for a more immersive experience. Horror, Action/Adventure/RPG/Idon'tknowwhattocallthisbeastanymore, etc.
+
+

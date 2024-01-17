@@ -1,0 +1,340 @@
+This is kind of in-depth analysis /r/games needs more of. 
+
+This channel is great at breaking down AI into an understandable concept and showing us behind the curtain 
+I honestly think Halo 3 was the peak of gaming.  Amazing campaign with great gameplay, cinematic+interactive storytelling, the beautiful music that I still listen to in my car from time to time, perfect couch co-op, unlimited amounts of fun for online matchmaking for both competitive and casual, custom games that benefited big time from the creativity generated within Forge mode, and then the theater mode where you could go back and review all your shit.  Hell I got into filmmaking more seriously because of making machinimas with my friends using Halo 3.  It never felt like a dry experience.  You could play Halo 3 in any way and still have a blast.
+
+11 years later and Halo 5 removed couch co-op which essentially kills a lot of the essence that was Halo.  I think studios have forgotten what made gaming great and should really go back and revisit Halo 3 to find out why it lasted for so long on the shelves as everyones must have video game.
+
+EDIT:
+watch this if you need more reasons why https://youtu.be/8aFMpmTv3lA
+Hey everyone, just wanted to pop in here and say thanks for watching the video (that's my soothing Scottish tones you hear in the video).  As stated in the video a couple years back I did a video on [Halo 2](https://www.youtube.com/watch?v=NU717sd8oUc) (which sadly hasn't aged terribly well), but this gave me a nice opportunity to return to the series (though I did manage to spell Max Dyckhoff's name wrong - sorry!).  I was pleasantly surprised by how well Halo 3 holds up having not played it again since I first bought the Master Chief Collection a few years back.
+
+Whether I can return to Halo in the future I'm not sure - I only make videos when I can be 100% confident in how the AI works in a given game.  There's not a huge amount of information about Halo 4 or 5 I've been able to find.  Right now the only Halo game I know I can tackle is Halo Wars 2 (which is really quite interesting when you know how that game works).
+Don't have time to watch at the moment but man there isn't any other video game music that immediately strikes me like that piano at the beginning of the video. What a fucking game
+Halo 3 will always be the pinnacle of gaming for me, 
+
+&#x200B;
+
+there is one word for the Halo campaign, legendary.
+Hey cool I made this. Pretty surreal seeing my 10 year old GDC slides being used. And he spelled my last name wrong. :( 
+When I first heard about *Halo Wars* I was super hyped because I thought maybe they were going to make an rts/shooter in which the units you produced would fight each other in the same way the AIs in the Halo series fought each other, which would have been *amazing*. Too bad it ended up being a mediocre and pretty standard RTS.
+
+I used to re-load some of the larger fights between human/covenant/flood forces in Halo just to watch them play out in different ways. There was one particular fight I remember from the first game where an infected human had a rocket launcher and the whole fight hinged on whether they could land a good rocket hit before dying. 
+Conceptually, this is a very intuitive system, but it sounds like something that could easily go wrong or have major issues that leads to bad behavior like random covenant running across the map to an objective 5 zones behind the player or running in circles as they thrash between tasks or something like that.
+
+It's impressive that the system largely blended into the background of the game and did pretty much exactly what it was meant to do.
+
+Halo's always had interesting AI just at the squad level with relatively simple enemies, that lead to emergent but manageable behavior when they are encountered in groups of varying pieces. An evolution of game design as old as gaming, but done really well with an understanding of the right level of complexity to make the player feel good. This system just takes that up a level.
+This video was sooooo cool.
+
+I really wonder if there other non Bungie FPS games that use just as an advanced AI task system. I personally feel like we haven't had that same level of AI depth since Halo: Reach in an FPS game. Even single player focused FPS games like Far Cry or Bioshock feel like they lack the same level of AI advancements.
+Halo 3 is still my favorite of the Halo pve sandboxes. All thanks to the combination of the AI tree, the fantastic environment designs, the equally fantastic AI placements in those areas, the weapons sandbox full of old favorites, the familiar yet fresh vehicle sandbox and last but definitely not least the deployable equipment that added some minor variety depending on the player. Also congratulations for all involved in the Brute redesign, that was an incredibly successful overhaul of a fairly meh Halo 2 enemy.
+I honestly never really knew just how complicated AI got in shooters. 
+
+I always figured it was functions as simple as:
+
+`"If In combat" -> "take cover and kill player" -otherwise-> "Patrol Area until player arrives"`
+
+with auxiliary functions like `"close to vehicle -> get in vehicle"`. 
+
+Knowing that there's this much to it honestly makes me want to replay the game and pay more attention to what each enemy is doing. 
+
+Excellent video. This guy definitely just got a new viewer, can't wait to check out his other stuff. 
+It'd be nice to see more of this, but i'd be surprised if this post gets much traction. 
+
+Years ago when I joined this sub in it's early days, coming from /r/gaming, there was a lot more interesting discussion and content. Now it feels a lot more drama/rumor centric. 
+Mark browns game analysis is good too
+Unfortunately more of is hard, since the channel almost exclusively posts only on ganes they can talk to devs about or have already talkes about.
+If you like this sort of technical and creative insight into games, I'd suggest checking out NoClip's work. They're doing some incredible stuff.
+Not only that, this video is the prime example of one thing in which Halo 3 (honestly the whole trilogy) did better than most modern games: AI. The AI in Halo feels incredible, and I never seen such a flexible AI in modern shooter that can seamlessly change from a role to another, swap weapons, ride vehicles, act differently depending on which seat of the vehicle they're in (they can even drive for you), and all of these while also engaging in mid-scale battle with multiple allies and enemies.
+
+Not to mention, Halo 4 and 5 promoted all that competitive bullcrap, while they should've been promoting the most unique part of the franchise: custom games. There is no other shooter that allowed you to create custom maps and custom modes with the depth even Halo 3 allowed. Players dumped HUNDREDS of hours on stupid gamemodes like Fat Zombie and Jenga Tower... And it was amazing!
+
+Halo 5 is a pile of wasted potential, that's why I'm hoping they'll learn their lesson with the next title. One of the best things they could do is custom game cross play. 
+Absolutely. Halo 3 is probably my favorite game of all time. Like it's actually astounding how good it is. 
+As someone that hasn’t played much halo beyond the first 2 and loves couch multiplayer, would you say it holds up nowadays? I’ve been looking for a 4 player splitscreen shooter and I’m not a big fan of cod
+Not only that, but the DLC that was released free'd up the previously released DLC, so you were getting a lot of free content, and microtransactions hadn't ruined the base game.
+God damn you’re so right. I just got the master chief collection and that game holds up without even trying...and no “hd makeover” either. You can spend hours just dicking about with the ai systems, the physics, etc. I love halo 3, it will always have a place in my library.
+Counterpoint: the story falls apart as soon as you start to actually think about it (edit: [article](http://haruspis.tumblr.com/post/89804205288/why-halo-3s-story-was-horsecock)), the gameplay felt sluggish with a very low FOV, and the hit detection online was rubbish.
+Yeah, Halo 3 was the best.  I remember playing all the way through 4 at a launch party and having a pretty good time but not a great one.  I sat down a couple days later and played some 3 and realized that there was a lot missing from 4.
+> 11 years later and Halo 5 removed couch co-op which essentially kills a lot of the essence that was Halo
+
+Most people dont play couch co-op, even back then, you'd see more lone wolfs rather than people having guests attached to their profile. 
+
+Halo 5 is still a great game, shit campaign, but on par multiplayer, maybe slightly worse than 3. But they finally added a server browser to Custom game. I would have killed for that back in Halo 3. It was painful to be locked out because the only lobby your friends were in was full (16 players).
+Halo 3 was okay but in some respects was not as good as 1 and 2. It failed to get big traction and was overtaken by Call of Duty 4 (which revolutionized multiplayer FPS game design). So peak of gaming? Nah.
+Piano at the beginning of Ocarina of Time?
+Y'know every video I somehow manage to make one tiny mistake somewhere that bugs me forever afterwards.  I thought I'd got away with it this time and then... nope.  Sorry about that!
+no i made this :)
+Keep in mind that the AI for an FPS's campaign mode is meant to be and should be very different than how it works for a balanced RTS.
+Halo Wars was hampered I think by being designed for console. I don't want to be PCMR or anything since there's plenty of games I prefer on console, but I think that the controller gameplay forced the game to be more strategy oriented. If the game had a fine unit control / micro layer to the gameplay it'd probably a lot more fun and more authentic to Halo, because Halo has never really been about two blobs of dudes just shooting each other other watching each other die. They'd always have a lot of strafing back and forth, rolling out of the way of each other's grenades, taking cover, and so forth that you could express with a micro layer. 
+
+That said, /u/Avengerr said it best, Halo Wars is for people who want to see more of the Halo universe, not necessarily those who want Big-Big Team Battle between UNSC and Covvies.  
+
+
+I had the same hope for halo wars. I wish it was common for games with goos mechanics and AI to have a dev/sandbox mode to create spawn points and choose enemy and pick ai patterns for a skirmish.
+
+At least people seemed to enjoy Halo wars.
+I don't think you know what the word sandbox means
+It's sort of devolved into gaming news. 
+Imagine the upvotes if the title mentioned EA or lootboxes
+I don’t see the drama, but I also don’t read to far into the comments.
+[I miss posts like this](https://np.reddit.com/r/gaming/comments/uxpil)
+Hey, thanks for watching the video (that's my voice - and my words too).  My social tracker was telling me this video had a lot of traffic coming from Reddit.  I think I found the source! :)
+
+Indeed you're correct videos are driven from actually sourced material: either existing talks or posts (such as both my [Halo 2](https://www.youtube.com/watch?v=NU717sd8oUc) and Halo 3 videos) and/or from actually interviewing developers who are happy to talk to me (my recent videos on [Spec Ops: The Line](https://www.youtube.com/watch?v=Y--BgBOPduE) and [DOOM (2016)](https://www.youtube.com/watch?v=RcOdtwioEfI) are a good example of this).  Simply put if I don't know for certain how it works, the video doesn't get made, which is a shame as there are some topics/games I've had to abandon over the years as I just could not find the info I needed to bring it all together.
+
+Case studies typically appear once a month - I work as an AI researcher and freelance game AI programmer so this is my evening/weekend job/pet project.  Whilst I often keep topics close to my chest (my patreon supporters usually get a month or two heads-up), I do have some very exciting games lined up for the next 3-6 months.  One of which is my first legitimate 'exclusive' as I was invted to a AAA studio to see their AI systems for a title that was released earlier this year.
+That's the kind of in depth content I'm after though, I'm happy to wait between posts as I know work is being put in.
+I'm just glad that despite 343 promoting all their esports stuff, Forge mode is still improving with each iteration. I'd even say that the best part of Halo 5 is the Forge (and that Halo 5's Forge is the best so far), so it's still nice to see that 343 isn't throwing that aspect of Halo away.
+The custom game environment for Halo 5 is more powerful than ever though. There is even a custom games browser and plans to add one to MCC. It won't be shocking at all to see similar support for Infinite with cross play. 
+I don't know much about game design, and the industry always scared me because of the way employees are treated.  BUT, the one thing that's always called me to want to make a game is the desire for a wonderful game that blended the map editors of Timesplitters, Far Cry, and Halo: Forge. Far Cry 5 got soooo close with the frankly fucking amazing map editor, but shit the bed with 2 game modes (deathmatch and team deathmatch) and a god awful lobby browser system.  Just mix that in with the Halo Forge browser system and it's custom game mode stuff.
+
+I just want to be able to mold the environment and add in custom inside level design, and have enough game modes to have crazy dumb fun for years.  Man, what I wouldn't do to have the Predator mode from Far Cry:Instincts Predator.
+
+If there was one game I could wish into existence it'd be that.
+> There is no other shooter that allowed you to create custom maps and custom modes with the depth even Halo 3 allowed. 
+
+Umm ... Have you *seen* the stuff people are making in *Halo 5*'s forge? Or are you just running on the hate-train for karma/nostalgia?
+
+Because people are making little *missions*. Not just maps, levels and game types, but *missions* with objectives and asymmetrical online play.
+
+Switches that open doors, spawn units, turn off lights across a building ... Players are making some amazing stuff and better yet, the devs actually incorporate it into the online playlists in rotations to show off the coolest new modes and maps.
+
+For Halloween it's freaking versus L4D in Halo, for example.
+Can't say for Halo 4, but Halo 5 was where the kept "competitive" in mind from the start of creation.
+
+I put quotes around competitive because the competitive community didn't like what they did, the casual audience felt alienated, and the Halo community ended up with a game that did not really cater to any audience, despite 343's claims.
+If you want to see good AI play Arma.
+Plenty of other shooters had that level or more of customiseability (PC games of then and before were built around user creations and modding in mind), Halo just reached a shit ton more players
+With the name "Halo: Infinite", I'm really hoping that somehow ties into not only the story, but also the Forge and Custom Games modes. Maybe it'll have optional crossplay and a huge emphasis on sharing modes and them continually adding new pieces and features to Forge, kinda like a Halo platform for years to come. 
+
+A man can dream. 
+[deleted]
+I replayed 2, 3, ODST, Reach and 4 with a friend recently. They all hold up and 3 was definitely the best. 
+I'd think so.  I played so much of it as a kid with my friends that it was always very enjoyable.  I know for Halo 3 you can play the campaign with 4 players plus there's a lot to do if you connect to xbox live tho I can't speak for the XboxOne version.  I honestly wouldn't mind being able to play it with my wife now but not interested in buying a bunch of hardware to warrant the nostalgia.
+Halo 3 is hands down the best splitscreen shooter ever made. Halo Reach is also fantastic in that regard.
+There only one that was made free it its lifetime was the heroic pack (the first one)
+Eeeeeeeeh lets not give Bungie improper credit. I was in Highschool when Halo 3 came out and it was a game I remember having to save up my own money for to buy (because my parents refused to buy Videogames for me).
+
+When the first DLC Map Pack came out, they took away literally THE ONLY playlist that I played. Big Team Battle (8 v 8 with vehicles) was locked behind the Map Pack, you couldn't play it without. It made me drop the game pretty quickly with a bad sour taste in my mouth.
+
+Every time Bungie does something shady with microtransactions and or DLC Pricing in Destiny (Hint: They do it A LOT) I am still reminded of this. Having a game I paid 60 dollars for to play Big Team Battle, and then having that Big Team Battle taken away from me...
+"A lot" defined here as "1 map, followed by the first of two map packs if you bought the second one."
+
+Except you had to buy the first or get locked out of some playlists.
+
+Then again the rage about "microtransactions ruining the base game" says that you're both just griping at little and probably didn't play much of any *Halo* online either.
+"A lot" defined here as "1 map, followed by the first of two map packs if you bought the second one."
+
+Except you had to buy the first or get locked out of some playlists.
+
+Then again the rage about "microtransactions ruining the base game" says that you're both just griping at little and probably didn't play much of any *Halo* online either.
+yup. sounds like this guy didnt play halo 2 when it came to hit detection. the BR spread in H3 was abysmal. but i did like the spawn system somewhat better though
+A LOT of people here have nostalgia goggles on. And I say that as someone who still plays MCC every few weeks
+>It failed to get big traction
+
+lmao it averaged 200k concurrent players for the first two years
+
+Are you old enough to remember Halo 3? Or rather, did you even play Halo 3?
+It definitely did not fail to get big traction. At 13 million copies sold it helped sell millions of consoles and gave the 360 a huge starting lead last gen. It also was able to maintain hundreds of thousands of concurrent peak player count for up to 3 years after its release. Halo's downfall only really started with Halo 4.
+We've never really seen an RTS where each unit was a unit engaging in FPS behavior, not to my knowledge. It would be new and pretty wild, but the computing requirements would be pretty nutty I bet. 
+It's a sandbox, but not an open-world sandbox. You can have open-world games with linear objectives and railroaded toolsets, and vice-versa.
+
+A good half of levels like The Silent Cartographer (I've played a lot more of Halo 1 than 3) are sandbox-style arenas chained together. You're given a few tools and an immediate objective and otherwise given free reign to fight the way you want. No corridors or forced weaponry.
+Something like this might honestly be more likely to generate interest in r/gamedev
+Honestly I’ll take the trade off since it’s meant a bit more positivity in this sub. How negative and cynical this sub was especially compared to now was really unbearable.
+Forge is improving in its complexity and what you cna do... but...
+
+Halo 5 textures, lighting and objects look HORRENDOUS in forge. Compare halo 5 forged maps, and their overall look and feel to halo 3. 
+
+It’s laughable. Halo 3 forge maps look amazing, while h5 look like 2002 games... :( 
+
+
+The custom game support was a way too late in the games life. 
+Didn't mean to write the 3, I meant in general. The Forge in Halo 5 is amazing and should be promoted more by the devs (I hate how Halo: Forge on PC had such a silent release)
+Yeah but the incorporated that stuff into Reach, sure the forge is good now but it's 3 years on from a game with good gunplay and bad mechanics that takes up 100gb of your Xbox. Not worth it at all.
+Not with an internal editor. Far Cry is the closest, maybe. 
+Halo “infinite” describes its expected lifetime: infinite.
+
+It’s a service. A game as a service. 
+
+
+2009-2014 (Minecraft marks the start of this, and rightly so, the flood  (no pun intended) of Early Access zombie survival games was the end) was the golden age for Indie IMO, it's still good but then it was awesome
+Ah well, I'm 26 and while fortnite isn't my thing I don't take issue with it. It must be pretty fun since so many people play it. 
+Honestly think that if Halo 3 were released today it'd be a phenomenon again
+Does it have firefight? That mode sounds like a lot of fun to me. Also, can you add bots?
+It just sucks that you can’t add bots :/ I remember spending hours playing matches of Timesplitters with my friends and bots 
+They also released the Chill Out remake, Cold Storage, for free.
+
+Of course, if you wanted to play it in matchmaking at the time, you needed to purchase the Legendary Map Pack for 800 Microsoft Points (fuck those points).
+Thanks Don Mattrick! :/
+You are wrong the heroic map pack is interesting really. Bungie in 2007 was a small group of talented developers that just wanted to make a great game, the executive BS you see these days is not the same company. The DLC costed money at release, and was publicly said to be free that spring. DLC playlists were added, nothing was removed (at least due to DLC, playlists were pretty dynamic)
+
+&#x200B;
+
+Halo 3 did have DLC locks eventually but that was not really a big factor until they made ODST which came with all Halo 3 DLC.
+
+&#x200B;
+
+I went online with Halo 3 March 3 08, and I did not get the Heroic pack until it was free, and guess what when I first started playing all I played was BTB.  Literally first thing I fired up, I remember it fondly. If you are going to shit on old Bungie at least get your facts straight.
+[removed]
+Nah, Halo's downfall started with a combination of Reach and MMS taking off via CoD 4. Yearly game releases became a thing and Halo was never that. 
+>We've never really seen an RTS where each unit was a unit engaging in FPS behavior, not to my knowledge. It would be new and pretty wild, but the computing requirements would be pretty nutty I bet. 
+
+Men of War comes very close to fitting the definition. Assault Squad is great if you wanna check it out.
+
+
+That's my understanding as well. FPS games just have less AI than RTS games so they can have smarter logic for each of them individually.
+
+You also want it to be more strategic and predictable in an RTS. If your units are too smart, it's not fun for you to control and if your enemies are too unpredictable, it's too hard or annoying to be prepared.
+Company of heroes springs to mind, the way squads shoot at each other and use cover.
+[deleted]
+That doesn't make it a sandbox
+/r/truegaming fills a gaming discussion void sometimes. has been awhile since I've been on there though.
+I hope that with Xbox now able to haves mods and things like that for Bethesda games that they input something like this for Halo Infinite so you could add your own textures and things to forge so everything doesn't look so samey. I doubt it will happen though. 
+Three months after the game's release was "way too late" for you, huh? I feel sorry for you with an attention span that short.
+That's kind of what I mean. I hope that's the case, if done well that could mean endless Halo content! 
+Halo 3 ODST does and I believe the game came with Halo 3 multiplayer on a second disk.  You are unable to add friendly bots but with Firefight mode you can go 1 v all the enemies ha
+
+Reach has this as well I just didn't care for all the new elements Reach added; felt very COD like.
+holly shit I totally forgot about those points. That takes me back.
+
+I remember map packs were always 800 points but you could only buy points in increments of 500 or 1000 so you always had some left over.
+I do have my facts straight. I remember trying to play BTB and it saying "You do not have all the maps for this playlist."
+>Bungie in 2007 was a small group of talented developers that just wanted to make a great game, 
+
+Is that why Jason Jones checked out during development?  Bungie was not "small" in 2007. MS had just bought them a giant new office to fit the huge influx of people for Halo 3 (May. They were already tired of Halo and the senior people were basically looking forward to Destiny.
+
+Edit: You replied and deleted while I was responding, but you are right, Maybe MS didn't "buy" the building. However, the move to the new building was done prior to the split from MS, while Bungie was still owned by them. They also needed a new building to fit the team, which was large at the time. It wasn't some small group of handpicked devs completing a passion project like you make it seem.
+That isn't a reliable source, considering that they think branching narratives are an example of emergent gameplay.
+That same page you linked states:
+
+> A sandbox game is also known as an open-world or free-roaming game.
+
+Which I would say isn't true when you look at some open world games such as Witcher 3. The terms aren't interchangeable.
+
+I'd agree that Halo's campaign itself might not qualify as a sandbox, but the custom games sure do.
+We're getting downvoted for pointing out the obvious. Halo has always been linear not a sandbox, this comment section is full of idiots.
+/r/truegaming has a bit of a track record of focusing on discussing and not debate though. It’s pretty frequent that I’ll go into a comment thread and say something like “I overall agree with the discussion going on, but there can be exceptions like X” or “there are still issues with Y, so I understand the concern and think the opinions are valid” only to get downvoted almost exclusively. They seem to like discussion as long as everyone agrees, which still isn’t what I want out of a good subreddit.
+People may also enjoy /r/VideoGameAnalysis 
+Well it’s be fine if they had ACTUAL good textures, and allowed us to tweak some settings, such as scaling, size, diffuse color, noise, luster, ambient lighting, etx. 
+Three months? Custom games didnt get good support until nearly a year after launch. If you're referring to them adding janky and broken assault, griffball, ctf, oddball, and king of the hill, then you're not talking about the right time frame. 
+I really don’t want this...
+
+I want a SOLID release every 4 years. 
+
+I don’t want to be milked for drip fed content. I don’t want grindy systems, simply designed to lengthen content longevity, simply to give a small amount of content to grind. 
+
+Games as a service are simply not as content rich, fully featured, or complete packages, compared to a full release. 
+
+They just make more money by drip feeding content... 
+Ok thanks for the tips, appreciate you!
+If you had to use Microsoft Points on another third party currency which left you even more change it was frustrating as hell
+That is not true MS points were sold at 1600 and 4000 respectively. 
+
+You buy a map pack and you are left with $10 (800 MS points)...
+
+&#x200B;
+
+The system works fine for MSRP stuff, it is when you add deals and other small purchases to the equation. Once you break the multiples of $5 that is when the store became a massive headache, as the store grew the worse standardized prizing got. By the time the end of the MS point era came you had indies for $15, xda for as low as $1, you had avatar stuff, gamerpics, and a vastly growing store front with constant sales.
+Look man if you want I can dig up the details, 
+
+Halo heroic map pack was a planned free piece of content that was restricted to DLC playlists when it launch that winter at premium price. 
+
+you are wrong, sorry. 
+I'd agree that the forge mode is a sandbox but stating that the campaign is sandbox is ridiculous.
+Your problem is that you think sandbox means it HAS to be an open world game like Red Dead or Assassin's Creed, when it really means a type of gameplay design that doesn't restrict the players choices on how to tackle problems presetened to them. And how the player, gameplay systems, and AI can interact with each other in a number of different ways. Game design like that isn't restricted to open world games. Halo has a series of levels, mechanics, and even a whole spin off game based around these design principals.
+> this comment section is full of idiots
+
+Here are two in fact!
+> They seem to like discussion as long as everyone agrees, which still isn’t what I want out of a good subreddit.
+
+It is tough to maintain a community like that. Most folk on reddit are not "intellectuals" and aren't able to divorce themselves from their personal feelings or understand the framework of a discussion. You can't really do objective discussions about things when people aren't willing to treat it academically/impartially. It doesn't help that reddit "empowers" folks to believe that their opinion is worth the same as anyone else's opinion by giving them the ability to up/downvote content regardless of how informed/objective it is or isn't. 
+
+So far my favorite place to talk about games is over at /r/patientgamers though. Folks who are willing to wait for games and aren't as invested in those franchises are usually willing to be a bit more impartial about them. That's a sad bit of Witcher 3 and Dark Souls circlejerking from time to time, but honestly that's almost inescapable in general so you take what you can get. 
+
+No, I'm talking about forge and custom games, which released December the year the game came out, under three months from the release date.
+Yes and no.
+
+Early on in the Xbox 360's lifecycle if you were buying MS points with a credit card you could only do so in 500 or 1000 point increments, the cards were always 1600 or 4000. It took them until 2010 or so to change the credit card purchases to reflect the card ones.
+[Post from 2010](https://www.bungie.net/en-US/Forums/Post/2261632) where people are telling this guy he needs all the DLCs to play Social Big Team Battle.
+The campaign is definitely several sandboxes
+By your definition then a huge percentage of games are sandboxes which ridiculous. Search for the sandbox tag on steam and see what you games you get.
+But most of the time when people write something negative about witcher or dark souls they don't get downvoted into oblivion. I really like how accepting the community is of other's opinions. One of my favourite subs overall, my only problem is that discussions tend to repeat.
+The thing is, the game didn't have enough sustainability to last 3 months imo.  You completed the campaign in a few hours, never went back to it because it's an awful campaign, then went and played one of the few modes on multiplayer (there were 5 on release, 5). All of which were competitive, I don't mind comp, it's fun from time to time but it was always tryhards, there was no just social slayer where you can mess about for a bit, challenge yourself by only using the magnum or something.
+
+There was that warmode though right? Yeah well that mode sucked, between the shitty ai and the lootboxes, and the 3 maps on release, it got boring fast.
+
+After a month (generous I know), you'd done everything. It was only months later when it started to get a few more maps, modes etc and finally forge but by then it was too little too late
+Soyou're talking about when the custom games came out with none of those game modes. When it was still barebones.     
+Custom games and forge not being in the game on release as they should have been.    
+That isn't custom games support to brag about. A year after release when the custom games were finally robust is when to brag about. Also, custom games servers were not implemented until much later than 3 months. 
+>When the first DLC Map Pack came out, they took away literally THE ONLY playlist that I played.
+
+You give me something from a time unrelated to your post....
+
+&#x200B;
+
+As I said you are wrong....
+I can claim things that make no sense too. HEY GUYS CALL OF DUTY IS THE BEST INDIE PUZZLE ADVENTURE FRANCHISE EVER MADE, PROVE ME WRONG! See?
+There's difference between a sandbox game and a sandbox. I would consider a sandbox game to be an open world game. A sandbox within a game is a space that allows for creativity and improvisation. A good example would be something like Half Life 2 where you have a sort of sandbox where you can play around with the physics and mechanics of the game like you can in a Halo game.
+*Whistles* Howdy! Now isn't that a fine amount of goalpost moving! You'd think it was a kid's soccer league there!
+My point is that Bungie has a history of locking people out of content they had at launch, regardless of the timeline. 
+Have you played Halo
+Or Hitman, which has a bunch of sandboxes connected with a linear story and progression.
+Lmao tetris and pac man are sandbox games then
+Fucking 343i defense team.
+
+Halo 5 is trash and always will be. 3 months is way too late and nobody is going to stick around waiting for features to be added that should have been there since launch. I dont buy a steak to have half of it come after I finish the first half. 
+Your point is irrelevant when your reasoning is wrong....
+A billion times, you?
+Yeah that's another really good example.
+Wow. You have issues. It takes a disturbed individual to look at someone caught in a lie and go "Yeah, well ... they're right anyway because I like what they say!"
+
+You must have voted last election.
+Hes not wrong though 
+Yeah man, we just disagree on what sandbox means. I think calling Halo linear is kinda misleading, each scenario is ripe for being played around with.
+Making something deeper than it is? Youre way overthinking shit about a video game. Did I offend you that much? Relax bronie.
+Perhaps you both are daff, I literally used his quote about how when the first DLC came out BTB became locked behind it. He was wrong, and his way to identify his claim was from a post 3 years after the map pack came out. 
+
+Sorry you guys have poor comprehension skills.
+Just because you can engage things in different ways doesn't make it a sandbox dude. The same way that World of Warcraft isn't a sandbox either, it's called a theme park MMO because of how on rails the gameplay is. And something like Eve Online or Minecraft are sandbox because of the amount of freedom and lack of objectives. 
+How was he wrong?
+https://youtu.be/iHSs3pjuyug 
+
+At 6:22 even one of Halos developers calls it a sandbox game. There's a whole boat load of these developer diaries from Bungie and I can recall them using the term "sanbox" to describe their gameplay systems a few times besides this video. 
+
+Edit: again, at 5:59 in that same video, they have a developer with the title of "Lead Sandbox Designer"
+
+Wow once again
+
+He said 
+
+BTB was unplayable for those without DLC when the first map released, and he is wrong. 
+
+BTB had no such thing until shortly after Halo 3 ODST which came out at the end of 2009. 
+
+It is a wrong point of reference, and the argument really does not hold if you use the right point of reference which would have been along the lines of 
+
+I played Halo 3 before it got DLC and when I fired it up 3 years later after multiple revisions I could not play BTB. It is quite the different story. 
+
+Ultimately someone is trying to throw people under the bus based on false information, I get it Bungie sucks now, but if you want to attack them for breathing life into a dying game 2-3 years after it came in out and asking for your money in the process you can just GTFO. 
+
+You had people that charge $15 a month and $60 a year for GaaS games, and we want to be up in arms over requiring you to spend maybe like $60 after years of free support  to refresh a game. Things were different than Halo 3 is a prime example of paid DLC problems in the way you would not think. It did not split a community, it just added $10 playlists with new maps people played for a week or two. It is safer to say map packs were a waster of money and added nothing to the base experience of the game
+
+The game had three core alterations
+
+1) Base release game 
+
+2) Heroic map being free
+
+3) Halo 3 ODST - when all content became universal and required money. 
+
+Halo 3 after ODST was a new behemoth with maps for your maps in all playlists. I played Halo 3 for years, and if some run of a mill Joe who fires Halo 3 up after not playing it for 2-3 years wants to get his panties in a bunch that is his problem. I needed the 'expansion' that was integrating all DLC into the core experience. 
+
+Paid MP DLCs are a joke, because despite what people say they are not paywalls they are broken promises for those actually willing to pay for more. Only game series that did not have this problem was BF, but it had a plethora of other paid DLC problems. 
+
+TL;DR
+
+I played Halo 3 for 3+years regularly and bought 4 map packs and then ODST, and I can tell you first hand Halo 3 never locked the core modes behind DLC paywalls until they made a standardized rerelease in the form of ODST, which was 2+ years after the game launched well after the first DLC as OP claims.

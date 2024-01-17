@@ -1,0 +1,389 @@
+Because players consistently overlook and dismiss nuanced AIs as irrational, buggy or cheating. Because players don't actually want the game to be good at actively opposing or preventing them from experiencing what they think they could.
+
+Fighting game example, since it is as much of a functional equation as a strategy game but in real time: if a smart bot has the opportunity to juggle/stunlock/or disrupt the player with constant cheap shots then why would it logically not do so. What do you think the player's experience of that game would be? It would fucking suck. 
+
+And the issue does lie with the human-machine interactions. In a contest having the machine win is meaningless because it is the player that you are trying to appeal to. That is why most AI research in entertainment has ceased and been replaced with storytelling and cognitive feedback of "feels". Because players will attribute those cues to intelligence as emotional feedback triggers stronger responses than logical. People will believe more in what a character tells them than what they see a machine do. It is a situation where fooling players is easier and yields a better overall result.
+i cant say much for older games (homm3 is about my earliest 4x-ish experience), but assuming that in-game mechanics expanded over time with additional layers added and intertwined, I would say AI being built around the growing complexity would still be technically improving, just not at a "noticeable" rate. again, that's assuming there really is measurable growth in mechanical complexity over the past 20 or 30 years.
+
+
+it would take considerably more dedicated effort to improve AI within a defined system past the point of just functioning within the system under it's rules, which the AI only knows how to obey. i'm not all that knowledgeable in artificial intelligence outside of video games, so i'm not sure how easy it is for an AI in general to exploit a rule set past its limitations. but an AI that could do so in the context of a game system would be considered much more realistic than our current examples (civ 6, stellaris, etc)
+
+edit: I hope that makes sense, I'm a little drunk
+> I mean, look at a game from 30 years ago, and it will be a ugly, almost unusable 2D game, but the AI will play about the same. 
+
+There are a few reasons. To get the elephant in the room out of the way first, lets start with this: it's not worth investing time and effort into making good game AI as there's no return on investment: good AI doesn't help sell the game. By the time weaknesses in the AI comes to light, the player has not just already _bought_ the game, he's already become _invested_ in it -- any complaints they make about the AI will usually occur in a wider discussion of the game that boosts, rather than detracts, from people's interest in the game.
+
+Now, a few other reasons in no particular order:
+
+Games are much larger now than they were 30 years ago. They have much wider state-spaces -- RTS instead of turn-based, pixel-resolution maps rather than hexes, hundreds of units rather than dozens -- even the rule spaces tend to be larger as, particularly AA games, have to include a larger number of game systems to be saleable today. By today's standards, something like the original Civilization or Dune II would seem anemic as a major title. All this makes it a great deal harder to write good AI for video games today.
+
+Games are balanced differently now than they used to be. Today, games are balanced with an eye towards multiplayer games. That didn't use to be the case to the same extent. This makes it harder to "tilt the table" in favour of the AI. That means its harder to write an AI that provides the player with a proper challenge, since the AI code has to carry more of the burden.
+
+Related to the previous point, the expectations players have for the AI has changed. It's no longer enough that the AI provides a suitable challenge for the player to overcome, it now also has to provide the same overall _feel_ of challenge as a human opponent would. It used to be you played against the game, but now you expect to play against the AI, with the game as an apparently neutral battleground for you to match wits on -- that is a _much_ harder thing to write AI to do.
+
+There's probably also a little bit of "survivor bias" at play -- we tend to compare the strategy games of today not against the strategy games of yesterday, but against the strategy games of yesterday that _stood the test of the time_. There were plenty of games with atrocious and laughably bad AI released in the 80ties and 90ties too.
+Games keep getting complex. Also game AI isn't really AI, since it doesn't really learn. Furthermore, as players get more experienced in 4x they will surpass AI every time.
+
+If you want a good AI make a game simple enough for the AI to play. Probably it will be boring for the player.
+
+Wanna see a nice game AI in action? Play gnuchess on hard.
+games are too complex to make use of search trees (think of old chess AI's) or the data-driven self learning tools (machine learning stuff like Alphazero). 
+
+AI is not developed that much as advertised, and I believe, in most cases AI still needs to be written by regular humans using heuristics. Or very simplified search trees that values are predetermined by a human. 
+1. AI is hard, there have not been any huge developments on strategy game AI over the past years. Action game agent based AI yes, but not strategy.
+
+2. AI is allocated a very small CPU (and GPU) budget.
+
+3. Hard to market AI.
+I believe it's not so much that AIs are not progressing as that they're barely keeping up with the increased complexity of games.
+[deleted]
+I don't think anyone is actually OK with it. I guess there's just enough new players that don't mind it yet so that developers can get away with it.
+I don't think it is true that AI has not progressed. Current AIs can play much more complex games and they do several tasks better - look at the pathfinding of older RTS games for a clear example.
+
+Changes in AI are obviously less apparent than changes to graphics. If the graphics or UI have changed, you can see the difference immediately. AI changes have to be inferred, and the results depend on lots of other variables.
+
+Maybe AI didn't progress "enough" for what it has to do. Or maybe there was less progress than in some other areas. But saying we have "decades old AI" or it "plays about the same" is ridiculous. It's not like the Civ 1 AI could play Civ 6, with 1upt and Eurekas and adjacency bonuses.
+My theory is because the developers are focussed on graphics. Graphics sell the game during reveals..you can see all the comments below the videos...oh it's great, or look at the hair physics, sea looks real etc. Devs know presales correspond to the hype generated during these reveals, and since budget is set, hire more people to make the game look good than to make it play well. Games that look great sell a million before launch, games that play great but look average are relegated to niche status
+[Here I talk about it and others leave valuable comments too.](https://www.reddit.com/r/4Xgaming/comments/7pjaqb/annoyances_met_inside_4x_games_tell_about_your/dspiv9c/?st=jexxgoua&sh=3e48ad68)
+
+In short, the AI has progressed immensely. It uses much more complex systems than ever. But also you don't want it to progress. You don't want for it to be a perfect chess player. You want a human-like opponent who behaves in a consistent way.
+
+And no, if you really look at the game from 80's AI will play like shit. And the rules of the game would be much more simple than what we have now. Or in a game like Civilization AI will have rules bent for his pleasure: he's not limited by diplomats for talking to you, he can formulate proper requests and you can't, he doesn't really build wonders but decides he just wants a wonder and so on and so on.
+i don't think it's OK  
+  
+and these comments are full of naive misinformation about 4X game AI :(
+That's actually a good point. I mean you can't deny AI tech had definitely improved but in general, it hadn't improved much since in the early days of strategy games. 
+Yeah, you're wrong. AI has improved tremendously. 
+here is a guys master thesis for RTS AI from 2006.
+https://www.itu.dk/image/edu/theses/pdf/AndersWalther06.pdf  
+
+whats important to note here is although this likely exists in some games already a programmer needs to build this into their game.   
+
+For graphics this is already done.  Because this is the foundation of how AI works. Casting shadows from a light source? I dont need to figure out that math or even know how it works. I just need to know how to use it.   
+AI isnt to that point yet.  
+OK OK. its not that isnt important. it is important. having a crappy AI sucks. True. But i do understand that its not as simple as it would seem.   
+
+Human brains make it look easy. But again a computer innately has no AI. But i can go download Unity for free and i have a complete graphics engine to use where all i have to do is put in a few lines of code and im making lights.  
+This is relevant to me as i want to try and see if i can get a learning AI into Stardrive. But i dont have any learning AI code. I have to get some and implement. Graphics? no problem. Its all in the game engine. AI? nuhuh. i have to code or find code to create the foundation.  
+Its no OK. But i do understand thats its freaking science that people dedicate their entire lives to. Thats the kind of thing i want to put into my game if i ever build one. But it may not exist. If it doesnt im not going to be able to built in anything shorter than 20 years or so. 
+
+
+[Because sometimes programmers can't spell and nobody checks](https://www.reddit.com/r/civ/comments/84d5cz/firaxis_please_fix_ai_crippled_by_dumb_typo/)
+
+But seriously though, /u/teapotchampion and /u/dimnakorr have the best answers. In particular, the point that programming AI is a more holistic endeavor that requires meshing with specific game design instead of graphics libraries and engines you can just apply anywhere.
+OP, have you played AI War: Fleet Command, and what's your opinion regarding the AI in this game?
+It's very easy to create AI to beat players, but game AI exists not to beat the players, game AI exists to **play with** the players. Imagine parents playing with their kids, they'll purposely lose to make kids feel  the "fun".
+It's not that AI has progressed or not.
+
+It's that there are not many easy shortcuts to make it.
+
+AI for games is a AI Hard problem so there are no generic solutions you can just plop down. More specifically the AI cannot **learn**, the AI can only **know**.
+
+That means every game you have to engineer the AI from scratch to teach it how to play.
+
+In the modding scene AI can actually get fairly exquisite as the experience of expert players gets translated to the AI.
+
+In other words you see the option of better AI latter in the game's life. Which is what we are seeing.
+try cosmic supremacy and C-Evo
+TLDR: because currently game programmers have to make their own AI and things like graphics and such are done for them in most cases. They just have to use it. but an AI? they would have to build the concept themselves if they want a good one.(and it still wont be that good)
+   
+
+Primarily I believe the issue is... Its really expensive.
+Game coders in general get paid less than other industry alternatives. according to glass door and such. AI programming is not a joke. its a serious concept and a good AI programmer could get a much higher paying job doing something, just about anything, else with that skill.   
+
+But eventually the concepts of AI will be formulated well. What do i mean by that? take pathing for example. how to get a unit to go from point a to point b. Seems pretty simple and it is for the human brain. But computers have no innate spacial awareness. They cant assume something is in the way. They have to have code that tells them that something is in the way.
+Did you know that pathing is a big deal? Its serious math. People with doctorates win prizes coming up with pathing formulas. 
+Because it can be used in many concepts. GPS driving assistant? pathing. likely using the same pathing concept that many games use. Why? because its been solidly proven and worked on by people with PHD's in mathematics. Its a big deal.   
+
+Those pathing concepts are already made. it can basically be plugged into a game via an existing code chunk and made to work.   
+
+Why is that relevant to the AI discussion...
+because the AI plugins are not as available in a high quality well thought out concept that will work on a variety of game types especially 4x as 4x is really complicated in concept.  
+
+It will be. But hell developers are just getting to the point robots can stand and walk around near human style or even be able to talk to a human with human not being able to tell its a AI. It took a massive computer to play serious chess several decades ago. not that long ago a computer was made dedicated to play jeopardy and it did ok.
+ 
+Whats the point...
+the point is that until a really good AI can be packaged into a code chunk and a game architect can take that package and fairly easily apply to their game the AI is going to be pretty simple. Else the AI being good would be a big feature.  
+Currently a lot of stuff in game is not to have a super complete really great system... The point is to have a decent player experience. The AI can appear to be decent with tricks and as long as the player doesn't know those tricks and those tricks give the player some challenge then whats the difference.  
+Even games like AI wars use tricks to help the AI do what it needs. 
+
+Graphics systems fall into the same concept of pathing. Its not used just for games and people have thought the hell out of how to make it work to the point that a code simpleton like myself can say put a light right here and make it cast a shadow and reflect and stuff. Because all the stuff that makes that happen is already done i just have to use it.  
+
+Disclaimer...   
+I dont really know what i am talking about. :p no seriously this is deep and complex topic. But the idea is that good AI design is not easily available to joe schmoe designer. Not like graphics are. So the designer has to build out some really complex ideas from scratch. Even those programmers from 30 years ago did not have to build into the computer how to draw something. it was already there. there is no AI in a computer. 
+It progressed, but most people overlook games with good AI. For example GalCiv3 :)
+It has actually. As a programmer I think people's expectations of an AI in strategy games are unrealistic. Incredibly so actually. It's very hard to make an AI that can play a reasonably complex game with anything approaching the level a human player can without cheating. Even if you manage that, the AI will never follow the same thought processes as a human. Then if you want to work in difficulty levels, without giving game-play bonuses, you need to essentially make a bunch of different AIs. 
+
+It's so time intensive to do this, that when GalCiv3 managed a good non-cheating AI, it was one of the game's main selling points.
+U guys seen the AI in dota 2? They did a demonstration at last 'international'. It's soo good. Same with Starcraft 1, the same department from MIT who did chess been working at SC I think. It's pretty good now too. For civ tho.. anything lower than deity is ez imo.  Compared to say civ 2 or alpha centauri.. no comparison, they were way harder.
+We are just now making advancement towards real AI. Hopefully, in the near future, devs will have access to self-learning AI like the one they showcased at The International last year. They will be able to take static iterations of this AI at various levels of play and those will become difficulty levels. 
+
+You don't really want to play against true AI because it would destroy you without any chance. 
+BC the lazy azz devs don't care anymore about games like this.
+I'm really glad at least someone in here didn't go with "because lazy developers and graphics!"
+
+Companies make games to sell. If "good " AI sold games, we'd have good AI. 
+I remember a twitter thread a few months ago about little secret developer tricks to make the player feel better while playing. The most documented one was that the last few bullets in a clip are slightly more powerful. The reason: if you kill a bad guy or boss with your last shot, it feels more exciting and epic. A really cool look behind the scenes of games. 
+Fighting game is a cherry-picked example. AI has to be dumb because reflexes/timing are such a huge part of gameplay. If it played smart it could probably wipe nearly anyone extremely consistently. 
+
+OTOH for games like Civilization or Europa Universalis, the AI's 'reaction time' isn't as relevant, the player can pause or it is turn based. 
+
+As it pertains to most 4x games, the issue is simply it is extremely difficult to try and make an AI as smart as a player, adapt it to the metagame (or make it self adapting), and minimize uses of 'ai cheats' to do so. 
+> Fighting game example,
+
+##AI cannot fucking simulate the human mental process.
+
+Without simulating the human mental process you cannot have "mind games"/yomi thus in games where the reaction time is below what humans are capable of reacting to, AI bots are completely broken.
+
+A AI can consistently predict and beat a players at Rock Paper Scissors. And fighting games are based on the RPS concept fundamentally.
+
+An AI bot would be either too random, too predictable or too perfect against humans.
+It is currently possible to drastically improve the AI of many games, such as Civ6. But its unclear that this would result in increased profits of any significant degree. And you would also need to design ways to hobble the AI that aren't super obvious, to allow for difficulty settings. Compared to existing AI where you get 10% less gold per turn which is easy to adjust to change difficulty.
+Even if the game has pixel positioning rather than hexes you don't reason about position at a pixel level with the AI, you quantise it so it might as well be on a square grid.
+Thats a pretty well written post. I was able to get the key points by looking at the first sentence of each paragraph in most cases. Reduces TLDR effect. 
+I think there is one important part missing. ill make a post on that. 
+The investment argument I can buy, but the complexity I just can't.
+
+Look at the progress graphics have done in the last 30 years and how complex they are today. There's no reason that AI couldn't have done the same.
+
+But that goes back to the investment argument, I guess. There's no John Carmack of AI.
+I'm not sure you think machine learning techniques like Alpha zero/go used wouldn't work for other games.  To me it seems like this approach will need to be the future of game AI - teach the AI all the ways to interact with the game and then let it learn to play through millions/billions of iterations.
+Play Stellaris, watch the AI stick farms on top of +4 mineral bonus tiles and mines on top of +4 food bonus tiles. 
+I think this used to be true 10-15 years ago but not so much anymore. 
+
+My sense of it is that there's a point of diminishing returns with AI. Gaming AIs aren't an intelligence at all, they are in essence very complex scripts that execute based on specific variables, which means that a programmer basically has to anticipate circumstances that aren't immediately apparent; this is compounded by the fact that games are becoming more complex, the more variables and circumstances there are, the more chances there are to break something. And because there is no "intelligence" there is nothing to make 'smarter' -- and in this context smarter doesn't mean anything.
+
+More importantly, most people don't want smarter AI, what they want is an AI that reacts more intelligently, convincingly not necessarily smarter.
+
+As an aside, I think AI is going to be one of those genies in a bottle that, if it ever happens, it'll be too late to put the genie back in. I personally don't want an AI that can anticipate everything I do before i do it. I don't want an AI that can outplay me like Spock at 3D chess, and I think for every one of you guys who wants to play against a Deep Blue, there's a hundred other people who are fine with most average difficulties. Which leads me to my final point:
+
+Most people don't play on extremely hard difficulties. Your average player, including 4x players, plays on average/normal difficulty -- at best ---and I suspect most below even that.
+
+I know speaking for myself, playing Civ VI, and Civ V, Prince/King difficulty is plenty challenging without feeling overwhelming. Part of me wishes I could play at Diety but the level of optimal play needed to be that good removes any sense of spontaneity that I genuinely like in a 4x game. In fact I've even lost a couple of games on Prince/King difficulty in Civ VI.
+
+So AI is relative. What's easy for you is certainly not the case for all and the current state of AI is good for, I'd wager, 80 percent of gamers.
+
+Therefore from a development perspective when you consider the performance/overhead costs that an AI might contribute to a game, the fact that most average AI is good enough for average players who aren't hardcore armchair generals, and the already high costs of development, it doesn't make sense to make it a major investment of development but rather just "good enough" for the median gamer.
+I'm so looking forward to the day when graphics can't improve so all the focus will be on the gameplay and other mechanics.
+I think this is very close to the truth, although everyone was complaining that Civ 6 looked like a mobile game in the beginning...
+I think at the highest difficulty you do want the perfect chess player, but you also want to be able to scale the difficulty dynamically to match the player's skill.
+
+In the past 4X have just given more resources at the beginning of the game and/or production bonuses as you increase in difficulty.  Being able to get rid of that framework and play against a true opponent that just doesn't make mistakes is a far better deal for good players.
+I wonder... after the AI crash of the 80s, maybe quite a few developers went into games because that was a place to pursue their interests. Now AI is popular once more, perhaps most of the effort is being concentrated in 'practical' companies. 
+
+You can't doubt that it's more prestigious to work on self-driving cars, than virtual space empires.
+hey check this out.  
+
+couple of videos on learning AI. Learning ai is what we need for a "good" ai.  
+
+https://youtu.be/R9OHn5ZF4Uo    
+
+and this one on the genetic code learning computer.  
+
+https://www.youtube.com/watch?v=wvWpdrfoEv0&feature=youtu.be&ab_channel=CGPGrey
+
+AI playing mario brothers.
+this is the kind of thing that should be available as a package to coders. 
+you give a base level of knowledge for the difficulty and then it begins to learn the current game.   
+it will fail. it will succeed. it will learn.  
+https://www.youtube.com/watch?v=A97HL3_fxyo&frags=wn&ab_channel=JordanRathbone  
+and another talking about how the AI for the mario AI works.  
+https://youtu.be/xOCurBYI_gY  
+
+That last one is actually really fing great
+It's not a 4x game, so no I have not.
+
+(A quick Google reveals that there's a second one its way as well.)
+There are new techniques coming online that do allow for AI to learn by playing against itself, check out Alpha Zero or AlphaGo.  Hopefully this machine learning technology will filter down into traditional gaming.
+Starcraft and DOTA are in no way comparable to 4x games. The advances in their AI have little to do with making smart decisions. Particularly for Starcraft they are working with a very simple game at the strategic layer that is very static and has been in a stable state for nearly 2 decades.
+Exactly. AI is actually a balance between fun and it being able to take all factors into account millions of times a second and micro managing you to death with supreme efficiency. It will not make fun looking decisions like multiplayer, it will just grind you down to dust with cold numbers (looking at it from a strategy game perspective, or star craft with clicks per second)
+It's a bullshit argument. Having better AI isn't the same thing as asking for the game to be more difficult. And the example used is practically a strawman in this discussion because the prevailing issue with a fighting game is frame perfection that AI can have, which is contrary to the point of this post. Which is about AI being smarter instead of having 'cheats'.
+AI War has good AI, at least from my limited experience with it. It's punishingly difficult and I was a nervous wreck playing it. It was fun to some extent, but fuck is it hard.
+That's a clever use of psychology. As long as the community doesn't become widely aware of it.
+Yeah the point isn't necessarily to make an AI as smart as the player - that's not possible. But, avoid situations where the AI blatantly cheats (units appearing magically where they need them, for instance) or performs so badly as to offer no challenge. 
+
+A better example is new XCOM. On "normal" the AI is a bit dumber - doesn't throw grenades when it should, etc... mainly because the player wants to be awesome and shoot a bunch of fish in a barrel - not get wiped out. But the AI is smarter on "classic". 
+
+Of course it's a lot easier to make a decent AI for a tactical game than a strategical one.
+For many games (especially real-time ones), you do reason at a pixel level. You have to calculate distance and compare with ranges, check for collision, etc. It isn't just "I'm on this square and have a range of 2 squares", it has a lot more granularity that really adds up performance-wise.
+> Look at the progress graphics have done in the last 30 years and how complex they are today. There's no reason that AI couldn't have done the same.
+
+AI isn't graphics. The graphical work for a game can be parallellized to a degree that's just not possible for AI work. With graphics you can put some guys on hardware, some guys on hardware drivers, some guys on the heavy mathematical lifting of vector programming libraries, some guys on the graphical libraries, some guys on the graphical engine, some guys on the 3D assets, some guys on the maps, some guys on the animation, some guys on the particle effects, some guys on the textures -- all tied together under a shared platform and a graphical designer or two.
+
+You can't do that with AI. The AI programming is intimately tied to the game design and is, for lack of a better term, "holistic" in ways that graphics just isn't.  
+Not all, but a lot of that progress was caused by having special hardware just for graphics. Even if it was possible, do you think people would buy "AI cards"?
+Civ6 isn't really that much more complex than Civ3. As far as changing to 1UPT, many games that are not Civ function on that. You can make an AI component that can handle 1UPT tactical combat that doesn't care about the economic implementation too much. Its mostly just a math problem. How can you focus this much firepower on this spot in the most efficient manner given that you have such and such units.
+
+But the scope of the problem isn't worth the gains. And unlike graphics technology, there are no non-video game applications. Making a good tactical battle AI won't create programming innovations that can be applied to materials science or medical imaging or anything.
+I work/study on AI, and simply it won't work in near future. Games are too complex and machine learning techniques are still not that impressive, and even if they were, you can't expect same outcome from the Google's investments and a random gaming company, even if it's Firaxis. Go is a game of 19x19 pixels in a sense, your current games have way a lot more input than go.
+Did you check "Respect Tile Resources" ? Never saw that happen. But usually when I put down a Sector I stop bothering about the tiles anyway.
+
+What do you expect the Sector AI to do? If it's set to balance the resources and it sees that a planet has negative food balance it will put a farm down, if a planet has abundance of food it will replace tiles with whatever the sector lacks next.
+
+It's actually what I expect it to do.
+I admit, I'm usually playing games on easier than normal difficulty. I don't have the time any more to delve deep and master a game. 
+
+I have time to play through maybe once or twice, and having easy difficulty allows me to concentrate on exploration and building- parts I enjoy the most.
+Well usually games only have one level of ai intelligence and the difficultly gives the ai better resource rates, cheaper units, etc. 
+
+Civ V and VI are basically impossible on deity without capturing some computer controlled cities to get some of those resource bonuses for yourself. 
+Its possible to make the AI of most of the more simplistic boardgame 4x games, like Civilization much better. But its not really worth it. Only a minuscule slice of the player base cares.
+
+You require someone able to model the possibility space really well to solve the problem. You also require a good amount of metadata added to the content files.
+I disagree. Most people want AI just to be more human. As a mediocre Civ player myself, it bugs me that the AI often doesn't even try to win. It can steamroller other AIs to get to a brilliant position..then often just sit there. With war too, it can't handle the one unit per tile game and just filters armies straight into you to get massacred. The diplomacy sways between I won't give you anything even though I'm being massacred and have all my stuff after 30 turns even if there have been no casualties. I want the AI to feel as if I'm playing a human, flaws and all. The last thing I want is deep blue
+Me too. I think the short attention span of a lot of gamers helps..many just want to blast through a Destiny and then be on to something else the next week. I bet they hardly notice the games are basically a reskin of each other. But of course, these guys are where the money is at. Why would a company want to launch a game that would capture gamers for a year or more
+It's also absolutely impossible as any 4X is much more complex than chess or go.
+
+All you may get is dumb AI who doesn't see more than 1 turn ahead but with better build order and situation evaluation. That's it. Accept it, you won't see anything better in your lifetime.
+> I wonder... after the AI crash of the 80s, maybe quite a few developers went into games because that was a place to pursue their interests.
+
+No, the "AI" in "Computer Science AI" and "video game AI" is really two quite separate things. Video game AI is, generally speaking, just some specifically crafted rule engine, usually coupled with a path-finding algorithm or two.
+here is another one.  Ai Research in games.   
+this is just pacman and mario bros and such.       
+https://youtu.be/hkradQTE7kQ
+
+Ya well I just thought you'd find it interesting, not arguing that they are the same.. 
+
+>Having better AI isn't the same thing as asking for the game to be more difficult.
+
+This is bullshit, better AI will always make the game harder. 
+The AI in AI War is *the* sell feature. The whole design revolves around having a good AI, including not implementing parts where AI is traditionally weak. 
+Yes, but the post I replied to was describing the state spaces that the AI had to think about as bigger because of operating on the pixel level rather than a grid. To my knowledge no game does this as it would be impractical. Yes they may calculate range and line of sight to a pixel accuracy (or more likely with 3D models and ray intersections etc.) but the AI is not suddenly trawling a possibility space that includes every unit being on every possible position down to the pixel.
+Yeah, and much of this work (hadware, drivers, library, physics, engine) can be reused even if the mechanics change considerably.
+
+I feel that AAA studios in particular focus so much on graphics because it is so scalable and easy to "measure". More money translates easily into more people creating assets and textures and adding visual effects, which have a visible effect you can just compare with other games.
+[deleted]
+I believe they are called "multi core CPUs"...
+>Civ6 isn't really that much more complex than Civ3
+
+Civ6 is *immensely* more complex than Civ3. They made it so that it doesn't feel that complex with better UI and information.
+
+Just take a decision about founding a city in Civ3. Almost all the info is in the yields. Some resources are hidden and are a gamble but that's rare. You instantly know that there'll be a pasture here, a mine there. In Civ6 you have a lot of possible districts you can build, and those get bonuses from environment and other districts, including the ones from other cities. 
+
+There are also numerous other decisions that never came up in Civ3. Getting great people and using them. Leveluping units. Creating trade routes. Forming a government - in Civ3 it was a much simpler choice.
+
+But the rest is right, plus another problem. They could spend this energy on a game AI if it was 1998. Because they'd knew they'll only post a couple of patches fixing bugs and then will maybe make an expansion. Today with games-as-a-service the scope is much bigger even if the game is of the same complexity. They'll have to update AI for every faction they add. They make huge balance changes in patches so AI has to be adjusted for that. And they still probably see that 50% of their playerbase has troubles winning on Settler and would never even notice AI weakness. 
+I was talking about the AI, not the sector governors - at least those you can override. You can't do your enemies' builds for them, though.
+
+And I expect it to follow a basic optimization algorithm based on the barest bit of logic- prioritize whatever is most needed, build it on the tile with the best bonus in the world with the best bonus for whatever it is, do that until you have no negative growth in any ressource type, then create buildings balancing between minerals/energy/science (accounting for maximum yield), according to some formula that can be tweaked according to the stage of the game (e.g. focus on minerals first, until there are plenty of minerals, and then build science so as to not fall behind).
+
+Instead we get planets with 25 pops, 5 buildings on the wrong tiles. How can you defend it? The end result is that the AI is anemic, unchallenging and unfun, even on the highest difficulties. 
+
+It wasn't as bad before 2.0/2.02b. I don't know what they did to it, but it's castrated now.
+In my current game project I am designing the AI to be both intelligent and human. It will employ an architecture quite unlike current AIs. In theory the AI should be content agnostic. That is, you can change around the variable values for all the game data and the AI will perform at the same level.
+
+Introducing new *mechanics* and *systems* will degrade the AI though for obvious reasons.
+
+There are also no difficulty levels. Difficulty will function based on the something broadly similar to how Paradox games work, though Paradox actually does use arbitrary difficulty systems on top of the base system. Difficulty will be modulated by how ambitious the player is in their actions.
+
+The immersion of the AI is caused by the complexity of the systems of the game. The effectiveness of it is caused by a choice to model content on a more abstract mathematical level.
+Honestly the fight isn't even really graphics vs AI per say. Its content and narrative vs system and simulation. Many players ARE aware that the games are mechanically identical but merely have different content. That's what they want. I mean no one would argue that people are so dumb they don't realize most books are written on paper pages with English words using printer ink.
+
+The rules for most sports haven't change in any significant way for over 100 years.
+
+The fact is that systems focused video game players are not a large demographic and it makes no sense for gaming companies that function as capitalist engines of profit to focus resources on complex strategic gameplay.
+
+If graphics ever stop getting better, which they likely won't, companies will just spend on making more and more content as opposed to writing newer and more powerful graphics engines.
+This might be an example of whatever is possible and commonplace not being considered true AI anymore, but shortest distance pathfinding was a major part of AI and so were expert rule systems.
+Hrmm. Doing some searching there are neuro network C# libraries available. 
+http://www.aforgenet.com/framework/features/neural_networks.html  
+even some on nuget. So... maybe it would be possible to plugin something. 
+I mean, its interesting and has been since they started the open source AI thingy for Starcraft. But its not applicable to 4x because of the reasons the AI is really good. Mostly has to do with the twitch component and the simplicity of the games. MOBAs and RTS games are base don execution of motor skills based tasks. Sure they have more intellectual components but that stuff is mostly very simple. Item builds and so forth. Very easy to make the AI use optimized builds. Now it would be very interesting if they could make an AI that was ahead of the meta using mathematical analysis to alter builds and champ picks based on patch notes. But there's nothing even close to that that I've seen.
+Better is subjective because it has many definitions.
+
+For example, you could have an AI that players better mechanically. It knows that there's no reason to ever build Cruisers or Battleships and instead swarms Corvettes and kills off the player early and easily. Let's say it "knows" this by running some internal simulations of what it can build and finds the optimal fleet composition and not because the programmer said "BuildBattleships = False". 
+
+Alternately, you could have an AI that built fleets around a few battleships with some cruisers and destroyers escorting and corvettes acting as scouts. It does this because it knows battleships are powerful but expensive so it wants some but can't afford too many. It uses the smaller ship types to round out holes in the BBs' weapons and to increase point defense. It doesn't expect the corvettes to actually engage in combat, so it feels safe putting them further out to increase sensor range. This might not be the "optimal" fleet composition, but it plays more like what a player would and make the game better by feeling more real.
+
+It turns out that most developers are leaning towards the second option because it sells more games and is way easier to write/debug. While many players (including myself) would like a more intelligent AI that actually knows the rules to the game and adapt to both internal changes (mineral shortages, improved missile tech, etc) and external ones (I modded lasers to be awesome), that kind of AI is just not feasible with today's tech and development constraints. Nor is it going to make the game sell better.
+The AI will do whatever it's directed to do.
+Harder? Not necessarily.
+
+Perhaps a better AI is one that is more human-like. Consider an RTS. A bad AI will probably cheat and spam you with more units than a human could create, but not use them effectively. A better AI might not need to cheat and can create a reasonable amount of units that are used more effectively.
+
+You might imagine that they are of similar difficulties. But I would consider the latter more satisfying to beat.
+Absolute nonsense. If the game AI knew better how to utilize resources, or direct units, or a thousand other things present in a strategy game, than the game becomes easier, not more difficult. It means new, or unskilled, players can rely on the game doing more for them without ruining things, without resorting to ridiculous handicaps. And or course it does work the other way as well. The AI can become much better to offer a challenge to skilled players.
+I agree, that was sort of my point.
+Not every possibility, but it can still be a bigger space state as you can move fractions of a "tile" or move in more complex trajectories and those options need to be considered. If it is not practical to do so, it just makes the AI "worse".
+You only read the first 2 sentences, didn't you?
+All machine learning (AI in non-cs speech) actually requires shitload of GPU`s too =)
+You can teach the AI to optimize city founding pretty easily. The math for districts is pretty simple. You can also write an AI, for city founding, that uses a dynamic system so it doesn't care about patch notes. Civ6 is very mathematical and not super conceptual. Conceptual stuff is where the AI founders. Adding more stuff annoys humans, but the AI is immune to tedium and it doesn't burn out. And it has perfect "visual" memory in a way. Humans have trouble loading all the relevant factors in their head at once but computers don't.
+
+But perfect city founding is not something that really affects players so they needn't bother.
+Well, you sound like a very experienced player. I am casually playing and usually are quite bothered by the amounts of ships the AI can produce without minmaxing every single planet.
+
+I can't say that I feel that the AI is in any way anemic. But I guess the truth is as always in the middle. There should be an option to fine tune the abilities of the AI.
+
+However, I see the worsening between version as an sign that the AI is artificially made dumber. In which case the point of this post is further asked into question. The problem appears to be that we have no control over the behavioural complexity of the AI - not the AI being underdeveloped.
+
+There is no reason I shouldn't be able to play against a impeccable doom machine if I so choose.
+> It will employ an architecture quite unlike current AIs
+
+Can you tell more about this? This definitely sounds interesting.
+> While many players (including myself) would like a more intelligent AI
+
+that was a contradiction you make, if many people want intelligent AI isn't that mean it will sell well if they make it?
+The voice of people who want better AI just more louder than the rest so it seems **many** want it, I bet its not even more than one third of the players.
+Yeah the trick is not to tell the computer how to play the game. The trick is to tell the computer how to THINK about playing the game. Thats why 4x AI is so hard. 
+
+That is the point about AI. Its not telling the computer about how to do something its telling the computer how to think about doing something. is this better than that. To put value on stuff. 
+
+But an AI can be simplified by making the AI all trigger based. do this until that happens. and this until that happens. That kind of AI is eventually very easy to beat as it cant learn. 
+It only makes it slightly worse and it adds massively (really, really massively) to the cpu time needed. Better cost benefit ratio to sticking with an internal grid, even if the player never sees that grid.
+No I read it all. You can split up AI work in a lot of different ways if you want. Even TBS games have pathing for instance, or positioning stuff in 1UPT. There's a lot of other stuff you can do as well.
+>The math for districts is pretty simple.
+
+No. There are various ways in which you can place districts. They appear at different times so that max output may only come in 300 turns, so maybe you need to build different districts meanwhile. You also can't know if you'll be able to place another city nearby so its districts affect current ones. With mines and farms of previous games there was no question, even in Civ4 there was mostly a question of what is the city focus and so maybe you want food so much you build windmills instead of mines on the hills. Before Civ6 I can give you an AI that will build improvements with certain weight (on hills build mines unless you can build terrace or something) and you'd be hardress to recognize if the city is built by player or AI. In Civ6 you'll see idiotic placement at once.
+
+And there are lots of things like that.
+The one thing the AI does do is build giant fleets. It can afford to do that because it cheats on upkeep. 
+
+But since it doesnt do a good job at creating an infrastructure, the player eventually catches up and surpasses them, so long as they survive that long.
+
+I havent been attacked by the AI at all since the new patch - what I mean by Anemic. 
+
+A lot of times the AI is “balanced” this way- a ton of heavy-handed bonuses, so that you have to grow fast and then outproduce them in the long run, since if you dont have an early advantage their bonuses make it impossible. The end result is a game that is entierely focused on the early game, since the AI cant ever make a comeback.
+
+I agree with this thread 100%- good AI shouldnt be impossible. I get what people say, that fun AI is not the same as good AI. But right now in a lot of 4X games, it is neither. 
+I said many, not most. Most players want a fun and challenging game and don't care how that happens. AIs that act more human tend to provide that, usually given some level of cheating to provide increasing challenges. 
+
+Compare it to an FPS, a smarter "better" AI is never going to miss with hit-scan weapons. It's going to see you, instantly move it's target to your face, and boom headshot. Then probably go camp your spawn point or something. 
+
+People don't like that. Rather, they want to feel like a badass not a target. So instead of making super-competent AI, they tone it down and use tricks to make it more fun. A common example is that the AI is biased to miss in front of the player rather than behind or to the sides. That way when you're running and they open up with a machine gun, you see the bullets whizzing past in front of you or hitting the ground near you.
+
+> the voice of people who want better AI just more louder than the rest so it seems many want it
+
+Of course we are, the people who are happen with the standard gameplay don't say anything. It's only those of us who frequent forums/reddit/etc looking for things like AI mods and positing suggestions that actually speak up because we're the ones with complaints.
+
+>That kind of AI is eventually very easy to beat as it cant learn. 
+
+There are no AIs that can learn in 99.99% of games. Machine learning has only been applied to a very small, simple subset of games. 
+
+For the most part all strategy game AI is script based mixed with 'values' thrown in here and there. The script part involves things like the opening build/action order. The 'values' part is just a condition, i.e. once X threshold is reached by the player, then do Y. There is no learning. 
+If you read it all, then explain what has software development cycles have anything to do with multi core performance to me, because I wasn't aware the 2 were related.
+Its not quite as simple as it was but its one of the simplest things to program an AI for. Optimization equations are really easy to make AI for.
+This is somewhat missing the point about why AIs haven't improved.  *You don't have to write games with complicated features like city districts.*  Developers choose to do so anyways, because they think human players want all these gewgaws.  A long list of marketing bullet points to put on the back of the box.  "300 Features!"  Well that's always made it hard to write AIs, then and now.  It will take a developer who lacks the imperatives of a typical game studio to solve the problem.  Much as Apple put *designers* first, someone will have to put *AI* first and design the game around making a decent AI.  Removing / vetoing features that would make the AI's job too hard.
+Ah, now I think I understand your point. Thanks for the explanation.
+They dont have to learn 99% of games.
+They only have to be able to adapt to the game state in less predictable manners.
+Short of making it random it needs to be able to apply value to things and ideally learn a little from mistakes. 
+Check out the AI's that play NES games and pacman.
+they definatly learn. and a little research shows that there are neuro network AI packages available. they are pretty new though.  
+script is not exactly the right word i dont think. It effective is scripted but generally coded. Sort of depends. 
+Judging from what whats his name said about GC3 plenty of its AI is not scripted its coded.
+But its still basically a script.
+but yeah the point is that the AI needs to learn, or have already learned via coding or AI play, what those values mean.
+Having the trigger based system with variable effected by game state can make a big difference.  
+but yeah take a look at this library set http://www.aforgenet.com/framework/features/neural_networks.html
+
+
+Again, you don't optimize just the district planning here.
+
+For every possible tile to place city on you have many different options to put districts. Those affect how you put districts in other places. Those change depending on when you want your city to reach its full potential. For every step there are various strategies you can select for that city. You can't just calculate the most optimal district placement with probable wonders you'll want to focus on (and can't be sure you'll get said wonders) for predicted timespan of the game.
+GalCiv2 and Paradox games are done with that philosophy in mind.
+Sure you can. That's what players do. Optimal city location and district placing is a separate part of the AI to making goals and deciding when to hit inflection points. You need to design the AI to be able to optimize a city based on various requirements. Deciding in game what requirements you are working with is part of a different system.
+Hm, haven't really done Paradox since Europa Universalis I.  Decent game, but long.  I remember it being ok at AI, not amazing.
+
+It's not amazing. But they went and made sure that every feature is AI friendly.
+
+For example in EU4 there are a lot of diplomatic actions you can do. And there's a relationships value for every pair of countries (so there's value for what England thinks of France and a separate one vice versa). And for most diplomatic actions there are limits for when you can't even attempt to do them. You can't ask for alliance unless both relationship values are more than 0. In most games you could and AI would answer no thanks. And in most games AI would probably evaluate such possibility himself. But there is a hard lock, no alliance is possible when relationships are low. For many actions there are cooldowns, like you can't ask the same nation 2 things in a row. This is done partly because AI only checks if he wants to ask anything once in couple of moths. He can't think of it more often so you can't too. Then there are soft and hard limits. There's a limit of how many diplomatic relations you can have, going over it costs you. This means you can't create elaborate alliance nets - AI couldn't do it anyway so you're even.

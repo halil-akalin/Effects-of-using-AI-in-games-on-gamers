@@ -1,0 +1,536 @@
+Pretty sure the citcon demo showed people talking or at least pretending to have a convo.
+
+But either way, a good point. It does make a difference
+So I was listening to number of videos and presentations on SC's AI Subsumption, including some more recent ones concerning the developer's progress in programming the AI to interact with objects in the world, and it occurred to me that they never once mentioned AI social units, and how it would affect object interaction.  In almost any photographed instance of a public park or gathering area, there are always either an even number or greater number of social units vs. individuals going about daily tasks - even during a work day and in areas where there are little to no tourists.  It seems like such a small thing, but in reality it has a huge impact on the life-likeness of the AI in SC.  I wanted to create this thread to put this out there for discussion, and to invite anyone who may have heard something like this come out of the dev team to share what they know.  I really believe in SC, and what I have heard about AI subsumption is truly incredible, I just hope that even in the early stages that there is some discussion on this topic.  I think this sort of thing could really bring the world of SC so much closer to feeling like the AI are part of a living, breathing universe.  
+One recent game in particular that understands and addresses this better than any game I've played is Planet Coaster: https://www.youtube.com/watch?v=GKTkehnqGKg
+[deleted]
+yup, very good point but I think this is the intention. They have been putting a lot of work into NPC animations and making sure they can do things like all sit down at a table together.
+
+If they have not considered this you are correct and it should be done.
+All CIG has to do is have each person using their mobiglass, then it'll look exactly like real life where people walk around interacting with their smartphone and avoiding any possibility of accidentally socializing with another human being. 
+Good observation.  Here, have an upvote!
+[removed]
+AI is coded by engineers tho, most of em don't really go outside :D
+Ill believe it when I don't believe it.
+It doesn't have to mean anything. Years ago I programmed a function to simulate fluff NPC population for an AD&D server (NWN1/2 for those who know the acronyms). The idea was to have them act similar to the NPCs in... Oblivion I think?.
+
+It basically worked by placing down waypoints denoting places of interest that the NPCs would walk to. Once close enough to the waypoint the NPC would look at all objects within a set distance, pick one randomly and start "interacting" with it - that is, play some animation. So they sat on chairs, hammered on an anvil and so on.
+
+If the object picked randomly was another NPC they started interacting with them. This worked pretty well, although I quickly turned off the "start a real conversation with the other NPC" because any place with a decent amount of NPCs was so filled with chatter that you could not see the players talk any more. 
+
+But the point is, you don't need to define social groups. In fact it becomes more dynamic if you don't as random NPCs can interact with each other - provided you programmed an appropriate routine and there is an animation for it.
+I think CIG should take a look on how Planet Coaster handles ai groups. It would be neat serving with an AI crew with an AI captain.
+
+https://www.youtube.com/watch?v=cuQh7IJCrs4
+
+GTA V does it pretty well. We've barely seen AI in SC yet. 
+
+Didn't Chris mention that they were working on crowd simulation in the citizencon presentation 
+Obviously it can do better. It's not even close to done. SC subsumption is still in the very early stages.
+
+While OP is not wrong, this is like pointing at a half-built car and saying "Hey, this could be a lot better with some wheels and an engine!" No shit, it just hasn't been added yet. We already know CIG is working on stuff like this, don't you remember, for example, the mess hall tests?
+
+It's a bit condescending to say that CIG doesn't understand game AI concepts like this simply because they aren't implemented in a very early version of the system.
+What's interesting particularly about Group Actors in SC is how simple it is to create a group. Groups are naturally formed around ships because that's how people get places, so it's a good assumption that most of the crew is friendly toward each other (to a point). Have these groups work together by following their leader and there you go.
+Subsumption isn't AI, Subsumption is the mission generation engine that allows for both direct and procedurally generated content, I thought?
+As a logical extension of this, I've often said in the past that we need "group emotes" like handshake, high five, hug, etc.
+
+First person initiates the remote by typing /handshake for instance,  and they animated putting their hand out.
+
+Second person nearby can just leave them hanging or also type handshake, at which point the animation system takes over both player models and plays the handshake emote.
+That may be why the first assassin's creed was so ground breaking, in town many Ai move in groups sit on benches together move in groups It made the world feel alive. 
+better AI is good but this “subsumption” word is tiring to hear
+Lotta talk and its a big walk.  I want this to be,  but they started talking about this 3 years ago.  Godspeed on the tech, but I'm very skeptical on this. and like everything else, its 70% talk right now and no show on the other 30%.
+
+GO GO Test servers!  CIG is working in a huge vacuum of progress.  But the money is in the Evocoti right now.  3.0 is the tipping point.
+
+Its been a fucking year for the update that was just at worst 3 months out.  Yea I remember.  
+
+Edit: the true true gets me down votes it seems.  Kids, Ive been here from 2012.   Blow me, as I call it as I see it.  And its still 6k well invested. But goddamn this has been a shitshow sometimes.
+
+
+Videos in this thread: [Watch Playlist &#9654;](http://subtletv.com/_r7abx66?feature=playlist)
+
+VIDEO|COMMENT
+-|-
+[Planet Coaster: GamesCom 2016 - Crowd Improvements](http://www.youtube.com/watch?v=GKTkehnqGKg)|[+84](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8oevr?context=10#dp8oevr) - One recent game in particular that understands and addresses this better than any game I've played is Planet Coaster:
+[oblivion](http://www.youtube.com/watch?v=qN80_7rNmcE)|[+38](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8uxcg?context=10#dp8uxcg) - http://www.youtube.com/watch?v=qN80_7rNmcE
+[Around the Verse: Episode 2.36](http://www.youtube.com/watch?v=PPBaqI6_B-4&t=2026s)|[+11](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8phbo?context=10#dp8phbo) - shows CIG has been working on the behavior you describe. I'm guessing that they haven't gotten group interaction working in certain environments, or perhaps they're reserving it for more "social" areas.
+[Funny Oblivion Conversation](http://www.youtube.com/watch?v=2KU5fXUx4N4)|[+8](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp97t69?context=10#dp97t69) - http://www.youtube.com/watch?v=2KU5fXUx4N4
+[GamerPoop - Skyrim #5](http://www.youtube.com/watch?v=DM8krWnU0uQ&t=171s)|[+6](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8wrgi?context=10#dp8wrgi) - EMBRACE THE POWERFUL TALOS TACOS
+[WarpDriver: context-aware probabilistic motion prediction for crowd simulation](http://www.youtube.com/watch?v=WPPrIz39wQk)|[+5](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8wqou?context=10#dp8wqou) - Reminds me of stuff like this from this year’s SIGGRAPH Context-Aware Motion Prediction for Crowd Simulation
+[Dev Diary #5: The Guest Brain - Planet Coaster](http://www.youtube.com/watch?v=cuQh7IJCrs4)|[+3](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8u1a6?context=10#dp8u1a6) - I think CIG should take a look on how Planet Coaster handles ai groups. It would be neat serving with an AI crew with an AI captain.
+[Oblivion NPC Dialogue](http://www.youtube.com/watch?v=wm6FpvcOvC8)|[+2](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp903th?context=10#dp903th) - Me on a date.
+(1) [Star Citizen: Around the Verse - What is Mega Map?](http://www.youtube.com/watch?v=0B0QUFSCUgo&t=691s) (2) [Star Citizen: Happy Hour w/ Will Weissbaum](http://www.youtube.com/watch?v=mGxGRpL5Ae8&t=3446s)|[+2](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp8ue0g?context=10#dp8ue0g) - They've made some mention of the number of wildlines for SQ42 (More here too). This is obviously SQ42 content, but I'm sure it'll have the same kind of treatment.
+[Arrow - (Video Game Logic) EPIC NPC MAN - VLDL](http://www.youtube.com/watch?v=cP9sEt8Xj6g)|[+1](https://www.reddit.com/r/starcitizen/comments/7abx66/_/dp9vv4g?context=10#dp9vv4g) - "For the king! For the peace of the kingdom! For king and country! For the king!"
+I'm a bot working hard to help Redditors find related videos to watch. I'll keep this updated as long as I can.
+***
+[Play All](http://subtletv.com/_r7abx66?feature=playlist&ftrlnk=1) | [Info](https://np.reddit.com/r/SubtleTV/wiki/mentioned_videos) | Get me on [Chrome](https://chrome.google.com/webstore/detail/mentioned-videos-for-redd/fiimkmdalmgffhibfdjnhljpnigcmohf) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/mentioned-videos-for-reddit)
+I dont know why but i have a feeling that SC will use Alexa (amazon echo) for subsumption AI 
+Assassin Creed has had groups of AI interacting since the days of Altair. I think what makes good AI is them simply not doing dumb shit that pulls you out of the game.
+Be fun if they used conversations from sections of the forums then use text to speech. Ship chat and the like.
+How subsumption works actually makes this a bit tough to do. In the old says a simple convo between two NPCs just had to be scripted. If you wanted to make it realistic you would just follow their actions for 5 mins or so with small bits of banter. Or take the Mass Effect approach (I'm sure many others do this) and create small story arcs that the two npcs can follow and talk about. 
+
+Now with subsumption all of these npcs have daily lives. They leave their residence, move to their job, post, whatever entails in their daily life. Now you start factoring in things like living and so on till it basically becomes a SIMs game. Now I'm not saying this can't be done, but slipping in random meetings with scripted conversations with procedurally generated worlds and cities is going to be a massive undertaking. 
+
+We're talking about being able to have an AI literally generate a conversation that's more or less random that falls in along parameters of being relevant to where they are and what time. 
+Its talk,  wishes, and hopes. I desperatly want it to be true.  But they have been talking about this  for the last 3 years and jack all of shit is realized. so it is what it is on that front.  
+
+We shall see. I hope AI is like the procgen planets.  but none of it is in game,  and its only been a year from when they thought it was  going to be ready.
+
+
+  
+
+The meme should instead be: “How games are launched, and why SC is still in Alpha after 7 years.”
+I think this grouping idea is one one of the reasons people liked games such as earlier Mass Effects so much, that you could stop and listen to a group of people just talking about something - maybe it interested you or maybe u just walk off but there was something unexpected going on frequently.
+
+The problem of course is the sheer volume of dialog that need to be written and voice-acted to avoid repetition. Its a lot of work. And if you're adding in the ability for characters to walk around, or physically interact (or significantly react) with objects or each other that introduced a shit load of bug testing.
+I love it. I hope they've already considered this, or see this and consider it.
+One game where I feel this was done well is Watch Dogs 2.  I would run around SF and constantly bump into groups of characters hanging out, dancing, talking, etc.  When you interacted with them sometimes they would react as a group or react individually.  It felt pretty good.  That game may not be the best example but having AI interact like that would definitely make the SC world feel alive.
+I'd also like to add some of the things the early Assassins Creed games did (not so sure about latter ones). Crowds have physics essentially and you have to push them aside to get past them. Thus far we've seen NPCs walk right through each other in all the ATVs and demos.
+
+I'm really impressed however that they managed to put so many NPCs in this demo without significant performance drops.
+Its alot of talk, and we are far, far away from this.  Dont get your hopes up.
+This was never a question of which one results in better ai. This is a question of economics.
+Check out Assassin's Creed Origins for great subsumption.
+SC AI has a long road ahead...
+Please yes! The npcs can talk about work related stuff like "Johnny are you done with your break yet? Another ship came in and we have been paid to get this done asap. This customer brought in an 890 Jump! Johnny: Hell yeah lets see it!"
+
+The conversations don't have to be about mud crabs lol.
+For what it's worth, I remember seeing nicely done crowds in assassin's creed unity. 
+Never even thought about that, but you are 100% correct.
+We're born alone and we die alone.
+Another one is mood. A lot of people in a blade runner setting should be feeling miserable, a little scared.
+Yeah, Frontier did grouping/family in Planet Coaster. Done really well. They could easily bring it over to Elite. SC should be doing more.
+True, but i'd say that level of detail is probably a few steps down the road from where we're at right now.
+
+Gotta get all those cafeteria animations done first ya know?
+Metal Gear Solid: TPP did this really well. You could listen to soldiers talk from a hiding spot, and if they were alone, odds are you can listen in on their comms.
+Assassin’s Creed. 
+a very fair piece of feedback, good yob
+Hmm, how about a natural sounding Text-to-speech voice for the frontend (developed by CIG, ofc!), and for the backend you could use some random neural network. Cleverbot can hold a good conversation with itself... sometimes :-)
+Yakuza 0 does this really well. Often you will see couples or groups of people hanging out and it looks really natural
+The Witcher 3 has some of the best feeling towns and AI in my experience, I suspect because of group so interaction and flipping great conversations, swearing included. I’m rather positive that they used murmur sound within larger cities too.
+For me the key for "live" feeling AI is when they get into conflicts with each other, independent of your activity.
+good point. but they said this is just the first iteration of the AI. I think it will get better. the ai will need to work in groups and with the player to complete tasks in bigger ships.
+yeap Upvote and CiG please......
+I would argue that it is a combination of group actors and repitition. That image on the right will never be recreated. You will never have that same moment occur again. The reason why AI feels stale in games is actually variation. 
+I don't really care about NPCs, maybe the first time I land somewhere it gives the place more life. After the 100ther time, doing the 100th mission / quest I don't care. Neither for the NPCs, nor for the fancy graphics - it's all just a backdrop.
+
+Sure, eye candy is nice, but once you play a game and repeatedly are in one area, it becomes mundane. So if they can do with the NPCs what they did in WoW, have them just standing next to each other or sitting/walking around in scripted manners that is absolutely enough for me, I don't even need them to have audio or do any elaborate animations during conversation.
+Doubt they are going this route, as this presents its own set of issues.
+
+Their "crowd simulation" may be something different entirely.
+
+You know, developed by them.
+Destiny 2 has group NPCs that have conversations with one another so there's no reason Star Citizen can't work that into subsumption. I'm just curious how they plan to have a universe of NPCs with interactions on a scale they have without melting CPUs
+hEy cIg WE Ok wIThoUT hAVIng GroUPs of AI.
+
+Thanks 
+-everyone
+[deleted]
+They can simply use the ATV Burndown conversations...incredibly realistic and boring/interesting (depending on your viewpoint) for NPC's to regurgitate. 
+IMO the Citizencon demo shows just how much work they have to do. Go watch it again.  People aren't sitting down (standing on benches), some NPCs are just randomly standing in a T formation.  It was seriously buggy, and that was with one person running through as a demo, not me exploring.  Pretty sloppy.  I expected them to be further along personally. 
+
+The city terrain looks beautiful, but so far I have seen nothing revolutionary about AI in this game, and they have been talking about it for years right? It's a major blocker for the game to progress, so I would have thought it would be in better shape. 
+I pretend to have convo's all the time does that mean i am AI now?
+Just have your generic text-to-voice software reading conversations found on r/subredditsimulator
+If "needs driven" economic design for what drives the universe goes the direction they've talked about - where companies/NPCs/players will have a need/want and what they do drives their decisions with what they wear, eat, and where they go, then it's entirely possible subsumption AI will take its queues from those needs and automatically become more naturally socioeconomic.
+
+If my thinking is close, only 2 ingredients would need to be added to Subsumption AI; constant need for pleasure (wanting to experience happiness, fun, drama, etc) + a closely related inherent personality (which of those pleasures does an NPC crave most, A type personality, B type, sociopath, etc?).
+
+TL;DR 1 - if each NPC has their own actual personality + personal hobby/pleasure, then Sub-AI along with a well implemented needs/wants driven economy will cause NPCs to be more natural where some are grouped up (friends/acquaintances) and others might be going about their business or just wanting to be alone.
+
+TL;DR 2 - implement NPC AI w/ needs/desires and the game economy will drive them to work when needed (or pirate) but take breaks and chill when able/needed with/without friends depending on the circumstances.
+> they never once mentioned AI social units
+
+I could be wrong of course, but I also noticed this and have always assumed there was a very good reason for it, and that was that they were working on it and weren't ready to show it.
+In theory, social units should require almost the same resources as individuals. A sloppy mistake would be to just have multiple "individual" actors that stick together. Instead, social units should act as a single actor that act and react together. While this sounds shitty on paper, it makes it possible to simulate even large crowds relatively easily.
+This just needs dynamic creation and splitting of groups. e.g. mom is too scared to ride the rollercoaster and waits on the park bank :D
+deleted  ^^^^^^^^^^^^^^^^0.0301  [^^^What ^^^is ^^^this?](https://pastebin.com/FcrFs94k/81405)
+Fantastic example, absolutely what I am talking about.  The AI in that game is clearly extremely basic, and very efficient judging by the quantity of data points.  Forming AI behavior should be partially based on group interaction to achieve more lifelike crowds in populated areas.  In addition, I would argue that this approach to AI offers more benefits than focusing on individual interactions, as even simple group behaviors like moving in a group more simulates life-like behavior than the actions of individuals.  
+Reminds me of stuff like this from this year’s SIGGRAPH
+[Context-Aware Motion Prediction for Crowd Simulation](https://youtu.be/WPPrIz39wQk) 
+That's very unrealistic from my standpoint. Not a single person tried to cluelessly walk down a blocked path only to get there and have to turn around.
+
+Source: me irl
+That video was no fun. No one got crushed or died by roller coasters 
+The soundtrack is what sold that game to me lol. So amazing
+I was once like you, then I took an arrow in the knee.
+Or some dude named Dervin in Witcher 3.
+
+Guild wars 2 is the same
+Elder Srolls Online did a pretty good job about this. Not many but unique to those NPCs
+Yeah, that's the video I saw.  What bothered me is they only discussed developing more interactions with objects and with objects parented to objects, but there was never any mention of planning to make  some of those interactions dependent on the presence of other AI.  For example, if 2 seats close together or opposite eachother at a table are occupied by AI, chatanimation=true is activated or something like that.  That level of interaction would create a more believable background AI.  
+haha
+
+Thank you for that, though there are only 3 interactions I can see in that example that are clearly meant to look like a group interaction.  Many of them are just individual actions with actors placed in close proximity.  I am suggesting a deeper philosophy of creating actions based on social interaction.  This is also from so long ago, why hasn't this been shown in the latest examples of scripted AI?  That worries me more.  
+Clever.
+
+I like that! 
+> an AD&D server (NWN1/2 for those who know the acronyms).
+
+Uses more acronyms to explain other acronyms.  
+  
+I know what they mean, but still, I had to laugh.
+https://i.imgur.com/DpQ9YJl.png
+Neverwinter Nights was based on 3rd edition rules.
+
+Your server sounds awesome by the way and I'm sorry I have to ruin everything I touch with pedantry.
+NWN was so amazing, absolutely enjoyed that game (and NWN2).  One of the most fun co-op RPG's ever created, IMHO.  I forgot how much modding there was, that was a lot of fun. 
+
+I'd be down for playing through the game with people again just for nostalgia.  I really enjoyed the co-op aspect, relying on each other to tackle combat, traps, etc.  
+2 videos for this game mentioned so far in this discussion. Who would  have guessed something like Planet Coaster would have elements we would want to influence Star Citizen?
+Right, but it was ambiguous with the details, just one sentence in passing. We have no idea how they intend to implement.
+Yeah, that's to fill the streets with random NPCs walking around to help cities feel lived-in. 
+My thoughts exactly.
+>While OP is not wrong, this is like pointing at a half-built car and saying "Hey, this could be a lot better with some wheels and an engine!" No shit, it just hasn't been added yet. 
+
+Spot on 
+It’s both.
+
+AI subsumption is essentially the God AI for Star Citizen. 
+
+It controls the entire NPC population and is supposed to generate missions based on their needs.
+It also does AI activities such as going to/from work, getting food, going to sleep, etc... 
+
+I hope it's also going to be used for fauna to give animals more realistic life-cycles. 
+Subsumption is the "AI Director," as a results it covers a lot of things ranging from generic NPC behavior to procedural missions and more.
+The assassins creed Ai is infamously stupid though
+Meme is: buthurt haters make the best salt
+Exactly. Tons of games of have "group interaction" AI. Except they interact in the same spot for all time. SWTOR comes to mind. 
+I don't really understand your comment.  From everything Chris Roberts and the dev team has said, they are already spending a great deal of effort on AI subsumption, with a stated plan of having 20 million NPCs operating simultaneously at any given moment in the final iteration that each have individual schedules and meaningful interactions.  My post is to point out that in all these efforts to make AI more life-like that they do not overlook the importance of social interaction.  I would hate for their efforts to be in vain due to such a simple oversight - not that I would suggest that they haven't at least discussed this internally once.  
+
+I'd rather have mute citizens or mumbled inaudible conversations than dynamic NPC chatter like TES Oblivion had.
+
+"Hi."
+"I saw a mudcrab the other day. Disgusting creatures."
+"I've heard others say the same."
+"Any news from the other provinces?"
+"Nothing I'd care to talk about."
+"Bye."
+I'm no expert on the subject of gaming AI, but I will throw out some assumptions for fun of the conversation amongst real people. 
+
+AI typically pulls from a stack of pre recorded dialogues. In games like GTA, the AI will initiate a conversation when it comes into contact within another AI's conversation zone. At which point they will face each other in conversation animation. Then they will pull from their flow chart of possible statements a beginner, or conversation opener. Depending on the random opener the conversation will proceed through a series of flow charts with dialogue that roughly makes sense. In GTA this is obviously fairly simple, someone says something wierd > therefore the response is what? Your crazy! Pretty simple. 
+
+In Star citizen from what I have read and seen, they want to have AI with a purpose, this differs from GTA in that the characters are randomly generated and pop in and out of existence. In SC they will have schedules that they follow even when they don't physically exist. Games like Skyrim have ai like this. They are at home asleep at night and doing their job during the day based on a schedule. New waypoints generate at certain times. Of course Skyrim's dialogue doesn't change based on the time of day leading to some awkward bedside conversations. 
+
+I would assume that SC will have a similar timed waypoint system with random flow chart based conversations. Hopefully better than GTA, possibly they could incorporate time of day conversation charts so I'm not waking someone up to have a conversation about ship sales at Astro Armada.
+Well, consider this: you get closer to get an eavesdrop, start enjoying the chat, then it stops. You turn your head, just to meet the gaze of the two NPC you were listening to. They stay silent and look at you. "Hey, weirdo, why don't you go stalking someone else?"
+
+Top immersion!!!
+[They've made *some* mention of the number of wildlines for SQ42](https://www.youtube.com/watch?v=0B0QUFSCUgo&feature=youtu.be&t=11m31s) (More [here](https://www.youtube.com/watch?v=mGxGRpL5Ae8&feature=youtu.be&t=57m26s) too). This is obviously SQ42 content, but I'm sure it'll have the same kind of treatment. 
+
+Maybe community involvement could solve this. Ask the community to write and voice conversations and submit for evaluation. There have been several mod projects that took this approach and could work really well for SC. 
+
+The bonus here would be that the community would have a direct impact on the verse.
+Something like Radiant AI would be great, so you can gain new missions and/ or info by eavesdropping.
+Having that much content over the entire population would definitely be difficult to achieve but I think to a certain extent they might have some built in script to pull from as the game progresses. As events happen, story archs get written and new content is created. 
+I don't know that it would be that much of a stretch to generate some scripts for NPCs talking about the latest Xi'an attack that was covered on the news yesterday.
+Something absolutely genius they could do is pull vocals from podcasts and such, run it through an AI to reconstruct the facial features, then set it on a template. The vocals could run off of a server si that updating it doesnt require patching the game. Just use the same template for different vocals minus the facial features. When loading into an instance, the voice track loads too.
+Fingers crossed for Oblivion dialogue! 
+Well the voice adjustment tech it would entail would be a cool thing to develop & could probably be toggled on for players as well to help with immersion for people playing genders or ages that don't match their pitch etc..
+> It's a major blocker for the game to progress, so I would have thought it would be in better shape.
+
+That's.. odd. The fact that it is such a huge blocker and such a tough thing to do at that scale seems like a good reason for why it's not terribly far along. 
+oblivion does this... and required NPCs could just randomly get murdered
+At what point are we dealing with a digital westworld where it is immoral to switch off the server?
+It's pretty abstract how wanting to experience happiness, fun, drama, etc leads to 50% of people walking and talking. You have to actually tweak your plans for the enjoyment of good company. Grouping I feel needs a human touch.
+So when your mom in SC sees me she can split off of your ship and come back to my place for my ship ^(( ͡° ͜ʖ ͡°)^)
+Now if only the (Vanilla) characters could use lanes properly.
+
+^^hurray ^^for ^^mods
+I love my city in cities skylines, but my traffic sucks.  I often find myself demolishing whole neighborhoods just to put in better streets....and suddenly I understand my states department of transportation's motives.  lol  
+
+
+Video linked by /u/SunriseMilkshake:
+
+Title|Channel|Published|Duration|Likes|Total Views
+:----------:|:----------:|:----------:|:----------:|:----------:|:----------:
+[WarpDriver: context-aware probabilistic motion prediction for crowd simulation](https://youtu.be/WPPrIz39wQk)|Julien Pettre|2017-02-01|0:06:24|33+ (97%)|2,489
+
+> SIGGRAPH Asia 2016 technical paper Authors: D. Wolinski,...
+
+---
+
+[^Info](https://np.reddit.com/r/youtubot/wiki/index) ^| [^/u/SunriseMilkshake ^can ^delete](https://np.reddit.com/message/compose/?to=_youtubot_&subject=delete\%20comment&message=dp8xink\%0A\%0AReason\%3A\%20\%2A\%2Aplease+help+us+improve\%2A\%2A) ^| ^v2.0.0
+EMBRACE THE POWERFUL ~~TALOS~~ [TACOS](https://youtu.be/DM8krWnU0uQ?t=2m51s)
+> What bothered me is they only discussed developing more interactions with objects and with objects parented to objects
+
+SQ42 is the reason, you'll be on board of an Idris (maybe later on a Bengal) and people inside ships, especialy in the military, are constantly interacting with objects or going to.
+ 
+It shouldn't have you worried. It's early and they intend to do it, Chris even talked about crowd simulation. 
+Ahh, not AI in that it flies ships and such, but more universe AI, or "virtual citizens".  Gotcha.
+My point was AI groups alone doesn't make it anymore convincing.
+
+>From everything Chris Roberts and the dev team has said, they are already spending a great deal of effort on AI subsumption, with a stated plan of having 20 million NPCs operating simultaneously at any given moment in the final iteration that each have individual schedules and meaningful interactions.
+
+This is an interesting topic, and I don’t know a great deal about AI and how it works, but from everything I’ve read, they aren’t going to have 20 million discrete entities all going about their business, but create and stream them in as necessary around players, based on the statistics generated by the background economic simulation, as well as algorithms that look at the player’s group and missions. 
+
+In other words, the system isn’t deterministic, but creates what’s needed on the fly - CR called it the background crowd simulation, and said certain important AI like mission givers would persist and have a full schedule. 
+
+
+oh, i dont need wandering packs of AI. ..  you ever look in the eyes of AI... black eyes, like a dolls eyes... then they start biting and they roooooollover white.
+I had this exact conversation with my friend the other day, amazing!
+Yup, the immersion breaks as soon as you hear a repeated conversation or line. 
+hey, it worked for mass effect.
+Clearly CIG should just solve one of the largest outstanding problems in computer science. /s
+I think mumbled inaudible conversations would be the best bet. Since we can’t actually know what they’re saying, we can’t exactly get fatigue from hearing the same thing all the time.
+you say that but go try playing BDO. There is like 12 npc's at most, they are just stood around and yet they have this sound effect playing of a what sounds like a busy street with a ton of conversations just randomly place sound too, it doesn't even translate to where npc's are.
+Or Dishonored. 
+
+"Do you think you'll get your own squad after what happened last night?"
+
+"Indeed, I believe so."
+https://www.youtube.com/watch?v=2KU5fXUx4N4
+True, but then there's the Deus Ex games which do this really well
+Something something cloud ~~imperium~~ district.
+I wonder if there is some way for the game to track the quotes/ conversation heard and reduce frequent topics based on audible exposure and when it was last heard. "No. I don't want a sweet roll. Stop asking."
+Should we gather for whiskey and cigars tonight?
+Agreed. Too much of that shit and I manage to play games with the sound muted while watching Netflix.
+"I hear the Nords in Skyrim have seen any elves lately."
+
+"Goodbye."
+
+*two seconds pass*
+
+"Hello!"
+["For the king! For the peace of the kingdom! For king and country! For the king!"](https://youtu.be/cP9sEt8Xj6g)
+> I'd rather have mute citizens or mumbled inaudible conversations
+
+Or conversations in X'ian so that it feels less repetitive because we don't really understand what's being said.
+I would want it this way as well. When walking down the street I tune out all the voices anyway and it just becomes city noise. I'd rather them focus on voice content resources where it counts.  
+Although that would give a meaning to the Xi'an, Banu, and Vanduul having full fledged languages
+Good point.  However, one would think that with the project's developmental timeline along with the vast amount of funding they've received so far that they would be able to create NPC dialogue that is both immersive and adaptive.
+*"I used to be an adventurer once, until I took a blaster shot to the knee."*
+
+I agree.  Mumbling stuff to each other is FAR preferable.
+Me on a date. https://youtu.be/wm6FpvcOvC8
+"shall we meet for whiskey and cigars tonight?"
+> In Star citizen from what I have read and seen, they want to have AI with a purpose, this differs from GTA in that the characters are randomly generated and pop in and out of existence. In SC they will have schedules that they follow even when they don't physically exist.
+
+Actually, from everything I have read, it sounds like SC is using a combination of both. The majority of NPCS will be radonmly generated on the fly, what CR was calling their background crowd simulation for landing zones, based on the high level economic simulation, your location, your ship types and numbers (in the case of generated enemies in space), and missions you might have. Some NPCs like mission givers will persist and follow and schedule.
+
+Edit: so hard to find any sources these days, but I found one that is relevant.
+
+[10FTC Episode 78 Question 2](http://scqa.info/?show=10FTC&episode=78&qid=2)
+
+>So what's going to happen is that we have a universe simulation that runs on a separate server. That's much more of a big picture simulation. Think of it kind of like a Civilization game or something like that. Sort of a slower turn based game. That actually is simulating the universe, what all the NPCs are doing, on a macro basis. Who's trading with what? What's producing what? What goods are needed where? Where pirates are attacking? The sort of general outcomes of those results are all happening on the universe simulation and it's own process. Then that is getting trickled down to the local game servers that all the players (i.e. you guys), are attaching to and playing in. The snapshot of what's happening on the universe server is sort of carried across the game server.
+
+>What would happen is, for instance, if you were down on a planet it would say, "Okay, well this planet is a mining planet and, you know, so I'll generate and the population is this size; therefore, we'll probably populate the landing area with 'X' number of NPCs, 60% of them will be miners, and then we'll have some, law enforcement, and you know we'll have some service workers in the bars and stuff like that." It will all be generated by the data that's pulled down, or pushed down, from the universe server, so it will dynamically change.
+
+Oblivion absolutely nailed this.
+
+
+''Greetings!''
+
+
+''Get away from me, Breton Trash.''
+
+
+''Have you heard any news from the other provinces?''
+
+
+''I ran across a goblin the other day. Horrible creatures.''
+
+
+''I've heard others say the same!''
+
+
+''Stop talking. Enough.''
+
+
+''Goodbye!''
+
+
+*Conversation is seemingly over, NPCs stare at another for four seconds, then initiate conversation once again*
+
+
+''Hail, Argonian!''
+
+
+...
+If you want full immersion you should test this out in real life too. For science and research purposes of course.
+So hearing something like BoredGamer's "Tricksy little hobbitses" phrase from his Twitch stream every so often? I would laugh quite a bit! :)
+Except they have been talking about how it's a major blocker for over a year now, since before the last citizen con. Yet the AI still doesn't recognize that you sit, not stand, on chairs? 
+
+Not talking about revolutionary tech here. I'm also speaking as someone that really wants the game to succeed, and just giving my honest opinion.  I expected AI to be in better shape at this point. Also, if something is holding your game up... shouldn't that be your priority? (Again it was CIG that said it was the holdup, not me). 
+Seems to be a problem in every city simulation game. They all try to plug down the same street while ignoring the side streets.
+Wow, that is incredible. Thank you for sharing!
+Think of it as the brain of the game. It handles creation of (dynamic) missions, cargo quantities and market prices, NPC movement, random encounters, etc.  
+
+And it's doing this stuff based on a reaction to other stuff. So, I think the idea is if a single player was traveling from A to B there might be a small chance of random encounter (single pirate interdiction or something), but if a group of players is going from A to B it'll adjust the 'weight' of the encounter.  
+
+Maybe someone corners the market on fuel in XYZ system which increases prices and generates fuel transport missions in nearby systems.  Stuff like that.
+
+Yeah, that does seem to make sense, though it wasn't clear to me if they meant AI would be doing things like taking missions and trading, which would be meaningful interaction.  I thought that's what he meant, which would be beyond special NPCs that give missions.  I think there should definitely be a video done or something discussing this on around the verse or something, I would love to hear their thoughts and see their latest progress on the subject.  
+It would be very wasteful to have 20 mil people on screen at one time. A game like Star Citizen really needs to just put work on what you see because there's way too much to do. 
+
+Only 2D games or a tiny play ground 3D game doesn't need to worry about optimizing.
+Have you heard of the High Elves?
+Any news from the other provinces?
+
+Yup, the immersion breaks as soon as you hear a repeated conversation or line.
+Yup, the immersion breaks as soon as you hear a repeated conversation or line.
+I used to be an adventurer like you.
+
+There there anders. Everything happens for a reason it does.
+I'd rather have NPCs meet up and actually talk, though.
+
+I wouldn't mind having a few extra GB of sound files for conversations, and CIG certainly would have no problem finding a few hundred voice actors willing to record. 
+Shhhh! CR might hear you!
+I asked for orange. It gave me lemon-lime. 
+How would you suggest they handle the situations where there are only a few people around?
+So they had "background hum" instead of actual conversations, but never bothered to have different levels of it for different population densities?
+What is BDO?
+I know exactly what you mean. Now I know why I always felt uneasy in the villages. Yikes!
+Uh, stop lying? BDO has the most NPCs of any MMO ever in cities. It's like Assassin'c Creed levels.
+Blow off choffer. 
+Doesn't get any better.
+While I agree, Deus Ex is some what linear in the sense of story progression.  You're usually not revisiting old areas, and when you do, it's a new "set".  Now imagine it in an MMO where you will visit the same locations on a regular basis.  You're going to be hearing the same conversations hundreds of times.  Having a good variety of crowd noises and murmuring would work a lot better in the long run.
+...Denny Crane?
+People would just translate it.
+"Immersive" and "adaptive" are each, on their own, incredible endeavors. 
+
+The amount of source material to maintain immersion increases geometrically with the scale of the game itself -- repeating voices, repeating lines, etc., all break immersion and the more entities in a game, the more assets required to avoid repetition.
+
+And even in a game that would take place entirely in one room with two voice actors, it would take a very large pool of lines and phrases that could be strung together to create a short, coherent conversation.
+
+Put the two together and they build upon one another's requirements. Adaptive dialogue that is also immersive must not only be coherent and not noticeably repetitive, but several different takes must be made for each line delivered, across a variety of inflections and emotional states, so that the emotional state of the entity itself is consistent and contextually relevant to its situation.
+
+Now add a third party to the conversation and double all your work over again. 
+
+Even if they had the resources to create all the assets, the sheer size of the files would be prohibitively large; it would have to be housed server-side and the lines processed and delivered over the network...which would mean you're essentially downloading an mp3 file (or several, if you're in a crowded room) at all times while playing in a populated area, which would create all sorts of real-world issues with bandwidth and data caps...
+
+It just can't happen yet. This is still one of those areas where a studio, no matter how well-funded, has to decide which shortcut it's going to take. 
+Voice acting is one of the hardest things to bring to scale, and one of the worst budget killers.
+I'm shook.
+They're working on a lot of stuff. Programming takes a lot of time. I'm sure it just hasn't been prioritised over some of the many other important things to put in the game. No big deal, it's just a big project with limited resources. 
+I think even those are going to be generated based on the situation. So, if you are sitting at Port Olisar watching activity, and Crusader gets shipments of raw materials from 4 different places along trade routes, and ships out to 2 others, than the system will generate cargo ships coming and going with those materials to represent that.
+
+This is a really interesting topic to me too, and I hope they do another ATV about it soon.
+No that’s not what they meant, there are billions of potential npcs in SC, but with a population of 1 million players operating at 1 time, the amount of npcs operating in the instances with players would be 20 million.  There would be no running modeled npcs in regions with no players, they would be pure data and that’s all.
+https://www.youtube.com/watch?v=qN80_7rNmcE
+Did I see you talking to Sven?
+[deleted]
+>I used to be an adventurer like you.
+
+I was expecting something like, "And then I took an Aurora to the knee." ;)
+I don't know how CD Projekt Red did it, but boy howdy that game has *so many hours* of recorded lines in The Witcher 3. CIG needs to figure it out and replicate it. 
+And then they will need to do it again if they decide that 'fidelity' n stuff and want to localize all the voice acted dialog as aswell when they localize ;)
+Sarcastically stating impossible tasks summons him!
+While fun, that's not what I mean :P I meant creating a conversation system that could pass a Turing test.
+Well either they say the same lines over and over again (which will happen even if they record a ton of random dialogue) or they just talk a different language 
+well, it was like a pretty realistic background chatter of a town square and yeah it was kind of placed on npc's but it just feels really bad in practice because the sound effect itself has location based sound, so you place that on npc's vicinity and it still sounds like someone in the bushes is talking as opposed to the npc that's supposed to sound like. Plus none of them are actually talking with animations.
+They do.
+black desert online
+Im not lying, I didn't mean a city has only 12 npc's I just meant in the specific area I was in this is what happened to me in the game. 
+I've been better
+Freelancer one dash one, you are cleared to land!
+top 5 show ever
+What I mean is that even if the X'ian text means something, you're unlikely to be as much bothered by it being repetitive as you would be if it were english.
+Data caps... What are those?
+Was more agreeing with /u/Pie_Is_Better that in a simulation things aren't real or even exist in memory until it is required, to save on performance.
+
+It'll probably be an algorithm instead of data but yes they would only exist or be generated on the fly if you are close/looked at them in game.
+That's the one. XD
+Hi I'm commander shepherd and this is my favorite comment on the citadel
+"And then i drove a starfarer into their knees"
+"Help...I'm dying...of poverty."
+
+"You'll choke on three pounds of steel!"
+
+And the most notorious example, those two guards in Velen who say the SAME DAMN THING every time you ride by them...which is a lot...
+
+"Got their arses whipped like a Novigrad whore!"
+
+Not to mention all of Geralt's repeated one-liners:
+
+"Wind's howling"
+
+"Medallion's humming"
+
+"Damn you're ugly!"
+
+"How do you like that silver?"
+
+"C'mon, Roach"
+
+And so on...
+
+Don't get me wrong, The Witcher 3 is my favorite game of all time, and the amount of conversational audio recorded for that game is beyond bonkers...but its incidental audio isn't notably less repetitive than other games.
+It's really easy if the company is willing to devote the time and money for voice actors to record those lines.
+You're right, they need to begin by working on the voice acting pipeline, not the recording itself. 
+I would think it would be cool to hear a mix of all languages. It would add to the immersion IMO.
+'I bet Star Citizen won't solve P=NP; our ships should be safe with 256-bit AES encrypted voice-activated locks'
+
+CR: hold my beer
+Yeah I know, I just couldnt resist! :D
+
+That game has so many great lines, and some of them are loved almost exclusively because they are so terrible haha
+Still have to be careful with the different language thing. Even if we don't know the words, the cadence of the conversation is like a piece of music -- we'll pick up on its melody and it will become as familiar (and repetitive) over time as a re-used line spoken in our native tongue.
+Maybe a few whispered-mumble conversations would work.
+I believe BD triggered that sound effect (chatter) when there was a large group of players in a town area, that's why when there was alot of people standing around you'd hear it, if you went to an area in town with less players you'd then no longer hear it. It sounded wierd cause It wasn't at all smooth or subtle. But I also find the NPC repetitive scripted chat lines immersion ruining, all do sometimes fun to quote. I'd like to see maybe the background hum better implemented and then if possible more detailed conversation with a greater range of content or sentences procedurally generated. I'd like to think this would be polish after major work do.
+Yeah I thought I had voice on when I went into the tavern
+I'm actually a little bit afraid of this.  Especially with video calls.  I'm guessing subsumption will rotate ATC workers on a schedule, so you probably won't see and hear the same person constantly when you land at a specific port.   But then how many voice file will be required to make every landing zone some what unique?  It'll be interesting to see how CIG addresses this.
+WHY WON'T YOU DIIIIIIIIIE!?
+Yup, the immersion breaks as soon as you hear a repeated conversation or line.
+Correct me if I'm wrong but I'm pretty sure big nig Shep didn't say Hi in that dialogue.
+Funny, I loved Oblivion and Skyrim - couldn't put them down.
+
+Played they maybe 5% of the Witcher 3 and i just couldnt stay interested.
+
+Don't know what it is, I really enjoyed the second one, but for some reason the third one beinf open world just felt more half arsed in its mission design MMO style "go here, fetch this, kill x of this" while I felt the second game was more story driven.
+
+Yet Skyrim was very much the latter like that too and it never really bothered me.
+Agreed, finding voice actors isn't a problem, it's just very time consuming to write hundreds of convos, record, edit and implement.
+
+Mind you their writing team is pretty good from everything I've read and heard so if they sat down and took a month to write them up then it would make all the difference
+
+Boy I really sound like an armchair developer now...
+you gone done it now. we get 5 more ship sales in a row to fund this haha
+Still way better than having in native tongue imo 
+It’s just a little better than getting tired of the lines 
+How about a combo?  Background hum, but the closer you get to a group of NPC's it turns into audible conversation.  
+FFXIV does something similar, chatter in town and battlecries in large world events
+
+Works pretty well
+>But I also find the NPC repetitive scripted chat lines immersion ruining, 
+
+"I have a container. If you have this, you can put sotrage in your hoouwse" - Amergio, Heidal Storage Keeper.
+
+The only character I've ever heard say "I have a container" and make it sound creepy as hell
+What if CIG updates the voices every once in a while. Let's say every week or maybe month the same voice actor is hired. Then they record some lines with a slightly variated line (perhaps sometimes with a pun added to it). Instead of stacking the new sound files, they just get updated, thus the old ones will never ever be heard again in the game.
+Same here, witcher just felt so damn corny.  Don't care for over shoulder cam either.
+Played a few dozen hours of Witcher 3 because of it's well crafted and immersive lore as well as the amazing graphics. Gameplay, scenario, RPG/character management, combat and so on were all better in Skyrim but them I have been playing with Requiem for so long that I may not be able to compare the two games fairly.
+> 
+> 
+
+That, and the fact that actors are a huge budget to consider.
+Procedural conversation!
+\* "ssssssssssssssssssstorage in your howssssssssssssssssssssssse."
+That's a massive waste of perfectly usable sound files, and enormously expensive if you think about it. They'd have to do that for every landing zone, and as we already know there even might be a good number on a planet like ArcCorp. Ditching the old ones, ones that most people won't even have heard by then is just a waste of time and money.
+It was claimed as a technical limitation of RedEngine 3, although I think that CD Projekt Red just didn't want to do it and didn't want to listen to people beg for it. Since their engine is proprietary there is no one who can MacGyver it at home in RedEngine and prove them wrong
+Combat in Skyrim definitely isn't better than The Witcher 3.
+Maybe source them from the community of backers?
+Pronversation.
+
+***
+
+^(Bleep-bloop, I'm a bot. This )^[portmanteau](https://en.wikipedia.org/wiki/Portmanteau) ^( was created from the phrase 'Procedural conversation!'.)
+SHHHH!!! you'll add a year to development with statements like that!
+Of course it's expensive, but don't buy an expensive car if you cannot afford it, right? Also, this might be positive for economics and employment in real life (e.g. a student working part-time as voice-actor). Also you might think of a system that keeps count how many times a sound file has been played, if it does not bypass some threshold, then don't update that file. You might stack up sound files in a repository if the count rarely bypasses the threshold. When your inventory of sound files is high, you save expenses on the voice-actors. This might not be the best or worst solution, it has some drawbacks (what if that voice-actor dies? should he die in-game too? is this even ethically responsible?). But I think there are many solutions to keep the immersive there.
+random people will blow your mind at how bad they can be at things all the time though.  voice acting is a real skill.
+Procedural vocabulary!
+This bot seems pretty useless.
+Bad bot
+It wouldn't surprise me if the majority of Reddit comments are now made up of shitty bots. Which is particularly funny when a post related to bot-spam is currently stickied...
+That's true. I would have thought there'd be a fair few stage actors among the backers (amateur or otherwise) that could do a decent enough job. Can't be worse than some of the voice acting in Skyrim or Mass Effect!
+
+Another idea would be to have some of the ambient chatter in non-English. It would make the universe more realistic whilst masking bad acting/lines.
+Procabulary.
+
+***
+
+^(Bleep-bloop, I'm a bot. This )^[portmanteau](https://en.wikipedia.org/wiki/Portmanteau) ^( was created from the phrase 'Procedural vocabulary!'.)
+Good bot. 

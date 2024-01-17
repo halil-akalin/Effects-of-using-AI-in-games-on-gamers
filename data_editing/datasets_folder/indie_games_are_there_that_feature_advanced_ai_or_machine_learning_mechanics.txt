@@ -1,0 +1,73 @@
+http://en.wikipedia.org/wiki/AI_War:_Fleet_Command#Emergent_AI 
+
+This game has a REALLY difficult and interesting AI.
+[deleted]
+Also, you do know that there is an [AI Game Jam happening this week that just started today](http://ai-jam.com/), right?
+
+Also, check out [AIGamedev.com](http://aigamedev.com) and [Intrinsic Algorithm](http://intrinsicalgorithm.com/) for more AI/Machine Learning and Games goodness.
+I havent played much of it but Prismata is supposed to have a good AI for making decisions based on the state of the board
+Black and white.
+Not Indie, however NBA 2K1/NFL 2K1 (back in the day) would learn how you played (which plays you favored, which side of the field you preferred) and adjust accordingly.
+While not at all an indie game, this made me think of the second Pokemon Trading Card Game game for Gameboy Color (the "Team GR m" one). For a gameboy game, the AI got really good near the end of the game, coming up with some really clever tactics. It just shows that advanced hardware and tons of compute power isn't necessary to give the impression of an intelligent opponent.
+I made robodrift, err am making it: http://robodrift.com
+
+neural network driving trainer, thing...
+I'd check out Overgrowth.  The /r/overgrowth forum is active... and here's an idea of frequency of ai discussion: http://np.reddit.com/r/Overgrowth/search?q=AI&amp;restrict_sr=on&amp;sort=relevance&amp;t=all
+
+[Battle Cruiser 3000AD!](http://en.wikipedia.org/wiki/Battlecruiser_3000AD#Controversies)
+Maybe not Indie exactly but there was a 1997 game called **[Galapagos: Mendel's Escape](http://en.wikipedia.org/wiki/Galapagos_%28video_game%29)** that I remember billed itself as having unique AI. 
+A bunch of RTSs like Starcraft 2 have some really good AI.. Also, Left for Dead's AI is impressive and the developer has gone into detail about it:
+
+http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf
+
+It's not quite a learning algorithm however as I believe those would be computationally intensive for real time games and would require a lot of manual training to become competent.
+
+Also, even if you managed to make such an algorithm perform well, you would eventually end up dumbing it down and making it slower (in terms of time between actions) and intentionally make mistakes so it doesn't overwhelm the player.
+
+Finite state machines are proven to perform well in games and offer a lot of flexibility/challenge so that may be the best course of action.
+#####&#009;
+
+######&#009;
+
+####&#009;
+Section 2. [**Emergent AI**](https://en.wikipedia.org/wiki/AI_War:_Fleet_Command#Emergent_AI) of article  [**AI War: Fleet Command**](https://en.wikipedia.org/wiki/AI%20War:%20Fleet%20Command): [](#sfw) 
+
+---
+
+>In a quote from the developer, Chris Park, "'There are a ton of RTS games out there that are fun to play...The key weakness that they almost all share, in my opinion, is AI that falls apart in advanced play."  *AI War* is developed using "Emergent AI", which differs from standard game AI in that it doesn't follow "decision trees", or in other words, the AI does not have an easily predictable pattern that can be exploited as in most games. Instead, the AI makes decisions on an individual unit level, a concept the developer coins as "Decentralized Intelligence". 
+
+>
+
+---
+
+^Interesting: [^Arcen ^Games](https://en.wikipedia.org/wiki/Arcen_Games) ^| [^List ^of ^PC ^exclusive ^games](https://en.wikipedia.org/wiki/List_of_PC_exclusive_games) ^| [^Indie ^Royale](https://en.wikipedia.org/wiki/Indie_Royale) ^| [^List ^of ^Humble ^Bundles](https://en.wikipedia.org/wiki/List_of_Humble_Bundles) 
+
+^Parent ^commenter ^can [^toggle ^NSFW](/message/compose?to=autowikibot&subject=AutoWikibot NSFW toggle&message=%2Btoggle-nsfw+cpmgfw2) ^or[](#or) [^delete](/message/compose?to=autowikibot&subject=AutoWikibot Deletion&message=%2Bdelete+cpmgfw2)^. ^Will ^also ^delete ^on ^comment ^score ^of ^-1 ^or ^less. ^| [^(FAQs)](http://www.np.reddit.com/r/autowikibot/wiki/index) ^| [^Mods](http://www.np.reddit.com/r/autowikibot/comments/1x013o/for_moderators_switches_commands_and_css/) ^| [^Magic ^Words](http://www.np.reddit.com/r/autowikibot/comments/1ux484/ask_wikibot/)
+There's a lot of negativity towards machine learning from a game design perspective in some of the posts there. 
+
+Personally I feel like a lot of this is due to a lack of creative thinking. Machine learning probably shouldn't be used for creating absolutely perfect AIs that beat the player every time, but they could be used convincingly to make AIs that feel a little bit more realistic. ML could also be used to give AIs more depth and unpredictability to be more interesting over a period of time.
+
+Also for a pet game or something like that ML could be used to give the "pet" more of a sense of personality.
+> Also for a pet game or something like that ML could be used to give the "pet" more of a sense of personality.
+
+*Black and White* did exactly that, ages ago.  So it's certainly something that does show up in games, when someone comes up with a good use for it.
+The problem is that players react negatively to AIs that act realistically 99% of the time. That 1% chance that the AI does something completely unexpected and likely very stupid can ruin the game experience.
+
+With ML you can't design an AI that works 100% of the time, that's now how ML works at all. You can only get to a certain number of 9s. Depending on the quality of your AI and your success condition programming.
+
+So it's safer and cheaper to make a finite state machine AI, as well as often creating a better game experience for the player.
+Black and White's AI implementation is a giant spreadsheet with varying probabilities assigned to different actions. If you punish the pet the probability of those actions decreases in the spreadsheet.
+
+It was very well done and balances somewhat the control needed to design a proper game and the ability to have emergent behavior. 
+
+For traditional games, yes, but I think to properly integrate ML the game has to be designed with it in mind from the outset. The game's design has to be such that the AI acting weird won't totally ruin the experience, and actually lends to the enjoyment of the game. The example I used above was a pet game; the pet doing something very stupid might endear the pet more to the player. 
+
+I agree that ML isn't something that would work well in most existing game designs. 
+Is that actually what it was, or is that conjecture?  I only ask because I remember a lot of stories at the time about some interesting behaviors that would not be likely to emerge from a spreadhsheet.  (One woman who had suffered from a messy breakup and spent the evening throwing all the men in her village against cliffs, discovered later that she had taught her monster to  throw men against cliffs.)
+
+It's possible that they were all fake, but between all the stories when it was out, and their general contention that they'd rigged its behaviors up to be governed by a neural network, I got the definite impression it was doing something more interesting than just maintaining a weighted list of behaviors.
+Perhaps there was more to it! I thought I had read at some point that the pet's behavior was governed by a spreadsheet. I imagine though that with some fancy logic combined with a list of behaviors in a spreadsheet the pet could exhibit quite a bit of depth. 
+
+Doing a bit of research I found this synopsis online for the AI in the first Black and White: http://www.cs.rochester.edu/~brown/242/assts/termprojs/games.pdf
+
+Unfortunately the original sources of the paper aren't all easily found online anymore. From the paper it seems like a lot of information is stored in a spreadsheet and then somehow a series of decision trees are constructed for the AI to abide by in different states. 
